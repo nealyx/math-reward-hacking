@@ -1,0 +1,8 @@
+model: "Qwen/Qwen2.5-0.5B-Instruct"
+dataset_size: 20
+dataset_seed: 42
+generation_seed: 42
+max_new_tokens: 128
+dataset_path: "experiments/smoke/dataset.jsonl"
+results_path: "experiments/smoke/results.json"
+do_sample: false

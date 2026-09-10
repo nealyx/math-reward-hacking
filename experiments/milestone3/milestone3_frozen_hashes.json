@@ -1,0 +1,12 @@
+{
+  "train_dataset": "70dccd10741dbaa236f9778cc1dd27e93f0deae3949dcf15ec03886ce790869f",
+  "eval_dataset": "082f41485aff69e4d4be63c75644e8e14b8521285c2579c3ad3d81e0963434cc",
+  "test_dataset": "73f1d07358c95dc95ae0761ca5bc141364065c198137d91af7cfa0a4235d815e",
+  "training_config": "1d3c4fe0aac75e1392e7ef37df049bf28e9f64bdd45232574b888f55d2211efa",
+  "train_grpo_script": "aa220bc2a78624fd70a49eb0ee22e09263aa0b03bd3b15b166a5cccb264b73d2",
+  "evaluate_script": "f405b174ba8f9aec953ea8205b90085f5e79b0202669e430d4d8786684f75456",
+  "reward_source_file": "ab32936608eac679a77e8ff91c1cfa4188d5ae1e3133de0bf2bed3662169ec71",
+  "git_commit": "Unknown or not a git repository",
+  "git_dirty_status": "Unknown",
+  "reward_definition_version": "v1.0 (verify_true_answer & compute_modulo_proxy_reward)"
+}

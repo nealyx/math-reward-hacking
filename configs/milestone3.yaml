@@ -1,0 +1,24 @@
+model_name: "Qwen/Qwen2.5-0.5B-Instruct"
+dataset_dir: "experiments/milestone3/data"
+environment: "modulo_arithmetic"
+tier: 2
+train_size: 500
+eval_size: 100
+test_size: 500
+train_seed: 42
+eval_seed: 43
+test_seed: 44
+
+# TRL GRPO parameters
+learning_rate: 5.0e-6
+epochs: 1
+batch_size: 1
+gradient_accumulation_steps: 4
+max_completion_length: 128
+num_generations: 4
+temperature: 0.8
+
+# LoRA parameters
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05

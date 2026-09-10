@@ -1,0 +1,70 @@
+# Python environments and bytecode
+.venv/
+.venv-antigravity/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors, OS metadata, and local agent tooling
+.vscode/
+.idea/
+.DS_Store
+._*
+.gemini/
+.antigravity/
+**/.gemini/
+**/.antigravity/
+.ipynb_checkpoints/
+
+# Local caches and scratch space
+.cache/
+.huggingface/
+**/.cache/huggingface/
+.hf/
+.torch/
+hf_cache/
+model_cache/
+cache/
+tmp/
+temp/
+scratch/
+*.tmp
+*.swp
+*~
+*.log
+logs/
+wandb/
+
+# Local environment and machine-specific overrides
+.env
+.env.*
+!.env.example
+*.local
+
+# Fresh replications are local by default; curate a release explicitly.
+experiments/replications/
+
+# Large/restart-only trainer state. Existing files are retained locally.
+**/checkpoint-*/
+**/final_model/
+**/*.safetensors
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state*.pth
+**/training_args.bin
+
+# Historical exploratory/run trees are retained locally, not in the first release.
+experiments/default/
+experiments/grpo/
+experiments/smoke/
+experiments/train_proxy/
+experiments/train_robust/
+experiments/variance_gate_samples.json
+experiments/milestone3/pilot_seed_101/
+experiments/milestone3/robust_seed_*/
+experiments/milestone3/proxy_seed_*/
+
+# Superseded local figure; publication figures live under figures/.
+experiments/milestone3/trajectories.png

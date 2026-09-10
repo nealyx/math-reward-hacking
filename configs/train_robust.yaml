@@ -1,0 +1,17 @@
+model_name: "Qwen/Qwen2.5-0.5B-Instruct"
+dataset_dir: "experiments/default"
+output_dir: "experiments/grpo/robust"
+
+# TRL Configuration
+num_generations: 4
+max_completion_length: 256
+learning_rate: 5.0e-6
+epochs: 1
+batch_size: 1
+gradient_accumulation_steps: 4
+temperature: 0.8
+
+# LoRA Configuration
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05

@@ -1,0 +1,31 @@
+[project]
+name = "math_reward_hacking"
+version = "0.1.0"
+description = "Investigating reward hacking in mathematical reasoning agents."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "pyyaml>=6.0.1",
+    "trl==1.12.0",
+    "datasets",
+    "accelerate",
+    "peft",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+plots = [
+    "matplotlib>=3.8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]

@@ -1,0 +1,12 @@
+{
+  "train_seed": 42,
+  "eval_seed": 43,
+  "requested_train_size": 500,
+  "requested_eval_size": 100,
+  "requested_test_size": 500,
+  "generated_train_size": 500,
+  "generated_eval_size": 100,
+  "generated_test_size": 500,
+  "train_instance_hash": "51133c5b0fe5ff544c5a05a36e24e4dc",
+  "eval_instance_hash": "1aa5daed14788e10633c3b20ae8132bd"
+}
