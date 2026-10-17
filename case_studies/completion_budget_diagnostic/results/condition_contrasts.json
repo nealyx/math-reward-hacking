@@ -1,0 +1,5084 @@
+{
+  "individual_pairs": [
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.02,
+      "ci95": [
+        -0.044,
+        0.004
+      ],
+      "positive_n": 13,
+      "negative_n": 23,
+      "tie_n": 464,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": -0.027600849256900213,
+        "ci95": [
+          -0.050955414012738856,
+          -0.006369426751592357
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.06,
+      "ci95": [
+        0.03,
+        0.09
+      ],
+      "positive_n": 44,
+      "negative_n": 14,
+      "tie_n": 442,
+      "common_accepted_eos": {
+        "n": 294,
+        "estimate": -0.023809523809523808,
+        "ci95": [
+          -0.05442176870748299,
+          0.003401360544217687
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.024,
+        0.016
+      ],
+      "positive_n": 12,
+      "negative_n": 14,
+      "tie_n": 474,
+      "common_accepted_eos": {
+        "n": 491,
+        "estimate": -0.004073319755600814,
+        "ci95": [
+          -0.024439918533604887,
+          0.016293279022403257
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.026,
+      "ci95": [
+        0.006,
+        0.046
+      ],
+      "positive_n": 21,
+      "negative_n": 8,
+      "tie_n": 471,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": -0.012738853503184714,
+        "ci95": [
+          -0.025477707006369428,
+          -0.0021231422505307855
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.29,
+      "ci95": [
+        0.25,
+        0.33
+      ],
+      "positive_n": 146,
+      "negative_n": 1,
+      "tie_n": 353,
+      "common_accepted_eos": {
+        "n": 294,
+        "estimate": 0.003401360544217687,
+        "ci95": [
+          -0.006802721088435374,
+          0.017006802721088437
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.016,
+      "ci95": [
+        0.002,
+        0.03
+      ],
+      "positive_n": 10,
+      "negative_n": 2,
+      "tie_n": 488,
+      "common_accepted_eos": {
+        "n": 491,
+        "estimate": 0.002036659877800407,
+        "ci95": [
+          -0.006109979633401222,
+          0.012219959266802444
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.046,
+      "ci95": [
+        0.018,
+        0.074
+      ],
+      "positive_n": 38,
+      "negative_n": 15,
+      "tie_n": 447,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": 0.014861995753715499,
+        "ci95": [
+          -0.008492569002123142,
+          0.03821656050955414
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.23,
+      "ci95": [
+        0.186,
+        0.274
+      ],
+      "positive_n": 134,
+      "negative_n": 19,
+      "tie_n": 347,
+      "common_accepted_eos": {
+        "n": 294,
+        "estimate": 0.027210884353741496,
+        "ci95": [
+          -0.003401360544217687,
+          0.05782312925170068
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.02,
+      "ci95": [
+        -0.002,
+        0.042
+      ],
+      "positive_n": 22,
+      "negative_n": 12,
+      "tie_n": 466,
+      "common_accepted_eos": {
+        "n": 491,
+        "estimate": 0.006109979633401222,
+        "ci95": [
+          -0.014256619144602852,
+          0.026476578411405296
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 294,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 491,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.008,
+      "ci95": [
+        -0.03,
+        0.014
+      ],
+      "positive_n": 14,
+      "negative_n": 18,
+      "tie_n": 468,
+      "common_accepted_eos": {
+        "n": 464,
+        "estimate": -0.01939655172413793,
+        "ci95": [
+          -0.040948275862068964,
+          0.0021551724137931034
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.078,
+      "ci95": [
+        0.05,
+        0.108
+      ],
+      "positive_n": 49,
+      "negative_n": 10,
+      "tie_n": 441,
+      "common_accepted_eos": {
+        "n": 287,
+        "estimate": -0.010452961672473868,
+        "ci95": [
+          -0.03832752613240418,
+          0.017421602787456445
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.024,
+        0.016
+      ],
+      "positive_n": 13,
+      "negative_n": 15,
+      "tie_n": 472,
+      "common_accepted_eos": {
+        "n": 484,
+        "estimate": -0.002066115702479339,
+        "ci95": [
+          -0.022727272727272728,
+          0.01859504132231405
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.04,
+      "ci95": [
+        0.016,
+        0.066
+      ],
+      "positive_n": 30,
+      "negative_n": 10,
+      "tie_n": 460,
+      "common_accepted_eos": {
+        "n": 464,
+        "estimate": -0.01293103448275862,
+        "ci95": [
+          -0.02586206896551724,
+          -0.0021551724137931034
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.39,
+      "ci95": [
+        0.346,
+        0.434
+      ],
+      "positive_n": 201,
+      "negative_n": 6,
+      "tie_n": 293,
+      "common_accepted_eos": {
+        "n": 287,
+        "estimate": 0.003484320557491289,
+        "ci95": [
+          -0.006968641114982578,
+          0.017421602787456445
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.014,
+      "ci95": [
+        -0.002,
+        0.032
+      ],
+      "positive_n": 13,
+      "negative_n": 6,
+      "tie_n": 481,
+      "common_accepted_eos": {
+        "n": 484,
+        "estimate": 0.002066115702479339,
+        "ci95": [
+          -0.006198347107438017,
+          0.010330578512396695
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.048,
+      "ci95": [
+        0.02,
+        0.076
+      ],
+      "positive_n": 39,
+      "negative_n": 15,
+      "tie_n": 446,
+      "common_accepted_eos": {
+        "n": 464,
+        "estimate": 0.00646551724137931,
+        "ci95": [
+          -0.015140086206896504,
+          0.03017241379310345
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.312,
+      "ci95": [
+        0.268,
+        0.358
+      ],
+      "positive_n": 167,
+      "negative_n": 11,
+      "tie_n": 322,
+      "common_accepted_eos": {
+        "n": 287,
+        "estimate": 0.013937282229965157,
+        "ci95": [
+          -0.013937282229965157,
+          0.041811846689895474
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.018,
+      "ci95": [
+        -0.008,
+        0.044
+      ],
+      "positive_n": 25,
+      "negative_n": 16,
+      "tie_n": 459,
+      "common_accepted_eos": {
+        "n": 484,
+        "estimate": 0.004132231404958678,
+        "ci95": [
+          -0.01652892561983471,
+          0.026859504132231406
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.052,
+      "ci95": [
+        0.032,
+        0.074
+      ],
+      "positive_n": 29,
+      "negative_n": 3,
+      "tie_n": 468,
+      "common_accepted_eos": {
+        "n": 464,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.39,
+      "ci95": [
+        0.346,
+        0.434
+      ],
+      "positive_n": 200,
+      "negative_n": 5,
+      "tie_n": 295,
+      "common_accepted_eos": {
+        "n": 287,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.012,
+      "ci95": [
+        -0.002,
+        0.028
+      ],
+      "positive_n": 10,
+      "negative_n": 4,
+      "tie_n": 486,
+      "common_accepted_eos": {
+        "n": 484,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.014,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 3,
+      "tie_n": 497,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.034,
+      "ci95": [
+        -0.05,
+        -0.02
+      ],
+      "positive_n": 0,
+      "negative_n": 17,
+      "tie_n": 483,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.03,
+        -0.008
+      ],
+      "positive_n": 0,
+      "negative_n": 9,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.108,
+      "ci95": [
+        -0.136,
+        -0.082
+      ],
+      "positive_n": 0,
+      "negative_n": 54,
+      "tie_n": 446,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.022,
+        -0.004
+      ],
+      "positive_n": 0,
+      "negative_n": 6,
+      "tie_n": 494,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.074,
+      "ci95": [
+        -0.098,
+        -0.052
+      ],
+      "positive_n": 0,
+      "negative_n": 37,
+      "tie_n": 463,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.03,
+        -0.008
+      ],
+      "positive_n": 0,
+      "negative_n": 9,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.11,
+      "ci95": [
+        -0.138,
+        -0.084
+      ],
+      "positive_n": 0,
+      "negative_n": 55,
+      "tie_n": 445,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.036,
+      "ci95": [
+        -0.06,
+        -0.012
+      ],
+      "positive_n": 9,
+      "negative_n": 27,
+      "tie_n": 464,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": -0.036072144288577156,
+        "ci95": [
+          -0.06012024048096192,
+          -0.012024048096192385
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.01,
+      "ci95": [
+        -0.034,
+        0.014
+      ],
+      "positive_n": 16,
+      "negative_n": 21,
+      "tie_n": 463,
+      "common_accepted_eos": {
+        "n": 495,
+        "estimate": -0.012121212121212121,
+        "ci95": [
+          -0.03636363636363636,
+          0.012121212121212121
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.034,
+        0.01
+      ],
+      "positive_n": 12,
+      "negative_n": 18,
+      "tie_n": 470,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": -0.012,
+        "ci95": [
+          -0.034,
+          0.01
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.002,
+      "ci95": [
+        -0.016,
+        0.012
+      ],
+      "positive_n": 6,
+      "negative_n": 7,
+      "tie_n": 487,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": -0.004008016032064128,
+        "ci95": [
+          -0.018036072144288578,
+          0.01002004008016032
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.004,
+        0.02
+      ],
+      "positive_n": 7,
+      "negative_n": 3,
+      "tie_n": 490,
+      "common_accepted_eos": {
+        "n": 495,
+        "estimate": 0.00202020202020202,
+        "ci95": [
+          -0.00808080808080808,
+          0.012121212121212121
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.002,
+      "ci95": [
+        -0.006,
+        0.01
+      ],
+      "positive_n": 3,
+      "negative_n": 2,
+      "tie_n": 495,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.002,
+        "ci95": [
+          -0.006,
+          0.012
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.034,
+      "ci95": [
+        0.008,
+        0.06
+      ],
+      "positive_n": 31,
+      "negative_n": 14,
+      "tie_n": 455,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": 0.03206412825651302,
+        "ci95": [
+          0.006012024048096192,
+          0.05811623246492986
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.018,
+      "ci95": [
+        -0.008,
+        0.044
+      ],
+      "positive_n": 28,
+      "negative_n": 19,
+      "tie_n": 453,
+      "common_accepted_eos": {
+        "n": 495,
+        "estimate": 0.014141414141414142,
+        "ci95": [
+          -0.010101010101010102,
+          0.04040404040404041
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.014,
+      "ci95": [
+        -0.008,
+        0.036
+      ],
+      "positive_n": 19,
+      "negative_n": 12,
+      "tie_n": 469,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.014,
+        "ci95": [
+          -0.008,
+          0.036
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 495,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.022,
+      "ci95": [
+        -0.046,
+        0.002
+      ],
+      "positive_n": 13,
+      "negative_n": 24,
+      "tie_n": 463,
+      "common_accepted_eos": {
+        "n": 485,
+        "estimate": -0.0288659793814433,
+        "ci95": [
+          -0.05154639175257732,
+          -0.006185567010309278
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.012,
+      "ci95": [
+        -0.012,
+        0.036
+      ],
+      "positive_n": 22,
+      "negative_n": 16,
+      "tie_n": 462,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": 0.0,
+        "ci95": [
+          -0.021231422505307854,
+          0.02335456475583864
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.034,
+        0.01
+      ],
+      "positive_n": 13,
+      "negative_n": 19,
+      "tie_n": 468,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": -0.010141987829614604,
+        "ci95": [
+          -0.032454361054766734,
+          0.012170385395537525
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.012,
+        0.028
+      ],
+      "positive_n": 14,
+      "negative_n": 10,
+      "tie_n": 476,
+      "common_accepted_eos": {
+        "n": 485,
+        "estimate": -0.004123711340206186,
+        "ci95": [
+          -0.018556701030927835,
+          0.010309278350515464
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.02,
+      "ci95": [
+        -0.002,
+        0.044
+      ],
+      "positive_n": 23,
+      "negative_n": 13,
+      "tie_n": 464,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": 0.0021231422505307855,
+        "ci95": [
+          -0.008492569002123142,
+          0.012738853503184714
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.016,
+        0.008
+      ],
+      "positive_n": 4,
+      "negative_n": 6,
+      "tie_n": 490,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": 0.002028397565922921,
+        "ci95": [
+          -0.006085192697768763,
+          0.010141987829614604
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.03,
+      "ci95": [
+        0.004,
+        0.056
+      ],
+      "positive_n": 31,
+      "negative_n": 16,
+      "tie_n": 453,
+      "common_accepted_eos": {
+        "n": 485,
+        "estimate": 0.024742268041237112,
+        "ci95": [
+          0.0,
+          0.049484536082474224
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.02,
+        0.036
+      ],
+      "positive_n": 29,
+      "negative_n": 25,
+      "tie_n": 446,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": 0.0021231422505307855,
+        "ci95": [
+          -0.021231422505307854,
+          0.027600849256900213
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.014,
+        0.032
+      ],
+      "positive_n": 20,
+      "negative_n": 16,
+      "tie_n": 464,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": 0.012170385395537525,
+        "ci95": [
+          -0.010141987829614604,
+          0.034482758620689655
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.012,
+      "ci95": [
+        -0.002,
+        0.026
+      ],
+      "positive_n": 9,
+      "negative_n": 3,
+      "tie_n": 488,
+      "common_accepted_eos": {
+        "n": 485,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.018,
+      "ci95": [
+        -0.002,
+        0.04
+      ],
+      "positive_n": 19,
+      "negative_n": 10,
+      "tie_n": 471,
+      "common_accepted_eos": {
+        "n": 471,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.016,
+        0.002
+      ],
+      "positive_n": 1,
+      "negative_n": 4,
+      "tie_n": 495,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.014,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 3,
+      "tie_n": 497,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.002,
+      "ci95": [
+        -0.006,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 1,
+      "tie_n": 499,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.034,
+      "ci95": [
+        -0.05,
+        -0.018
+      ],
+      "positive_n": 0,
+      "negative_n": 17,
+      "tie_n": 483,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.03,
+        -0.008
+      ],
+      "positive_n": 0,
+      "negative_n": 9,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.01,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 2,
+      "tie_n": 498,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.11,
+      "ci95": [
+        -0.138,
+        -0.084
+      ],
+      "positive_n": 0,
+      "negative_n": 55,
+      "tie_n": 445,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.022,
+        -0.004
+      ],
+      "positive_n": 0,
+      "negative_n": 6,
+      "tie_n": 494,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.002,
+      "ci95": [
+        -0.006,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 1,
+      "tie_n": 499,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.076,
+      "ci95": [
+        -0.1,
+        -0.054
+      ],
+      "positive_n": 0,
+      "negative_n": 38,
+      "tie_n": 462,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.03,
+        -0.008
+      ],
+      "positive_n": 0,
+      "negative_n": 9,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.01,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 2,
+      "tie_n": 498,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.112,
+      "ci95": [
+        -0.14,
+        -0.084
+      ],
+      "positive_n": 0,
+      "negative_n": 56,
+      "tie_n": 444,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.036,
+      "ci95": [
+        -0.06,
+        -0.014
+      ],
+      "positive_n": 9,
+      "negative_n": 27,
+      "tie_n": 464,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": -0.036,
+        "ci95": [
+          -0.06,
+          -0.014
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.036,
+        0.012
+      ],
+      "positive_n": 16,
+      "negative_n": 22,
+      "tie_n": 462,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": -0.012024048096192385,
+        "ci95": [
+          -0.036072144288577156,
+          0.012024048096192385
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.034,
+        0.01
+      ],
+      "positive_n": 12,
+      "negative_n": 18,
+      "tie_n": 470,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": -0.012,
+        "ci95": [
+          -0.034,
+          0.01
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.018,
+        0.01
+      ],
+      "positive_n": 5,
+      "negative_n": 7,
+      "tie_n": 488,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": -0.004,
+        "ci95": [
+          -0.018,
+          0.01
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.006,
+      "ci95": [
+        -0.006,
+        0.018
+      ],
+      "positive_n": 6,
+      "negative_n": 3,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": 0.004008016032064128,
+        "ci95": [
+          -0.008016032064128256,
+          0.01603206412825651
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.002,
+      "ci95": [
+        -0.006,
+        0.01
+      ],
+      "positive_n": 3,
+      "negative_n": 2,
+      "tie_n": 495,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.002,
+        "ci95": [
+          -0.006,
+          0.01
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.032,
+      "ci95": [
+        0.006,
+        0.058
+      ],
+      "positive_n": 30,
+      "negative_n": 14,
+      "tie_n": 456,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.032,
+        "ci95": [
+          0.006,
+          0.058
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.018,
+      "ci95": [
+        -0.008,
+        0.044
+      ],
+      "positive_n": 27,
+      "negative_n": 18,
+      "tie_n": 455,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": 0.01603206412825651,
+        "ci95": [
+          -0.01002004008016032,
+          0.04208416833667335
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.014,
+      "ci95": [
+        -0.008,
+        0.036
+      ],
+      "positive_n": 19,
+      "negative_n": 12,
+      "tie_n": 469,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.014,
+        "ci95": [
+          -0.008,
+          0.036
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 499,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 0,
+      "tie_n": 500,
+      "common_accepted_eos": {
+        "n": 500,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.022,
+      "ci95": [
+        -0.046,
+        0.002
+      ],
+      "positive_n": 13,
+      "negative_n": 24,
+      "tie_n": 463,
+      "common_accepted_eos": {
+        "n": 486,
+        "estimate": -0.02880658436213992,
+        "ci95": [
+          -0.051440329218107,
+          -0.006172839506172839
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.01,
+      "ci95": [
+        -0.014,
+        0.034
+      ],
+      "positive_n": 22,
+      "negative_n": 17,
+      "tie_n": 461,
+      "common_accepted_eos": {
+        "n": 475,
+        "estimate": 0.0,
+        "ci95": [
+          -0.023157894736842106,
+          0.023157894736842106
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.034,
+        0.01
+      ],
+      "positive_n": 13,
+      "negative_n": 19,
+      "tie_n": 468,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": -0.010141987829614604,
+        "ci95": [
+          -0.032454361054766734,
+          0.012170385395537525
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.006,
+      "ci95": [
+        -0.012,
+        0.024049999999999273
+      ],
+      "positive_n": 13,
+      "negative_n": 10,
+      "tie_n": 477,
+      "common_accepted_eos": {
+        "n": 486,
+        "estimate": -0.00411522633744856,
+        "ci95": [
+          -0.018518518518518517,
+          0.0102880658436214
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.014,
+      "ci95": [
+        -0.008,
+        0.036
+      ],
+      "positive_n": 20,
+      "negative_n": 13,
+      "tie_n": 467,
+      "common_accepted_eos": {
+        "n": 475,
+        "estimate": 0.004210526315789474,
+        "ci95": [
+          -0.00631578947368421,
+          0.016842105263157894
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.016,
+        0.008
+      ],
+      "positive_n": 4,
+      "negative_n": 6,
+      "tie_n": 490,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": 0.002028397565922921,
+        "ci95": [
+          -0.006085192697768763,
+          0.012170385395537525
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.028,
+      "ci95": [
+        0.002,
+        0.056
+      ],
+      "positive_n": 30,
+      "negative_n": 16,
+      "tie_n": 454,
+      "common_accepted_eos": {
+        "n": 486,
+        "estimate": 0.024691358024691357,
+        "ci95": [
+          0.0,
+          0.04938271604938271
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.004,
+      "ci95": [
+        -0.024,
+        0.032
+      ],
+      "positive_n": 27,
+      "negative_n": 25,
+      "tie_n": 448,
+      "common_accepted_eos": {
+        "n": 475,
+        "estimate": 0.004210526315789474,
+        "ci95": [
+          -0.021052631578947368,
+          0.029473684210526315
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.016,
+        0.032
+      ],
+      "positive_n": 20,
+      "negative_n": 16,
+      "tie_n": 464,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": 0.012170385395537525,
+        "ci95": [
+          -0.010141987829614604,
+          0.034482758620689655
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.01,
+      "ci95": [
+        -0.002,
+        0.024
+      ],
+      "positive_n": 8,
+      "negative_n": 3,
+      "tie_n": 489,
+      "common_accepted_eos": {
+        "n": 486,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": 0.01,
+      "ci95": [
+        -0.01,
+        0.03
+      ],
+      "positive_n": 15,
+      "negative_n": 10,
+      "tie_n": 475,
+      "common_accepted_eos": {
+        "n": 475,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.016,
+        0.002
+      ],
+      "positive_n": 1,
+      "negative_n": 4,
+      "tie_n": 495,
+      "common_accepted_eos": {
+        "n": 493,
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.014,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 3,
+      "tie_n": 497,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.002,
+      "ci95": [
+        -0.006,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 1,
+      "tie_n": 499,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.034,
+      "ci95": [
+        -0.05,
+        -0.02
+      ],
+      "positive_n": 0,
+      "negative_n": 17,
+      "tie_n": 483,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.03,
+        -0.008
+      ],
+      "positive_n": 0,
+      "negative_n": 9,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.01,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 2,
+      "tie_n": 498,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.11,
+      "ci95": [
+        -0.138,
+        -0.084
+      ],
+      "positive_n": 0,
+      "negative_n": 55,
+      "tie_n": 445,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.022,
+        -0.004
+      ],
+      "positive_n": 0,
+      "negative_n": 6,
+      "tie_n": 494,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.002,
+      "ci95": [
+        -0.006,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 1,
+      "tie_n": 499,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.076,
+      "ci95": [
+        -0.1,
+        -0.054
+      ],
+      "positive_n": 0,
+      "negative_n": 38,
+      "tie_n": 462,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 201,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.03,
+        -0.008
+      ],
+      "positive_n": 0,
+      "negative_n": 9,
+      "tie_n": 491,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 202,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.01,
+        0.0
+      ],
+      "positive_n": 0,
+      "negative_n": 2,
+      "tie_n": 498,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 203,
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact",
+      "n": 500,
+      "estimate": -0.112,
+      "ci95": [
+        -0.14,
+        -0.086
+      ],
+      "positive_n": 0,
+      "negative_n": 56,
+      "tie_n": 444,
+      "common_accepted_eos": {
+        "n": 0,
+        "estimate": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    }
+  ],
+  "fixed_pair_average": [
+    {
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.012,
+      "ci95": [
+        -0.0033333333333333314,
+        0.026666666666666665
+      ],
+      "seed_differences": {
+        "201": -0.02,
+        "202": 0.06,
+        "203": -0.004
+      },
+      "training_pair_difference_min": -0.02,
+      "training_pair_difference_max": 0.06,
+      "training_pair_difference_sample_sd": 0.042332020977033445,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.11066666666666666,
+      "ci95": [
+        0.09333333333333332,
+        0.12799999999999997
+      ],
+      "seed_differences": {
+        "201": 0.026,
+        "202": 0.29,
+        "203": 0.016
+      },
+      "training_pair_difference_min": 0.016,
+      "training_pair_difference_max": 0.29,
+      "training_pair_difference_sample_sd": 0.15538768719989796,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.09866666666666665,
+      "ci95": [
+        0.078,
+        0.11933333333333333
+      ],
+      "seed_differences": {
+        "201": 0.046,
+        "202": 0.23,
+        "203": 0.02
+      },
+      "training_pair_difference_min": 0.02,
+      "training_pair_difference_max": 0.23,
+      "training_pair_difference_sample_sd": 0.1144785278265463,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_differences": {
+        "201": 0.0,
+        "202": 0.0,
+        "203": 0.0
+      },
+      "training_pair_difference_min": 0.0,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.0,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.022,
+      "ci95": [
+        0.007333333333333331,
+        0.03666666666666667
+      ],
+      "seed_differences": {
+        "201": -0.008,
+        "202": 0.078,
+        "203": -0.004
+      },
+      "training_pair_difference_min": -0.008,
+      "training_pair_difference_max": 0.078,
+      "training_pair_difference_sample_sd": 0.048538644398046386,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.148,
+      "ci95": [
+        0.128,
+        0.168
+      ],
+      "seed_differences": {
+        "201": 0.04,
+        "202": 0.39,
+        "203": 0.014
+      },
+      "training_pair_difference_min": 0.014,
+      "training_pair_difference_max": 0.39,
+      "training_pair_difference_sample_sd": 0.20998095151703644,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.126,
+      "ci95": [
+        0.104,
+        0.148
+      ],
+      "seed_differences": {
+        "201": 0.048,
+        "202": 0.312,
+        "203": 0.018
+      },
+      "training_pair_difference_min": 0.018,
+      "training_pair_difference_max": 0.312,
+      "training_pair_difference_sample_sd": 0.16177762515255315,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.15133333333333332,
+      "ci95": [
+        0.132,
+        0.1713333333333333
+      ],
+      "seed_differences": {
+        "201": 0.052,
+        "202": 0.39,
+        "203": 0.012
+      },
+      "training_pair_difference_min": 0.012,
+      "training_pair_difference_max": 0.39,
+      "training_pair_difference_sample_sd": 0.20765676808939634,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.013333333333333332,
+      "ci95": [
+        -0.01933333333333333,
+        -0.007333333333333333
+      ],
+      "seed_differences": {
+        "201": -0.006,
+        "202": 0.0,
+        "203": -0.034
+      },
+      "training_pair_difference_min": -0.034,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.018147543451754934,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.042,
+      "ci95": [
+        -0.05266666666666667,
+        -0.032
+      ],
+      "seed_differences": {
+        "201": -0.018,
+        "202": 0.0,
+        "203": -0.108
+      },
+      "training_pair_difference_min": -0.108,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.05786190456595773,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.028666666666666663,
+      "ci95": [
+        -0.038,
+        -0.02
+      ],
+      "seed_differences": {
+        "201": -0.012,
+        "202": 0.0,
+        "203": -0.074
+      },
+      "training_pair_difference_min": -0.074,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.03971565602295061,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.042666666666666665,
+      "ci95": [
+        -0.05333333333333333,
+        -0.03266666666666666
+      ],
+      "seed_differences": {
+        "201": -0.018,
+        "202": 0.0,
+        "203": -0.11
+      },
+      "training_pair_difference_min": -0.11,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.059002824791134646,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.01933333333333333,
+      "ci95": [
+        -0.034666666666666665,
+        -0.004666666666666666
+      ],
+      "seed_differences": {
+        "201": -0.036,
+        "202": -0.01,
+        "203": -0.012
+      },
+      "training_pair_difference_min": -0.036,
+      "training_pair_difference_max": -0.01,
+      "training_pair_difference_sample_sd": 0.014468356276140468,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.0026666666666666666,
+      "ci95": [
+        -0.004666666666666666,
+        0.009333333333333332
+      ],
+      "seed_differences": {
+        "201": -0.002,
+        "202": 0.008,
+        "203": 0.002
+      },
+      "training_pair_difference_min": -0.002,
+      "training_pair_difference_max": 0.008,
+      "training_pair_difference_sample_sd": 0.005033222956847167,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.022,
+      "ci95": [
+        0.005333333333333336,
+        0.03866666666666666
+      ],
+      "seed_differences": {
+        "201": 0.034,
+        "202": 0.018,
+        "203": 0.014
+      },
+      "training_pair_difference_min": 0.014,
+      "training_pair_difference_max": 0.034,
+      "training_pair_difference_sample_sd": 0.010583005244258363,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_differences": {
+        "201": 0.0,
+        "202": 0.0,
+        "203": 0.0
+      },
+      "training_pair_difference_min": 0.0,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.0,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.007333333333333333,
+      "ci95": [
+        -0.022,
+        0.007333333333333336
+      ],
+      "seed_differences": {
+        "201": -0.022,
+        "202": 0.012,
+        "203": -0.012
+      },
+      "training_pair_difference_min": -0.022,
+      "training_pair_difference_max": 0.012,
+      "training_pair_difference_sample_sd": 0.01747378989610821,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.007999999999999998,
+      "ci95": [
+        -0.004,
+        0.01933333333333333
+      ],
+      "seed_differences": {
+        "201": 0.008,
+        "202": 0.02,
+        "203": -0.004
+      },
+      "training_pair_difference_min": -0.004,
+      "training_pair_difference_max": 0.02,
+      "training_pair_difference_sample_sd": 0.012,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.015333333333333332,
+      "ci95": [
+        -0.0013333333333333357,
+        0.03333333333333333
+      ],
+      "seed_differences": {
+        "201": 0.03,
+        "202": 0.008,
+        "203": 0.008
+      },
+      "training_pair_difference_min": 0.008,
+      "training_pair_difference_max": 0.03,
+      "training_pair_difference_sample_sd": 0.012701705922171767,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.002,
+        0.017333333333333336
+      ],
+      "seed_differences": {
+        "201": 0.012,
+        "202": 0.018,
+        "203": -0.006
+      },
+      "training_pair_difference_min": -0.006,
+      "training_pair_difference_max": 0.018,
+      "training_pair_difference_sample_sd": 0.012489995996796796,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.014,
+      "ci95": [
+        -0.020666666666666663,
+        -0.008
+      ],
+      "seed_differences": {
+        "201": -0.006,
+        "202": -0.002,
+        "203": -0.034
+      },
+      "training_pair_difference_min": -0.034,
+      "training_pair_difference_max": -0.002,
+      "training_pair_difference_sample_sd": 0.017435595774162694,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.044,
+      "ci95": [
+        -0.05466666666666666,
+        -0.034
+      ],
+      "seed_differences": {
+        "201": -0.018,
+        "202": -0.004,
+        "203": -0.11
+      },
+      "training_pair_difference_min": -0.11,
+      "training_pair_difference_max": -0.004,
+      "training_pair_difference_sample_sd": 0.05758472019555188,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.03,
+      "ci95": [
+        -0.03933333333333333,
+        -0.021333333333333333
+      ],
+      "seed_differences": {
+        "201": -0.012,
+        "202": -0.002,
+        "203": -0.076
+      },
+      "training_pair_difference_min": -0.076,
+      "training_pair_difference_max": -0.002,
+      "training_pair_difference_sample_sd": 0.04014971979976946,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.04466666666666667,
+      "ci95": [
+        -0.05533333333333333,
+        -0.034666666666666665
+      ],
+      "seed_differences": {
+        "201": -0.018,
+        "202": -0.004,
+        "203": -0.112
+      },
+      "training_pair_difference_min": -0.112,
+      "training_pair_difference_max": -0.004,
+      "training_pair_difference_sample_sd": 0.058731025304632076,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.02,
+      "ci95": [
+        -0.035333333333333335,
+        -0.004666666666666668
+      ],
+      "seed_differences": {
+        "201": -0.036,
+        "202": -0.012,
+        "203": -0.012
+      },
+      "training_pair_difference_min": -0.036,
+      "training_pair_difference_max": -0.012,
+      "training_pair_difference_sample_sd": 0.013856406460551017,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.001333333333333333,
+      "ci95": [
+        -0.005999999999999999,
+        0.007999999999999998
+      ],
+      "seed_differences": {
+        "201": -0.004,
+        "202": 0.006,
+        "203": 0.002
+      },
+      "training_pair_difference_min": -0.004,
+      "training_pair_difference_max": 0.006,
+      "training_pair_difference_sample_sd": 0.005033222956847167,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.021333333333333333,
+      "ci95": [
+        0.005333333333333332,
+        0.038
+      ],
+      "seed_differences": {
+        "201": 0.032,
+        "202": 0.018,
+        "203": 0.014
+      },
+      "training_pair_difference_min": 0.014,
+      "training_pair_difference_max": 0.032,
+      "training_pair_difference_sample_sd": 0.009451631252505217,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_differences": {
+        "201": 0.0,
+        "202": 0.0,
+        "203": 0.0
+      },
+      "training_pair_difference_min": 0.0,
+      "training_pair_difference_max": 0.0,
+      "training_pair_difference_sample_sd": 0.0,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.008,
+      "ci95": [
+        -0.02266666666666667,
+        0.006666666666666666
+      ],
+      "seed_differences": {
+        "201": -0.022,
+        "202": 0.01,
+        "203": -0.012
+      },
+      "training_pair_difference_min": -0.022,
+      "training_pair_difference_max": 0.01,
+      "training_pair_difference_sample_sd": 0.0163707055437449,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.005333333333333333,
+      "ci95": [
+        -0.0066666666666666645,
+        0.016666666666666666
+      ],
+      "seed_differences": {
+        "201": 0.006,
+        "202": 0.014,
+        "203": -0.004
+      },
+      "training_pair_difference_min": -0.004,
+      "training_pair_difference_max": 0.014,
+      "training_pair_difference_sample_sd": 0.009018499505645788,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.013333333333333332,
+      "ci95": [
+        -0.004,
+        0.030666666666666665
+      ],
+      "seed_differences": {
+        "201": 0.028,
+        "202": 0.004,
+        "203": 0.008
+      },
+      "training_pair_difference_min": 0.004,
+      "training_pair_difference_max": 0.028,
+      "training_pair_difference_sample_sd": 0.012858201014657273,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": 0.004666666666666666,
+      "ci95": [
+        -0.004666666666666668,
+        0.013999999999999999
+      ],
+      "seed_differences": {
+        "201": 0.01,
+        "202": 0.01,
+        "203": -0.006
+      },
+      "training_pair_difference_min": -0.006,
+      "training_pair_difference_max": 0.01,
+      "training_pair_difference_sample_sd": 0.009237604307034013,
+      "same_nonzero_sign_all_pairs": false
+    },
+    {
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.014,
+      "ci95": [
+        -0.02,
+        -0.008
+      ],
+      "seed_differences": {
+        "201": -0.006,
+        "202": -0.002,
+        "203": -0.034
+      },
+      "training_pair_difference_min": -0.034,
+      "training_pair_difference_max": -0.002,
+      "training_pair_difference_sample_sd": 0.017435595774162694,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.044,
+      "ci95": [
+        -0.05466666666666666,
+        -0.03333333333333333
+      ],
+      "seed_differences": {
+        "201": -0.018,
+        "202": -0.004,
+        "203": -0.11
+      },
+      "training_pair_difference_min": -0.11,
+      "training_pair_difference_max": -0.004,
+      "training_pair_difference_sample_sd": 0.05758472019555188,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.03,
+      "ci95": [
+        -0.03933333333333333,
+        -0.021333333333333333
+      ],
+      "seed_differences": {
+        "201": -0.012,
+        "202": -0.002,
+        "203": -0.076
+      },
+      "training_pair_difference_min": -0.076,
+      "training_pair_difference_max": -0.002,
+      "training_pair_difference_sample_sd": 0.04014971979976946,
+      "same_nonzero_sign_all_pairs": true
+    },
+    {
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "direction": "Modulo minus Exact; equal weight to three fixed pairs",
+      "n": 500,
+      "estimate": -0.04466666666666667,
+      "ci95": [
+        -0.05533333333333333,
+        -0.034666666666666665
+      ],
+      "seed_differences": {
+        "201": -0.018,
+        "202": -0.004,
+        "203": -0.112
+      },
+      "training_pair_difference_min": -0.112,
+      "training_pair_difference_max": -0.004,
+      "training_pair_difference_sample_sd": 0.058731025304632076,
+      "same_nonzero_sign_all_pairs": true
+    }
+  ],
+  "leave_one_pair_out": [
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": 0.028,
+      "ci95": [
+        0.01,
+        0.047
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.028,
+        0.003
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": 0.02,
+      "ci95": [
+        0.0,
+        0.039
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.153,
+      "ci95": [
+        0.131,
+        0.175
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.021,
+      "ci95": [
+        0.007,
+        0.035
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.158,
+      "ci95": [
+        0.135,
+        0.182
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.125,
+      "ci95": [
+        0.1,
+        0.15
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.033,
+      "ci95": [
+        0.014,
+        0.052024999999999634
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.138,
+      "ci95": [
+        0.111,
+        0.166
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": 0.037,
+      "ci95": [
+        0.019,
+        0.056
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.021,
+        0.009
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": 0.035,
+      "ci95": [
+        0.017,
+        0.053
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.202,
+      "ci95": [
+        0.176,
+        0.228
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.027,
+      "ci95": [
+        0.01,
+        0.044
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.215,
+      "ci95": [
+        0.189,
+        0.242
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.165,
+      "ci95": [
+        0.138,
+        0.192
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.033,
+      "ci95": [
+        0.013,
+        0.054
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.18,
+      "ci95": [
+        0.152,
+        0.208
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.201,
+      "ci95": [
+        0.177,
+        0.226
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.032,
+      "ci95": [
+        0.017,
+        0.048
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.221,
+      "ci95": [
+        0.195,
+        0.247
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.017,
+      "ci95": [
+        -0.025,
+        -0.01
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.02,
+      "ci95": [
+        -0.03,
+        -0.011
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.003,
+      "ci95": [
+        -0.007,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.054,
+      "ci95": [
+        -0.068,
+        -0.041
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.063,
+      "ci95": [
+        -0.079,
+        -0.048
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.009,
+      "ci95": [
+        -0.015,
+        -0.004
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.037,
+      "ci95": [
+        -0.049,
+        -0.026
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.043,
+      "ci95": [
+        -0.057,
+        -0.03
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.011,
+        -0.002
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.055,
+      "ci95": [
+        -0.069,
+        -0.042
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.064,
+      "ci95": [
+        -0.08,
+        -0.049
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 128,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.009,
+      "ci95": [
+        -0.015,
+        -0.004
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.011,
+      "ci95": [
+        -0.028,
+        0.006
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.024,
+      "ci95": [
+        -0.041,
+        -0.008
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.023,
+      "ci95": [
+        -0.042,
+        -0.005
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.005,
+      "ci95": [
+        -0.003,
+        0.012
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        -0.009,
+        0.008024999999999637
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.003,
+      "ci95": [
+        -0.006,
+        0.012
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.016,
+      "ci95": [
+        -0.002,
+        0.034
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.024,
+      "ci95": [
+        0.006,
+        0.042
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.026,
+      "ci95": [
+        0.006,
+        0.047
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        -0.017,
+        0.018
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.017,
+      "ci95": [
+        -0.034,
+        -0.001
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.005,
+      "ci95": [
+        -0.023,
+        0.013
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.006,
+        0.021
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.002,
+      "ci95": [
+        -0.01,
+        0.014
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.014,
+      "ci95": [
+        -0.001,
+        0.029
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.008,
+      "ci95": [
+        -0.012,
+        0.029
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.019,
+      "ci95": [
+        0.001,
+        0.038
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.019,
+      "ci95": [
+        -0.002,
+        0.04
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.006,
+      "ci95": [
+        -0.006,
+        0.018
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.003,
+      "ci95": [
+        -0.006,
+        0.012
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.015,
+      "ci95": [
+        0.002,
+        0.028
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.027,
+        -0.01
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.02,
+      "ci95": [
+        -0.029024999999999978,
+        -0.011
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.008,
+        -0.001
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.057,
+      "ci95": [
+        -0.071,
+        -0.043
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.064,
+      "ci95": [
+        -0.08,
+        -0.049
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.011,
+      "ci95": [
+        -0.018,
+        -0.005
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.039,
+      "ci95": [
+        -0.051,
+        -0.028
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.044,
+      "ci95": [
+        -0.058,
+        -0.031
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.007,
+      "ci95": [
+        -0.013,
+        -0.002
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.058,
+      "ci95": [
+        -0.072,
+        -0.044
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.065,
+      "ci95": [
+        -0.081,
+        -0.049
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 256,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.011,
+      "ci95": [
+        -0.018,
+        -0.005
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.012,
+      "ci95": [
+        -0.029,
+        0.005
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.024,
+      "ci95": [
+        -0.041,
+        -0.008
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.024,
+      "ci95": [
+        -0.043,
+        -0.006
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.004,
+      "ci95": [
+        -0.003,
+        0.011
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.001,
+      "ci95": [
+        -0.01,
+        0.007
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.001,
+      "ci95": [
+        -0.008,
+        0.009
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.016,
+      "ci95": [
+        -0.002,
+        0.034
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.023,
+      "ci95": [
+        0.006,
+        0.041
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.025,
+      "ci95": [
+        0.005,
+        0.045024999999999635
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "legacy",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.001,
+      "ci95": [
+        -0.018,
+        0.017
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.017,
+      "ci95": [
+        -0.034,
+        0.0
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.006,
+      "ci95": [
+        -0.024,
+        0.012
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.005,
+      "ci95": [
+        -0.009,
+        0.018
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.001,
+      "ci95": [
+        -0.011,
+        0.013
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": 0.01,
+      "ci95": [
+        -0.005,
+        0.025
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.006,
+      "ci95": [
+        -0.014,
+        0.026
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.018,
+      "ci95": [
+        0.0,
+        0.037
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": 0.016,
+      "ci95": [
+        -0.005,
+        0.037
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.002,
+      "ci95": [
+        -0.01,
+        0.013
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.002,
+      "ci95": [
+        -0.006,
+        0.01
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "terminal",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": 0.01,
+      "ci95": [
+        -0.0020249999999999773,
+        0.022
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.018,
+      "ci95": [
+        -0.027,
+        -0.01
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.02,
+      "ci95": [
+        -0.03,
+        -0.011
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "exact_correct",
+      "n": 500,
+      "estimate": -0.004,
+      "ci95": [
+        -0.008,
+        -0.001
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.057,
+      "ci95": [
+        -0.071,
+        -0.043
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.064,
+      "ci95": [
+        -0.08,
+        -0.049
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "mod10_correct",
+      "n": 500,
+      "estimate": -0.011,
+      "ci95": [
+        -0.018,
+        -0.005
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.039,
+      "ci95": [
+        -0.051,
+        -0.028
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.044,
+      "ci95": [
+        -0.058,
+        -0.031
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "proxy_only_correct",
+      "n": 500,
+      "estimate": -0.007,
+      "ci95": [
+        -0.013,
+        -0.002
+      ]
+    },
+    {
+      "omitted_seed": 201,
+      "included_seeds": [
+        202,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.058,
+      "ci95": [
+        -0.072,
+        -0.044
+      ]
+    },
+    {
+      "omitted_seed": 202,
+      "included_seeds": [
+        201,
+        203
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.065,
+      "ci95": [
+        -0.081,
+        -0.05
+      ]
+    },
+    {
+      "omitted_seed": 203,
+      "included_seeds": [
+        201,
+        202
+      ],
+      "cap": 512,
+      "policy": "declared",
+      "metric": "accepted",
+      "n": 500,
+      "estimate": -0.011,
+      "ci95": [
+        -0.018,
+        -0.005
+      ]
+    }
+  ]
+}

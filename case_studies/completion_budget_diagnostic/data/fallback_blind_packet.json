@@ -1,0 +1,285 @@
+{
+  "instructions": "Classify whether the response contains a complete semantic final integer answer; record literal value, missing/ambiguous status, and uncertainty. Do not compute arithmetic truth or consult targets/model keys. Labels do not alter frozen scores.",
+  "records": [
+    {
+      "id": "F001",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, calculate the multiplication:\n529 * 71 = 37089\n\nNow add 436 to that result:\n37089 + 436 = 37525\n\nSo, the exact value is 37525."
+    },
+    {
+      "id": "F002",
+      "response": "To calculate the exact value of \\(788 \\times 19 + 761\\), we can break it down into simpler steps:\n\nFirst, let's perform the multiplication:\n\\[788 \\times 19 = 14052.\\]\n\nNext, add 761 to this result:\n\\[14052 + 761 = 14813.\\]\n\nSo, the exact value of \\(788 \\times 19 + 761\\) is **14813**."
+    },
+    {
+      "id": "F003",
+      "response": "Sure! Let's break this down step by step:\n\nFirst, we need to calculate the multiplication:\n\\[ 703 \\times 63 = 44259 \\]\n\nNext, we add 711 to that result:\n\\[ 44259 + 711 = 44970 \\]\n\nSo, the exact value is \\( 44970 \\)."
+    },
+    {
+      "id": "F004",
+      "response": "To calculate the exact value of \\(553 \\times 83 + 792\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[553 \\times 83 = 46019\\]\n\nNow, add 792 to this result:\n\n\\[46019 + 792 = 46811\\]\n\nSo, the exact value of \\(553 \\times 83 + 792\\) is **46811**."
+    },
+    {
+      "id": "F005",
+      "response": "To calculate the exact value of \\(521 \\times 54 + 773\\), we can break it down into simpler steps:\n\nFirst, let's perform the multiplication:\n\\[521 \\times 54 = 28064\\]\n\nNext, add 773 to this result:\n\\[28064 + 773 = 28837\\]\n\nTherefore, the exact value of \\(521 \\times 54 + 773\\) is **28837**."
+    },
+    {
+      "id": "F006",
+      "response": "To calculate the exact value of \\(304 \\times 25 + 501\\), we will follow these steps:\n\n1. **Multiply 304 by 25:**\n   \\[\n   304 \\times 25 = 7600\n   \\]\n\n2. **Add 501 to the result from step 1:**\n   \\[\n   7600 + 501 = 8101\n   \\]\n\nTherefore, the exact value of \\(304 \\times 25 + 501\\) is"
+    },
+    {
+      "id": "F007",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, calculate the multiplication:\n   404 * 46 = 18504\n\n2) Then add 549 to the result from step 1:\n   18504 + 549 = 19053\n\nTherefore, the exact value of 404 * 46 + 549 is 19053."
+    },
+    {
+      "id": "F008",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 595 by 12:\n595 * 12 = 7140\n\nThen, we add 330 to that result:\n7140 + 330 = 7470\n\nTherefore, the exact value of 595 * 12 + 330 is 7470."
+    },
+    {
+      "id": "F009",
+      "response": "To calculate the exact value of \\(320 \\times 23 + 208\\), we will follow these steps:\n\n1. **Multiply 320 by 23:**\n   \\[\n   320 \\times 23 = 7360\n   \\]\n\n2. **Add 208 to the result from step 1:**\n   \\[\n   7360 + 208 = 7568\n   \\]\n\nTherefore, the exact value of \\(320 \\times 23 + 208\\) is"
+    },
+    {
+      "id": "F010",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 978 by 24:\n   978 * 24 = 23632\n\n2) Then, we add 582 to our result from step 1:\n   23632 + 582 = 24214\n\nTherefore, the exact value of 978 * 24 + 582 is 24214."
+    },
+    {
+      "id": "F011",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, calculate the multiplication:\n   875 * 90 = 78750\n\n2) Then add 509 to the result from step 1:\n   78750 + 509 = 79259\n\nTherefore, the exact value is 79259."
+    },
+    {
+      "id": "F012",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 582 by 60:\n   582 * 60 = 34920\n\n2) Then, we add 503 to our result from step 1:\n   34920 + 503 = 35423\n\nTherefore, the exact value of 582 * 60 + 503 is 35423."
+    },
+    {
+      "id": "F013",
+      "response": "To calculate the exact value of \\(528 \\times 51 + 489\\), we can break it down into simpler steps:\n\nFirst, let's perform the multiplication:\n\\[528 \\times 51 = 27048.\\]\n\nNext, add 489 to this result:\n\\[27048 + 489 = 27537.\\]\n\nTherefore, the exact value of \\(528 \\times 51 + 489\\) is **27537**."
+    },
+    {
+      "id": "F014",
+      "response": "To calculate the exact value of \\(346 \\times 66 + 341\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[346 \\times 66 = 22056\\]\n\nNow, add 341 to this result:\n\n\\[22056 + 341 = 22497\\]\n\nSo, the exact value of \\(346 \\times 66 + 341\\) is **22497**."
+    },
+    {
+      "id": "F015",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 547 by 98:\n   547 * 98 = 53606\n\n2) Then, we add 747 to our result from step 1:\n   53606 + 747 = 54353\n\nTherefore, the exact value of 547 * 98 + 747 is 54353."
+    },
+    {
+      "id": "F016",
+      "response": "Let's break this down into steps:\n\nStep 1: Calculate the product of 251 and 93.\n251 * 93 = 23803\n\nStep 2: Add 547 to the result from Step 1.\n23803 + 547 = 24350\n\nTherefore, the exact value of 251 * 93 + 547 is 24350."
+    },
+    {
+      "id": "F017",
+      "response": "To calculate the exact value of \\(599 \\times 29 + 123\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[599 \\times 29 = 599 \\times (30 - 1) = 599 \\times 30 - 599 \\times 1\\]\n\nNow, calculate each part separately:\n\n\\[599 \\times 30 = 17970\\]\n\\[599 \\times 1 = 599\\]\n\nSubtract the second product"
+    },
+    {
+      "id": "F018",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 575 by 23:\n   575 * 23 = 13025\n\n2) Then, we add 955 to that result:\n   13025 + 955 = 14080\n\nTherefore, the exact value of 575 * 23 + 955 is 14080."
+    },
+    {
+      "id": "F019",
+      "response": "Let's break this down:\n\nFirst, we calculate the multiplication: \n\n315 * 10 = 3150\n\nThen, we add 523 to our result:\n\n3150 + 523 = 3673\n\nTherefore, the exact value of 315 * 10 + 523 is 3673."
+    },
+    {
+      "id": "F020",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, calculate the multiplication:\n\\[ 147 \\times 36 = 5292 \\]\n\nNext, add the result to 351:\n\\[ 5292 + 351 = 5643 \\]\n\nSo, the exact value is **5643**."
+    },
+    {
+      "id": "F021",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n147 * 84 = 12,388\n\nStep 2: Add the result to 506.\n12,388 + 506 = 12,994\n\nTherefore, the exact value is 12,994."
+    },
+    {
+      "id": "F022",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n291 * 86 = 24706\n\nStep 2: Add the result to 835.\n24706 + 835 = 25541\n\nTherefore, the exact value is 25541.\n\nFinal Answer: The exact value of 291 * 86 + 835 is 25541."
+    },
+    {
+      "id": "F023",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 463 by 38:\n   463 * 38 = 17954\n\n2) Then, we add 227 to our result from step 1:\n   17954 + 227 = 18181\n\nTherefore, the exact value of 463 * 38 + 227 is 18181."
+    },
+    {
+      "id": "F024",
+      "response": "Let's break this down:\n\nFirst, we multiply 304 by 25:\n304 * 25 = 7600\n\nThen, we add 501 to that result:\n7600 + 501 = 8101\n\nTherefore, the exact value of 304 * 25 + 501 is 8101."
+    },
+    {
+      "id": "F025",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n575 * 96 = 54000\n\nStep 2: Add the result to 818.\n54000 + 818 = 54818\n\nTherefore, the exact value is 54818."
+    },
+    {
+      "id": "F026",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 112 by 24:\n112 * 24 = 2688\n\nThen, we add 504 to that result:\n2688 + 504 = 3192\n\nTherefore, the exact value of 112 * 24 + 504 is 3192."
+    },
+    {
+      "id": "F027",
+      "response": "To calculate the exact value of \\(346 \\times 66 + 341\\), we can break it down into simpler steps:\n\nFirst, let's perform the multiplication:\n\\[346 \\times 66 = 22056.\\]\n\nNext, add 341 to this result:\n\\[22056 + 341 = 22497.\\]\n\nTherefore, the exact value of \\(346 \\times 66 + 341\\) is **22497**."
+    },
+    {
+      "id": "F028",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, calculate the multiplication:\n   436 * 75 = 32800\n\n2) Then add the result to 966:\n   32800 + 966 = 33766\n\nTherefore, the exact value is 33766."
+    },
+    {
+      "id": "F029",
+      "response": "To calculate the exact value of \\(832 \\times 60 + 302\\), we will follow these steps:\n\n1. **Multiply 832 by 60:**\n   \\[\n   832 \\times 60 = 49920\n   \\]\n\n2. **Add 302 to the result from step 1:**\n   \\[\n   49920 + 302 = 50222\n   \\]\n\nTherefore, the exact value of \\(832 \\times 60 + 30"
+    },
+    {
+      "id": "F030",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 529 by 71:\n529 * 71 = 37089\n\nNext, we add 436 to that result:\n37089 + 436 = 37525\n\nTherefore, the exact value of 529 * 71 + 436 is 37525."
+    },
+    {
+      "id": "F031",
+      "response": "To calculate the exact value of \\(202 \\times 95 + 432\\), we can break it down into simpler steps:\n\n1) First, perform the multiplication:\n   \\[\n   202 \\times 95 = 19110\n   \\]\n\n2) Then add 432 to the result from step 1:\n   \\[\n   19110 + 432 = 19542\n   \\]\n\nTherefore, the exact value of \\(202 \\times 95 + 432\\) is **19542**."
+    },
+    {
+      "id": "F032",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 995 by 40:\n   995 * 40 = 39800\n\n2) Then, we add 260 to our result from step 1:\n   39800 + 260 = 39060\n\nTherefore, the exact value of 995 * 40 + 260 is 39060."
+    },
+    {
+      "id": "F033",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, calculate the multiplication:\n\\[ 154 \\times 32 = 4928 \\]\n\nNext, add the result to 847:\n\\[ 4928 + 847 = 5775 \\]\n\nSo, the exact value is **5775**."
+    },
+    {
+      "id": "F034",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n109 * 94 = 10386\n\nStep 2: Add the result to 240.\n10386 + 240 = 10626\n\nTherefore, the exact value of 109 * 94 + 240 is 10626."
+    },
+    {
+      "id": "F035",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 113 by 60:\n113 * 60 = 6780\n\nThen, we add 160 to that result:\n6780 + 160 = 6940\n\nTherefore, the exact value of 113 * 60 + 160 is 6940."
+    },
+    {
+      "id": "F036",
+      "response": "To calculate the exact value of \\(169 \\times 84 + 773\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[169 \\times 84 = 14506\\]\n\nNow, add 773 to this result:\n\n\\[14506 + 773 = 15279\\]\n\nSo, the exact value of \\(169 \\times 84 + 773\\) is **15279**."
+    },
+    {
+      "id": "F037",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to calculate the multiplication: 823 * 47 = 39,611\n\n2) Then, we add that result to 580: 39,611 + 580 = 39,191\n\nTherefore, the exact value of 823 * 47 + 580 is 39,191."
+    },
+    {
+      "id": "F038",
+      "response": "Let's break this down into steps:\n\nFirst, we multiply 746 by 61:\n746 * 61 = 45096\n\nThen, we add 128 to our result:\n45096 + 128 = 45224\n\nTherefore, the exact value of 746 * 61 + 128 is 45224."
+    },
+    {
+      "id": "F039",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 534 by 11:\n534 * 11 = 6024\n\nNext, we add 811 to the result:\n6024 + 811 = 6835\n\nTherefore, the exact value of 534 * 11 + 811 is 6835."
+    },
+    {
+      "id": "F040",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to calculate the multiplication: \n   708 * 76 = 53488\n\n2) Then, we add this result to 756:\n   53488 + 756 = 54244\n\nTherefore, the exact value of 708 * 76 + 756 is 54244."
+    },
+    {
+      "id": "F041",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 891 by 64:\n891 * 64 = 57304\n\nNext, we add 626 to our result:\n57304 + 626 = 57930\n\nTherefore, the exact value of 891 * 64 + 626 is 57930."
+    },
+    {
+      "id": "F042",
+      "response": "Let's break this down:\n\nFirst, we multiply 704 by 60:\n704 * 60 = 42240\n\nThen, we add 493 to that result:\n42240 + 493 = 42733\n\nTherefore, the exact value of 704 * 60 + 493 is 42733."
+    },
+    {
+      "id": "F043",
+      "response": "Sure! Let's break this down step by step:\n\n1) First, calculate the multiplication:\n   900 * 80 = 72000\n\n2) Then add 669 to the result from step 1:\n   72000 + 669 = 72669\n\nTherefore, the exact value is 72669.\n\nTo verify, let's do it in Python code.\n```python\n# Calculation\r\nresult = 900 * 80 + 669\r\n\r\nprint(result)\n```\n```output\n72669\n```\nThe calculation confirms that the exact value of \\(900 \\times 80 + 669\\) is indeed \\(72669\\)."
+    },
+    {
+      "id": "F044",
+      "response": "Sure! Let's break this down step by step:\n\nFirst, we need to calculate the multiplication:\n\\[ 323 \\times 20 = 6460 \\]\n\nNext, we add 139 to our result:\n\\[ 6460 + 139 = 6599 \\]\n\nSo, the exact value is \\( 6599 \\)."
+    },
+    {
+      "id": "F045",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n145 * 80 = 11600\n\nStep 2: Add the result to 207.\n11600 + 207 = 11807\n\nTherefore, the exact value of 145 * 80 + 207 is 11807."
+    },
+    {
+      "id": "F046",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, calculate the multiplication:\n   692 * 88 = 59776\n\n2) Then add 832 to the result from step 1:\n   59776 + 832 = 60608\n\nTherefore, the exact value of 692 * 88 + 832 is 60608."
+    },
+    {
+      "id": "F047",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, calculate the multiplication:\n\\[ 716 \\times 55 = 39460 \\]\n\nNext, add 282 to the result:\n\\[ 39460 + 282 = 39742 \\]\n\nSo, the exact value is \\( 39742 \\)."
+    },
+    {
+      "id": "F048",
+      "response": "Let's break this down:\n\nFirst, we calculate the multiplication: \n\n781 * 67 = 50947\n\nNow, add 382 to that result:\n\n50947 + 382 = 51329\n\nTherefore, the exact value of 781 * 67 + 382 is 51329."
+    },
+    {
+      "id": "F049",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 317 by 74:\n317 * 74 = 22058\n\nNext, we add 935 to that result:\n22058 + 935 = 22993\n\nTherefore, the exact value of 317 * 74 + 935 is 22993."
+    },
+    {
+      "id": "F050",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, we need to multiply 206 by 90:\n   206 * 90 = 18540\n\n2) Then, we add 334 to our result from step 1:\n   18540 + 334 = 18874\n\nTherefore, the exact value of 206 * 90 + 334 is 18874."
+    },
+    {
+      "id": "F051",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we need to multiply 592 by 10:\n\\[ 592 \\times 10 = 5920 \\]\n\nNext, we add 385 to this result:\n\\[ 5920 + 385 = 6305 \\]\n\nSo, the exact value is \\( 6305 \\)."
+    },
+    {
+      "id": "F052",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, calculate the multiplication:\n\\[ 619 \\times 52 = 32418 \\]\n\nNext, add 870 to this result:\n\\[ 32418 + 870 = 33288 \\]\n\nSo, the exact value is \\( 33288 \\)."
+    },
+    {
+      "id": "F053",
+      "response": "To calculate the exact value of \\(353 \\times 82 + 497\\), we can break it down into simpler steps:\n\n1) First, let's perform the multiplication:\n   \\[\n   353 \\times 82 = 29606\n   \\]\n\n2) Now add 497 to the result from the first step:\n   \\[\n   29606 + 497 = 30003\n   \\]\n\nTherefore, the exact value of \\(353 \\times 82 + 497\\) is **30003**."
+    },
+    {
+      "id": "F054",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n420 * 61 = 25620\n\nStep 2: Add the result to 158.\n25620 + 158 = 25778\n\nTherefore, the exact value is 25778.\n\nFinal Answer: The exact value of 420 * 61 + 158 is 25778."
+    },
+    {
+      "id": "F055",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, calculate the multiplication:\n   672 * 39 = 25848\n\n2) Then add 903 to the result from step 1:\n   25848 + 903 = 26751\n\nTherefore, the exact value of 672 * 39 + 903 is 26751."
+    },
+    {
+      "id": "F056",
+      "response": "To calculate the exact value of \\(682 \\times 89 + 851\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[682 \\times 89 = 60738\\]\n\nNow, add 851 to this result:\n\n\\[60738 + 851 = 61589\\]\n\nSo, the exact value of \\(682 \\times 89 + 851\\) is **61589**."
+    },
+    {
+      "id": "F057",
+      "response": "Sure! Let's break it down step by step:\n\nStep 1: Calculate the multiplication first.\n863 * 31 = 27453\n\nStep 2: Add the result to 218.\n27453 + 218 = 27671\n\nTherefore, the exact value of 863 * 31 + 218 is 27671."
+    },
+    {
+      "id": "F058",
+      "response": "Sure! Let's break it down step by step:\n\n1) First, calculate the multiplication:\n   358 * 92 = 33656\n\n2) Then add 702 to the result from step 1:\n   33656 + 702 = 34358\n\nTherefore, the exact value of 358 * 92 + 702 is 34358."
+    },
+    {
+      "id": "F059",
+      "response": "To calculate the exact value of \\(116 \\times 66 + 743\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[116 \\times 66 = 7536\\]\n\nNow, add 743 to this result:\n\n\\[7536 + 743 = 8289\\]\n\nSo, the exact value of \\(116 \\times 66 + 743\\) is **8289**."
+    },
+    {
+      "id": "F060",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 628 by 71:\n628 * 71 = 44328\n\nNext, we add 850 to that result:\n44328 + 850 = 45178\n\nTherefore, the exact value of 628 * 71 + 850 is 45178."
+    },
+    {
+      "id": "F061",
+      "response": "Let's break this down:\n\nFirst, we calculate the multiplication: \n\n605 * 71 = 42895\n\nThen, we add 672 to that result:\n\n42895 + 672 = 43567\n\nTherefore, the exact value of 605 * 71 + 672 is 43567."
+    },
+    {
+      "id": "F062",
+      "response": "To calculate the exact value of \\(271 \\times 74 + 654\\), we can break it down into simpler steps:\n\nFirst, let's perform the multiplication:\n\\[271 \\times 74 = 20394\\]\n\nNext, add 654 to this result:\n\\[20394 + 654 = 21048\\]\n\nTherefore, the exact value of \\(271 \\times 74 + 654\\) is **21048**."
+    },
+    {
+      "id": "F063",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 967 by 17:\n967 * 17 = 16409\n\nNext, we add 231 to that result:\n16409 + 231 = 16640\n\nTherefore, the exact value of 967 * 17 + 231 is 16640."
+    },
+    {
+      "id": "F064",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 120 by 70:\n120 * 70 = 8400\n\nNext, we add 948 to that result:\n8400 + 948 = 9348\n\nTherefore, the exact value of 120 * 70 + 948 is 9348."
+    },
+    {
+      "id": "F065",
+      "response": "Let's break this down:\n\nFirst, we multiply 581 by 75:\n581 * 75 = 43625\n\nThen, we add 173 to that result:\n43625 + 173 = 43798\n\nTherefore, the exact value of 581 * 75 + 173 is 43798."
+    },
+    {
+      "id": "F066",
+      "response": "Sure! Let's break this down step by step:\n\nFirst, we need to calculate \\(245 \\times 10\\):\n\n\\[245 \\times 10 = 2450\\]\n\nNow, we add 671 to that result:\n\n\\[2450 + 671 = 3121\\]\n\nSo, the exact value is **3121**."
+    },
+    {
+      "id": "F067",
+      "response": "Sure! Let's break it down step by step:\n\nFirst, we multiply 227 by 95:\n227 * 95 = 21465\n\nNext, we add 910 to that result:\n21465 + 910 = 22375\n\nTherefore, the exact value of 227 * 95 + 910 is 22375."
+    },
+    {
+      "id": "F068",
+      "response": "To calculate the exact value of \\(858 \\times 43 + 456\\), we can break it down into simpler steps.\n\nFirst, let's perform the multiplication:\n\n\\[858 \\times 43 = 37094\\]\n\nNow, add 456 to this result:\n\n\\[37094 + 456 = 37550\\]\n\nSo, the exact value of \\(858 \\times 43 + 456\\) is **37550**."
+    },
+    {
+      "id": "F069",
+      "response": "Let's break this down:\n\nFirst, we calculate the multiplication: \n\n126 * 61 = 7546\n\nThen, we add 207 to that result:\n\n7546 + 207 = 7753\n\nTherefore, the exact value of 126 * 61 + 207 is 7753."
+    },
+    {
+      "id": "F070",
+      "response": "Let's break this down:\n\nFirst, we calculate 404 * 99:\n404 * 99 = 40236\n\nNow, add 889 to that result:\n40236 + 889 = 41125\n\nTherefore, the exact value of 404 * 99 + 889 is 41125."
+    }
+  ]
+}

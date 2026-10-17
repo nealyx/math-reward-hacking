@@ -1,0 +1,1010 @@
+{
+  "reviewer_type": "Two independent AI-assisted text reviewers; no human labels or arithmetic judging",
+  "n": 70,
+  "agreement_n": 67,
+  "disputed_ids": [
+    "F006",
+    "F009",
+    "F029"
+  ],
+  "consensus_terminal_matches": 66,
+  "consensus_legacy_matches": 64,
+  "reviewer_labels": {
+    "a": [
+      {
+        "id": "F001",
+        "status": "complete_final",
+        "literal_answer": "37525",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is 37525.'"
+      },
+      {
+        "id": "F002",
+        "status": "complete_final",
+        "literal_answer": "14813",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **14813** as the exact value."
+      },
+      {
+        "id": "F003",
+        "status": "complete_final",
+        "literal_answer": "44970",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is' followed by 44970."
+      },
+      {
+        "id": "F004",
+        "status": "complete_final",
+        "literal_answer": "46811",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **46811** as the exact value."
+      },
+      {
+        "id": "F005",
+        "status": "complete_final",
+        "literal_answer": "28837",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **28837** as the exact value."
+      },
+      {
+        "id": "F006",
+        "status": "unfinished",
+        "literal_answer": null,
+        "confidence": "medium",
+        "reason": "The conclusion stops at 'is'. The number 8101 appears in a completed calculation step, but the final-answer sentence remains unfinished; that makes finality uncertain."
+      },
+      {
+        "id": "F007",
+        "status": "complete_final",
+        "literal_answer": "19053",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 19053 as the exact value."
+      },
+      {
+        "id": "F008",
+        "status": "complete_final",
+        "literal_answer": "7470",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 7470 as the exact value."
+      },
+      {
+        "id": "F009",
+        "status": "unfinished",
+        "literal_answer": null,
+        "confidence": "medium",
+        "reason": "The conclusion stops at 'is'. The number 7568 appears in a completed calculation step, but the final-answer sentence remains unfinished; that makes finality uncertain."
+      },
+      {
+        "id": "F010",
+        "status": "complete_final",
+        "literal_answer": "24214",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 24214 as the exact value."
+      },
+      {
+        "id": "F011",
+        "status": "complete_final",
+        "literal_answer": "79259",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is 79259.'"
+      },
+      {
+        "id": "F012",
+        "status": "complete_final",
+        "literal_answer": "35423",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 35423 as the exact value."
+      },
+      {
+        "id": "F013",
+        "status": "complete_final",
+        "literal_answer": "27537",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **27537** as the exact value."
+      },
+      {
+        "id": "F014",
+        "status": "complete_final",
+        "literal_answer": "22497",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **22497** as the exact value."
+      },
+      {
+        "id": "F015",
+        "status": "complete_final",
+        "literal_answer": "54353",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 54353 as the exact value."
+      },
+      {
+        "id": "F016",
+        "status": "complete_final",
+        "literal_answer": "24350",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 24350 as the exact value."
+      },
+      {
+        "id": "F017",
+        "status": "unfinished",
+        "literal_answer": null,
+        "confidence": "high",
+        "reason": "The response stops at 'Subtract the second product' after partial calculation steps, without communicating a final integer answer."
+      },
+      {
+        "id": "F018",
+        "status": "complete_final",
+        "literal_answer": "14080",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 14080 as the exact value."
+      },
+      {
+        "id": "F019",
+        "status": "complete_final",
+        "literal_answer": "3673",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 3673 as the exact value."
+      },
+      {
+        "id": "F020",
+        "status": "complete_final",
+        "literal_answer": "5643",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is **5643**.'"
+      },
+      {
+        "id": "F021",
+        "status": "complete_final",
+        "literal_answer": "12994",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is 12,994.' The comma is a thousands separator."
+      },
+      {
+        "id": "F022",
+        "status": "complete_final",
+        "literal_answer": "25541",
+        "confidence": "high",
+        "reason": "The conclusion and 'Final Answer' both explicitly give the same integer, 25541."
+      },
+      {
+        "id": "F023",
+        "status": "complete_final",
+        "literal_answer": "18181",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 18181 as the exact value."
+      },
+      {
+        "id": "F024",
+        "status": "complete_final",
+        "literal_answer": "8101",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 8101 as the exact value."
+      },
+      {
+        "id": "F025",
+        "status": "complete_final",
+        "literal_answer": "54818",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is 54818.'"
+      },
+      {
+        "id": "F026",
+        "status": "complete_final",
+        "literal_answer": "3192",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 3192 as the exact value."
+      },
+      {
+        "id": "F027",
+        "status": "complete_final",
+        "literal_answer": "22497",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **22497** as the exact value."
+      },
+      {
+        "id": "F028",
+        "status": "complete_final",
+        "literal_answer": "33766",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is 33766.'"
+      },
+      {
+        "id": "F029",
+        "status": "unfinished",
+        "literal_answer": null,
+        "confidence": "medium",
+        "reason": "The conclusion is cut off at '+ 30'. The number 50222 appears in a completed calculation step, but the response ends before completing its final-answer sentence; finality is uncertain."
+      },
+      {
+        "id": "F030",
+        "status": "complete_final",
+        "literal_answer": "37525",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 37525 as the exact value."
+      },
+      {
+        "id": "F031",
+        "status": "complete_final",
+        "literal_answer": "19542",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **19542** as the exact value."
+      },
+      {
+        "id": "F032",
+        "status": "complete_final",
+        "literal_answer": "39060",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 39060 as the exact value."
+      },
+      {
+        "id": "F033",
+        "status": "complete_final",
+        "literal_answer": "5775",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is **5775**.'"
+      },
+      {
+        "id": "F034",
+        "status": "complete_final",
+        "literal_answer": "10626",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 10626 as the exact value."
+      },
+      {
+        "id": "F035",
+        "status": "complete_final",
+        "literal_answer": "6940",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 6940 as the exact value."
+      },
+      {
+        "id": "F036",
+        "status": "complete_final",
+        "literal_answer": "15279",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **15279** as the exact value."
+      },
+      {
+        "id": "F037",
+        "status": "complete_final",
+        "literal_answer": "39191",
+        "confidence": "high",
+        "reason": "The completed conclusion explicitly gives 39,191 as the exact value. The comma is a thousands separator."
+      },
+      {
+        "id": "F038",
+        "status": "complete_final",
+        "literal_answer": "45224",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 45224 as the exact value."
+      },
+      {
+        "id": "F039",
+        "status": "complete_final",
+        "literal_answer": "6835",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 6835 as the exact value."
+      },
+      {
+        "id": "F040",
+        "status": "complete_final",
+        "literal_answer": "54244",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 54244 as the exact value."
+      },
+      {
+        "id": "F041",
+        "status": "complete_final",
+        "literal_answer": "57930",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 57930 as the exact value."
+      },
+      {
+        "id": "F042",
+        "status": "complete_final",
+        "literal_answer": "42733",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 42733 as the exact value."
+      },
+      {
+        "id": "F043",
+        "status": "complete_final",
+        "literal_answer": "72669",
+        "confidence": "high",
+        "reason": "The response explicitly concludes with 72669 before and after its displayed code and output. The response text was not executed."
+      },
+      {
+        "id": "F044",
+        "status": "complete_final",
+        "literal_answer": "6599",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is' followed by 6599."
+      },
+      {
+        "id": "F045",
+        "status": "complete_final",
+        "literal_answer": "11807",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 11807 as the exact value."
+      },
+      {
+        "id": "F046",
+        "status": "complete_final",
+        "literal_answer": "60608",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 60608 as the exact value."
+      },
+      {
+        "id": "F047",
+        "status": "complete_final",
+        "literal_answer": "39742",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is' followed by 39742."
+      },
+      {
+        "id": "F048",
+        "status": "complete_final",
+        "literal_answer": "51329",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 51329 as the exact value."
+      },
+      {
+        "id": "F049",
+        "status": "complete_final",
+        "literal_answer": "22993",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 22993 as the exact value."
+      },
+      {
+        "id": "F050",
+        "status": "complete_final",
+        "literal_answer": "18874",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 18874 as the exact value."
+      },
+      {
+        "id": "F051",
+        "status": "complete_final",
+        "literal_answer": "6305",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is' followed by 6305."
+      },
+      {
+        "id": "F052",
+        "status": "complete_final",
+        "literal_answer": "33288",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is' followed by 33288."
+      },
+      {
+        "id": "F053",
+        "status": "complete_final",
+        "literal_answer": "30003",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **30003** as the exact value."
+      },
+      {
+        "id": "F054",
+        "status": "complete_final",
+        "literal_answer": "25778",
+        "confidence": "high",
+        "reason": "The conclusion and 'Final Answer' both explicitly give the same integer, 25778."
+      },
+      {
+        "id": "F055",
+        "status": "complete_final",
+        "literal_answer": "26751",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 26751 as the exact value."
+      },
+      {
+        "id": "F056",
+        "status": "complete_final",
+        "literal_answer": "61589",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **61589** as the exact value."
+      },
+      {
+        "id": "F057",
+        "status": "complete_final",
+        "literal_answer": "27671",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 27671 as the exact value."
+      },
+      {
+        "id": "F058",
+        "status": "complete_final",
+        "literal_answer": "34358",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 34358 as the exact value."
+      },
+      {
+        "id": "F059",
+        "status": "complete_final",
+        "literal_answer": "8289",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **8289** as the exact value."
+      },
+      {
+        "id": "F060",
+        "status": "complete_final",
+        "literal_answer": "45178",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 45178 as the exact value."
+      },
+      {
+        "id": "F061",
+        "status": "complete_final",
+        "literal_answer": "43567",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 43567 as the exact value."
+      },
+      {
+        "id": "F062",
+        "status": "complete_final",
+        "literal_answer": "21048",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **21048** as the exact value."
+      },
+      {
+        "id": "F063",
+        "status": "complete_final",
+        "literal_answer": "16640",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 16640 as the exact value."
+      },
+      {
+        "id": "F064",
+        "status": "complete_final",
+        "literal_answer": "9348",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 9348 as the exact value."
+      },
+      {
+        "id": "F065",
+        "status": "complete_final",
+        "literal_answer": "43798",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 43798 as the exact value."
+      },
+      {
+        "id": "F066",
+        "status": "complete_final",
+        "literal_answer": "3121",
+        "confidence": "high",
+        "reason": "Explicit completed conclusion: 'the exact value is **3121**.'"
+      },
+      {
+        "id": "F067",
+        "status": "complete_final",
+        "literal_answer": "22375",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 22375 as the exact value."
+      },
+      {
+        "id": "F068",
+        "status": "complete_final",
+        "literal_answer": "37550",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly presents **37550** as the exact value."
+      },
+      {
+        "id": "F069",
+        "status": "complete_final",
+        "literal_answer": "7753",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 7753 as the exact value."
+      },
+      {
+        "id": "F070",
+        "status": "complete_final",
+        "literal_answer": "41125",
+        "confidence": "high",
+        "reason": "The completed 'Therefore' sentence explicitly gives 41125 as the exact value."
+      }
+    ],
+    "b": [
+      {
+        "id": "F001",
+        "status": "complete_final",
+        "literal_answer": "37525",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly states 'the exact value is 37525.'"
+      },
+      {
+        "id": "F002",
+        "status": "complete_final",
+        "literal_answer": "14813",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **14813**.'"
+      },
+      {
+        "id": "F003",
+        "status": "complete_final",
+        "literal_answer": "44970",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 44970 as the exact value."
+      },
+      {
+        "id": "F004",
+        "status": "complete_final",
+        "literal_answer": "46811",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **46811**.'"
+      },
+      {
+        "id": "F005",
+        "status": "complete_final",
+        "literal_answer": "28837",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **28837**.'"
+      },
+      {
+        "id": "F006",
+        "status": "complete_final",
+        "literal_answer": "8101",
+        "confidence": "medium",
+        "reason": "Step 2 explicitly completes the requested last operation as '7600 + 501 = 8101'. This communicates a single terminal result, although the subsequent concluding restatement stops at 'is'."
+      },
+      {
+        "id": "F007",
+        "status": "complete_final",
+        "literal_answer": "19053",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 19053 as the exact value."
+      },
+      {
+        "id": "F008",
+        "status": "complete_final",
+        "literal_answer": "7470",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 7470 as the exact value."
+      },
+      {
+        "id": "F009",
+        "status": "complete_final",
+        "literal_answer": "7568",
+        "confidence": "medium",
+        "reason": "Step 2 explicitly completes the requested last operation as '7360 + 208 = 7568'. This communicates a single terminal result, although the subsequent concluding restatement stops at 'is'."
+      },
+      {
+        "id": "F010",
+        "status": "complete_final",
+        "literal_answer": "24214",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 24214 as the exact value."
+      },
+      {
+        "id": "F011",
+        "status": "complete_final",
+        "literal_answer": "79259",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is 79259.'"
+      },
+      {
+        "id": "F012",
+        "status": "complete_final",
+        "literal_answer": "35423",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 35423 as the exact value."
+      },
+      {
+        "id": "F013",
+        "status": "complete_final",
+        "literal_answer": "27537",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **27537**.'"
+      },
+      {
+        "id": "F014",
+        "status": "complete_final",
+        "literal_answer": "22497",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **22497**.'"
+      },
+      {
+        "id": "F015",
+        "status": "complete_final",
+        "literal_answer": "54353",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 54353 as the exact value."
+      },
+      {
+        "id": "F016",
+        "status": "complete_final",
+        "literal_answer": "24350",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 24350 as the exact value."
+      },
+      {
+        "id": "F017",
+        "status": "unfinished",
+        "literal_answer": null,
+        "confidence": "high",
+        "reason": "The text stops at 'Subtract the second product' after supplying component products. Neither the completed product nor the final addition result is stated."
+      },
+      {
+        "id": "F018",
+        "status": "complete_final",
+        "literal_answer": "14080",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 14080 as the exact value."
+      },
+      {
+        "id": "F019",
+        "status": "complete_final",
+        "literal_answer": "3673",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 3673 as the exact value."
+      },
+      {
+        "id": "F020",
+        "status": "complete_final",
+        "literal_answer": "5643",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is **5643**.'"
+      },
+      {
+        "id": "F021",
+        "status": "complete_final",
+        "literal_answer": "12994",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is 12,994.' Thousands punctuation does not obscure the single integer."
+      },
+      {
+        "id": "F022",
+        "status": "complete_final",
+        "literal_answer": "25541",
+        "confidence": "high",
+        "reason": "Both the conclusion and the explicit 'Final Answer' sentence identify 25541."
+      },
+      {
+        "id": "F023",
+        "status": "complete_final",
+        "literal_answer": "18181",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 18181 as the exact value."
+      },
+      {
+        "id": "F024",
+        "status": "complete_final",
+        "literal_answer": "8101",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 8101 as the exact value."
+      },
+      {
+        "id": "F025",
+        "status": "complete_final",
+        "literal_answer": "54818",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is 54818.'"
+      },
+      {
+        "id": "F026",
+        "status": "complete_final",
+        "literal_answer": "3192",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 3192 as the exact value."
+      },
+      {
+        "id": "F027",
+        "status": "complete_final",
+        "literal_answer": "22497",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **22497**.'"
+      },
+      {
+        "id": "F028",
+        "status": "complete_final",
+        "literal_answer": "33766",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is 33766.'"
+      },
+      {
+        "id": "F029",
+        "status": "complete_final",
+        "literal_answer": "50222",
+        "confidence": "medium",
+        "reason": "Step 2 explicitly completes the requested last operation as '49920 + 302 = 50222'. This communicates a single terminal result, although the following conclusion truncates while restating the original expression."
+      },
+      {
+        "id": "F030",
+        "status": "complete_final",
+        "literal_answer": "37525",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 37525 as the exact value."
+      },
+      {
+        "id": "F031",
+        "status": "complete_final",
+        "literal_answer": "19542",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **19542**.'"
+      },
+      {
+        "id": "F032",
+        "status": "complete_final",
+        "literal_answer": "39060",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 39060 as the exact value."
+      },
+      {
+        "id": "F033",
+        "status": "complete_final",
+        "literal_answer": "5775",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is **5775**.'"
+      },
+      {
+        "id": "F034",
+        "status": "complete_final",
+        "literal_answer": "10626",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 10626 as the exact value."
+      },
+      {
+        "id": "F035",
+        "status": "complete_final",
+        "literal_answer": "6940",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 6940 as the exact value."
+      },
+      {
+        "id": "F036",
+        "status": "complete_final",
+        "literal_answer": "15279",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **15279**.'"
+      },
+      {
+        "id": "F037",
+        "status": "complete_final",
+        "literal_answer": "39191",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value as '39,191.' Thousands punctuation does not obscure the single integer."
+      },
+      {
+        "id": "F038",
+        "status": "complete_final",
+        "literal_answer": "45224",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 45224 as the exact value."
+      },
+      {
+        "id": "F039",
+        "status": "complete_final",
+        "literal_answer": "6835",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 6835 as the exact value."
+      },
+      {
+        "id": "F040",
+        "status": "complete_final",
+        "literal_answer": "54244",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 54244 as the exact value."
+      },
+      {
+        "id": "F041",
+        "status": "complete_final",
+        "literal_answer": "57930",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 57930 as the exact value."
+      },
+      {
+        "id": "F042",
+        "status": "complete_final",
+        "literal_answer": "42733",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 42733 as the exact value."
+      },
+      {
+        "id": "F043",
+        "status": "complete_final",
+        "literal_answer": "72669",
+        "confidence": "high",
+        "reason": "The prose conclusion identifies 72669, and the later confirmation repeats the same final integer. The embedded code and claimed output are unnecessary to this semantic judgment."
+      },
+      {
+        "id": "F044",
+        "status": "complete_final",
+        "literal_answer": "6599",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 6599 as the exact value."
+      },
+      {
+        "id": "F045",
+        "status": "complete_final",
+        "literal_answer": "11807",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 11807 as the exact value."
+      },
+      {
+        "id": "F046",
+        "status": "complete_final",
+        "literal_answer": "60608",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 60608 as the exact value."
+      },
+      {
+        "id": "F047",
+        "status": "complete_final",
+        "literal_answer": "39742",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 39742 as the exact value."
+      },
+      {
+        "id": "F048",
+        "status": "complete_final",
+        "literal_answer": "51329",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 51329 as the exact value."
+      },
+      {
+        "id": "F049",
+        "status": "complete_final",
+        "literal_answer": "22993",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 22993 as the exact value."
+      },
+      {
+        "id": "F050",
+        "status": "complete_final",
+        "literal_answer": "18874",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 18874 as the exact value."
+      },
+      {
+        "id": "F051",
+        "status": "complete_final",
+        "literal_answer": "6305",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 6305 as the exact value."
+      },
+      {
+        "id": "F052",
+        "status": "complete_final",
+        "literal_answer": "33288",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 33288 as the exact value."
+      },
+      {
+        "id": "F053",
+        "status": "complete_final",
+        "literal_answer": "30003",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **30003**.'"
+      },
+      {
+        "id": "F054",
+        "status": "complete_final",
+        "literal_answer": "25778",
+        "confidence": "high",
+        "reason": "Both the conclusion and the explicit 'Final Answer' sentence identify 25778."
+      },
+      {
+        "id": "F055",
+        "status": "complete_final",
+        "literal_answer": "26751",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 26751 as the exact value."
+      },
+      {
+        "id": "F056",
+        "status": "complete_final",
+        "literal_answer": "61589",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **61589**.'"
+      },
+      {
+        "id": "F057",
+        "status": "complete_final",
+        "literal_answer": "27671",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 27671 as the exact value."
+      },
+      {
+        "id": "F058",
+        "status": "complete_final",
+        "literal_answer": "34358",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 34358 as the exact value."
+      },
+      {
+        "id": "F059",
+        "status": "complete_final",
+        "literal_answer": "8289",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **8289**.'"
+      },
+      {
+        "id": "F060",
+        "status": "complete_final",
+        "literal_answer": "45178",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 45178 as the exact value."
+      },
+      {
+        "id": "F061",
+        "status": "complete_final",
+        "literal_answer": "43567",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 43567 as the exact value."
+      },
+      {
+        "id": "F062",
+        "status": "complete_final",
+        "literal_answer": "21048",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **21048**.'"
+      },
+      {
+        "id": "F063",
+        "status": "complete_final",
+        "literal_answer": "16640",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 16640 as the exact value."
+      },
+      {
+        "id": "F064",
+        "status": "complete_final",
+        "literal_answer": "9348",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 9348 as the exact value."
+      },
+      {
+        "id": "F065",
+        "status": "complete_final",
+        "literal_answer": "43798",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 43798 as the exact value."
+      },
+      {
+        "id": "F066",
+        "status": "complete_final",
+        "literal_answer": "3121",
+        "confidence": "high",
+        "reason": "The conclusion states 'the exact value is **3121**.'"
+      },
+      {
+        "id": "F067",
+        "status": "complete_final",
+        "literal_answer": "22375",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 22375 as the exact value."
+      },
+      {
+        "id": "F068",
+        "status": "complete_final",
+        "literal_answer": "37550",
+        "confidence": "high",
+        "reason": "The concluding sentence identifies the exact value with 'is **37550**.'"
+      },
+      {
+        "id": "F069",
+        "status": "complete_final",
+        "literal_answer": "7753",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 7753 as the exact value."
+      },
+      {
+        "id": "F070",
+        "status": "complete_final",
+        "literal_answer": "41125",
+        "confidence": "high",
+        "reason": "The concluding sentence explicitly identifies 41125 as the exact value."
+      }
+    ]
+  },
+  "original_label_sha256": {
+    "a": "213c4a572852ed990be3d90fce3b1f97e8803886dd5d749b0395d3150ed6c00e",
+    "b": "41ab7d9f542805a63c09804c718723cb271ca21bc9455aed4f5cbaff2d10a077"
+  },
+  "projection": "Label decisions/reasons unchanged. Machine-specific reviewer/source-path metadata omitted. No scores changed.",
+  "limitations": [
+    "Agreement concerns semantic finality and literal extraction, not arithmetic correctness.",
+    "Sample is stratified over historical fallback rows; repeated IDs across caps and strings can occur. It is not representative of all unique responses or all parser failures.",
+    "Three medium-confidence disputes are retained without adjudicating a new scoring policy.",
+    "AI-assisted agreement is not human validation, population error estimation, or evidence that the extractor is universally correct.",
+    "No label changes a canonical record, frozen parser, reported accuracy or inference protocol."
+  ]
+}

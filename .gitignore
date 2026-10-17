@@ -46,6 +46,10 @@ wandb/
 # Fresh replications are local by default; curate a release explicitly.
 experiments/replications/
 
+# Frozen local diagnostic archive; curated saved-output package lives in case_studies/.
+/experiments/diagnostics/
+/case_studies/completion_budget_diagnostic/reanalysis_*/
+
 # Large/restart-only trainer state. Existing files are retained locally.
 **/checkpoint-*/
 **/final_model/

@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-17T03:42:40.836461+00:00",
+  "authorization": "User requested packaging the completed diagnostic and updating the project README; no publication or further experiments.",
+  "original_readme_sha256": "add0d77aa7947c14203761c43a652019287b316224d4101d9c56cb3d0866ffee",
+  "updated_root_readme_sha256": "c0949a9a78f0ae7495c33089adffbd90a920bbc90c1f96e09b029ab1deb0f1f1",
+  "original_readme_archive": "provenance/README_before_case_study.md",
+  "unchanged_other_historically_hashed_files": 1283,
+  "unchanged_pilot_files": 68,
+  "note": "Frozen manifests and verifier remain unchanged. Its original strict root-README hash gate will now reject the authorized documentation change; this archive preserves those original bytes. Historical results, datasets, training sources and model artifacts are unchanged.",
+  "historical_hash_record_sha256": "99a2ade82e30da5456c97821e8206324bd6a1850964fe5959daf31beb8895a8c"
+}

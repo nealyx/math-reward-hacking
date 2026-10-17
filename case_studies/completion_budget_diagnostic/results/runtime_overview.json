@@ -1,0 +1,15 @@
+{
+  "total_generated_tokens": 1115788,
+  "generation_seconds": 32383.578478013966,
+  "new_continuation_process_seconds": 31079.360826417003,
+  "reused_timing_process_seconds": 1378.551446749996,
+  "combined_process_seconds": 32457.912273167,
+  "new_loading_seconds": 7.368790747008461,
+  "sampled_peak_continuation_gib": {
+    "mps_allocated": 0.96,
+    "mps_driver": 1.26,
+    "process_rss": 2.95
+  },
+  "memory_note": "Nominal 20 ms samples, including loading. Unified-memory measures overlap; do not sum. Rounded stage peaks; exact per-cell values in runtime_cells.tsv.",
+  "source_sha256": "40feecd70edccdeb2dd1661456f83d026c546f5bab44e864b10c3503e582bdff"
+}

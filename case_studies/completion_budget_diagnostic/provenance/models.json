@@ -1,0 +1,36 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "base_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "base_tensor_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "adapter_sha256": {
+    "Base": null,
+    "proxy_201": "7114fbc81e8397bd7a4044065556e396b29976d3c8c1dc40069784b521cc4940",
+    "proxy_202": "5afb2f407717257c71b208bf91f9b858b96c20d0ab9799f4bc85b7b772329c55",
+    "proxy_203": "a164f87ac0ae783b834a7c269b3834245f93718fd2ea1e59def931fc64a23494",
+    "robust_201": "8ca9576811e05081c1db0ebec3c35d124c0fa334c73e2618a0f590645c954965",
+    "robust_202": "6c06fc27aed1a56d1cda62985d239e6d12372ff16a5e8459b74f218ee6205e46",
+    "robust_203": "8c4e6f7752e8dd16b389ea3f70f15f849f08184c0c06db7aa53dc647a6c90884"
+  },
+  "weights_included": false,
+  "historical_adapters_public_download": null,
+  "original_training_base_revision_verified": false,
+  "inference": {
+    "hardware": "Apple M5; 16 GiB unified memory",
+    "python": "3.14.7",
+    "torch": "2.14.0",
+    "transformers": "5.16.1",
+    "peft": "0.20.0",
+    "tokenizers": "0.23.2",
+    "accelerate": "1.14.0",
+    "precision": "fp16",
+    "device": "MPS",
+    "attention": "eager",
+    "batch_size": 1,
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "seed_per_call": 71448,
+    "strict_deterministic_algorithms": true,
+    "mps_cpu_fallback": false
+  },
+  "scope": "Identifiers and saved record consistency are public; absent weight bytes and historical provenance cannot be independently checked from this package."
+}

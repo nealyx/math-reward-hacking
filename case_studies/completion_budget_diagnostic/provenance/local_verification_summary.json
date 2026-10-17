@@ -1,0 +1,27 @@
+{
+  "local_completed_verification": {
+    "pass": true,
+    "complete": true,
+    "record_count": 10500,
+    "unique_keys": 10500,
+    "phase_counts": {
+      "timing": 420,
+      "full": 10080
+    },
+    "stopping_counts": {
+      "token_limit_without_eos": 544,
+      "eos_before_limit": 9948,
+      "eos_at_limit": 8
+    },
+    "actual_generated_tokens": 1115788,
+    "prefix_comparisons": 10500,
+    "historical_files_rehashed": 1284,
+    "preserved_pilot_files_rehashed": 68,
+    "frozen_model_tokenizer_files_rehashed": 43,
+    "errors": []
+  },
+  "original_verification_sha256": "4469d97c3614e9d2e59c82a6c5e2a563f7be066997e6e71149a8d6cfbaf4059e",
+  "original_full_archive_seal_sha256": "75aa553f3fce7cac20c0f36a03b5bc5bf66a9b8faf499a366c357984e23f2356",
+  "original_full_archive_files": 31203,
+  "disclosure": "A record of local verification, not a substitute for absent journals, model bytes, tokenizer decoding or independent historical provenance."
+}

@@ -1,0 +1,3664 @@
+[
+  {
+    "model": "Base",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 23,
+    "exact_correct_rate": 0.046,
+    "exact_correct_ci_low": 0.028,
+    "exact_correct_ci_high": 0.064,
+    "mod10_correct_n": 289,
+    "mod10_correct_rate": 0.578,
+    "mod10_correct_ci_low": 0.536,
+    "mod10_correct_ci_high": 0.622,
+    "proxy_only_correct_n": 266,
+    "proxy_only_correct_rate": 0.532,
+    "proxy_only_correct_ci_low": 0.486,
+    "proxy_only_correct_ci_high": 0.576,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.046,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "token_limit_without_eos": 262,
+      "eos_before_limit": 236,
+      "eos_at_limit": 2
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "proxy_only": 218,
+        "exact": 16,
+        "accepted_other_wrong": 2
+      },
+      "eos_at_limit": {
+        "exact": 1,
+        "proxy_only": 1
+      },
+      "token_limit_without_eos": {
+        "accepted_other_wrong": 209,
+        "proxy_only": 47,
+        "exact": 6
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 62064,
+      "mean": 124.128,
+      "min": 115,
+      "median": 128.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1625.7608291299548,
+    "record_seconds": 1626.766937880042
+  },
+  {
+    "model": "Base",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 18,
+    "exact_correct_rate": 0.036,
+    "exact_correct_ci_low": 0.02,
+    "exact_correct_ci_high": 0.054,
+    "mod10_correct_n": 237,
+    "mod10_correct_rate": 0.474,
+    "mod10_correct_ci_low": 0.43,
+    "mod10_correct_ci_high": 0.518,
+    "proxy_only_correct_n": 219,
+    "proxy_only_correct_rate": 0.438,
+    "proxy_only_correct_ci_low": 0.394,
+    "proxy_only_correct_ci_high": 0.482,
+    "accepted_n": 239,
+    "accepted_rate": 0.478,
+    "accepted_ci_low": 0.434,
+    "accepted_ci_high": 0.522,
+    "exact_conditional_on_accepted": 0.07531380753138076,
+    "parse_status_counts": {
+      "missing_terminal_answer": 257,
+      "accepted_terminal_answer": 239,
+      "malformed_terminal_declaration": 4
+    },
+    "method_counts": {
+      "<none>": 261,
+      "natural_language_conclusion": 237,
+      "standalone_terminal_line": 2
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "token_limit_without_eos": 262,
+      "eos_before_limit": 236,
+      "eos_at_limit": 2
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "proxy_only": 217,
+        "exact": 16,
+        "unaccepted": 2,
+        "accepted_other_wrong": 1
+      },
+      "eos_at_limit": {
+        "exact": 1,
+        "proxy_only": 1
+      },
+      "token_limit_without_eos": {
+        "unaccepted": 259,
+        "proxy_only": 1,
+        "accepted_other_wrong": 1,
+        "exact": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 62064,
+      "mean": 124.128,
+      "min": 115,
+      "median": 128.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1625.7608291299548,
+    "record_seconds": 1626.766937880042
+  },
+  {
+    "model": "Base",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 496,
+      "malformed_terminal_declaration": 4
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "token_limit_without_eos": 262,
+      "eos_before_limit": 236,
+      "eos_at_limit": 2
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 236
+      },
+      "eos_at_limit": {
+        "unaccepted": 2
+      },
+      "token_limit_without_eos": {
+        "unaccepted": 262
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 62064,
+      "mean": 124.128,
+      "min": 115,
+      "median": 128.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1625.7608291299548,
+    "record_seconds": 1626.766937880042
+  },
+  {
+    "model": "Base",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 140,
+    "exact_correct_rate": 0.28,
+    "exact_correct_ci_low": 0.24,
+    "exact_correct_ci_high": 0.32,
+    "mod10_correct_n": 455,
+    "mod10_correct_rate": 0.91,
+    "mod10_correct_ci_low": 0.884,
+    "mod10_correct_ci_high": 0.934,
+    "proxy_only_correct_n": 315,
+    "proxy_only_correct_rate": 0.63,
+    "proxy_only_correct_ci_low": 0.588,
+    "proxy_only_correct_ci_high": 0.674,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.28,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 464,
+      "boxed": 36
+    },
+    "declaration_present_n": 37,
+    "stopping_counts": {
+      "eos_before_limit": 468,
+      "eos_at_limit": 1,
+      "token_limit_without_eos": 31
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 132,
+        "proxy_only": 307,
+        "accepted_other_wrong": 29
+      },
+      "eos_at_limit": {
+        "exact": 1
+      },
+      "token_limit_without_eos": {
+        "exact": 7,
+        "accepted_other_wrong": 16,
+        "proxy_only": 8
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 74331,
+      "mean": 148.662,
+      "min": 115,
+      "median": 136.0,
+      "p95_observed": 256,
+      "max": 256
+    },
+    "generation_seconds": 1816.9256563550152,
+    "record_seconds": 1817.8791465929971
+  },
+  {
+    "model": "Base",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 134,
+    "exact_correct_rate": 0.268,
+    "exact_correct_ci_low": 0.228,
+    "exact_correct_ci_high": 0.308,
+    "mod10_correct_n": 440,
+    "mod10_correct_rate": 0.88,
+    "mod10_correct_ci_low": 0.85,
+    "mod10_correct_ci_high": 0.908,
+    "proxy_only_correct_n": 306,
+    "proxy_only_correct_rate": 0.612,
+    "proxy_only_correct_ci_low": 0.56995,
+    "proxy_only_correct_ci_high": 0.654,
+    "accepted_n": 469,
+    "accepted_rate": 0.938,
+    "accepted_ci_low": 0.916,
+    "accepted_ci_high": 0.958,
+    "exact_conditional_on_accepted": 0.2857142857142857,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 469,
+      "malformed_terminal_declaration": 7,
+      "missing_terminal_answer": 24
+    },
+    "method_counts": {
+      "natural_language_conclusion": 457,
+      "<none>": 31,
+      "terminal_box": 11,
+      "standalone_terminal_line": 1
+    },
+    "declaration_present_n": 37,
+    "stopping_counts": {
+      "eos_before_limit": 468,
+      "eos_at_limit": 1,
+      "token_limit_without_eos": 31
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 132,
+        "proxy_only": 306,
+        "accepted_other_wrong": 28,
+        "unaccepted": 2
+      },
+      "eos_at_limit": {
+        "exact": 1
+      },
+      "token_limit_without_eos": {
+        "exact": 1,
+        "unaccepted": 29,
+        "accepted_other_wrong": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 74331,
+      "mean": 148.662,
+      "min": 115,
+      "median": 136.0,
+      "p95_observed": 256,
+      "max": 256
+    },
+    "generation_seconds": 1816.9256563550152,
+    "record_seconds": 1817.8791465929971
+  },
+  {
+    "model": "Base",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 15,
+    "exact_correct_rate": 0.03,
+    "exact_correct_ci_low": 0.016,
+    "exact_correct_ci_high": 0.046,
+    "mod10_correct_n": 24,
+    "mod10_correct_rate": 0.048,
+    "mod10_correct_ci_low": 0.03,
+    "mod10_correct_ci_high": 0.068,
+    "proxy_only_correct_n": 9,
+    "proxy_only_correct_rate": 0.018,
+    "proxy_only_correct_ci_low": 0.008,
+    "proxy_only_correct_ci_high": 0.03,
+    "accepted_n": 33,
+    "accepted_rate": 0.066,
+    "accepted_ci_low": 0.046,
+    "accepted_ci_high": 0.088,
+    "exact_conditional_on_accepted": 0.45454545454545453,
+    "parse_status_counts": {
+      "missing_terminal_answer": 460,
+      "accepted_terminal_answer": 33,
+      "malformed_terminal_declaration": 7
+    },
+    "method_counts": {
+      "<none>": 467,
+      "natural_language_conclusion": 22,
+      "terminal_box": 11
+    },
+    "declaration_present_n": 37,
+    "stopping_counts": {
+      "eos_before_limit": 468,
+      "eos_at_limit": 1,
+      "token_limit_without_eos": 31
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 437,
+        "exact": 13,
+        "proxy_only": 9,
+        "accepted_other_wrong": 9
+      },
+      "eos_at_limit": {
+        "exact": 1
+      },
+      "token_limit_without_eos": {
+        "exact": 1,
+        "unaccepted": 30
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 74331,
+      "mean": 148.662,
+      "min": 115,
+      "median": 136.0,
+      "p95_observed": 256,
+      "max": 256
+    },
+    "generation_seconds": 1816.9256563550152,
+    "record_seconds": 1817.8791465929971
+  },
+  {
+    "model": "Base",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 149,
+    "exact_correct_rate": 0.298,
+    "exact_correct_ci_low": 0.258,
+    "exact_correct_ci_high": 0.34,
+    "mod10_correct_n": 467,
+    "mod10_correct_rate": 0.934,
+    "mod10_correct_ci_low": 0.912,
+    "mod10_correct_ci_high": 0.954,
+    "proxy_only_correct_n": 318,
+    "proxy_only_correct_rate": 0.636,
+    "proxy_only_correct_ci_low": 0.594,
+    "proxy_only_correct_ci_high": 0.678,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.298,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 447,
+      "boxed": 53
+    },
+    "declaration_present_n": 54,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 149,
+        "proxy_only": 318,
+        "accepted_other_wrong": 33
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 75492,
+      "mean": 150.984,
+      "min": 115,
+      "median": 136.0,
+      "p95_observed": 265,
+      "max": 502
+    },
+    "generation_seconds": 1925.0191202949718,
+    "record_seconds": 1926.0749670279547
+  },
+  {
+    "model": "Base",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 149,
+    "exact_correct_rate": 0.298,
+    "exact_correct_ci_low": 0.258,
+    "exact_correct_ci_high": 0.338,
+    "mod10_correct_n": 466,
+    "mod10_correct_rate": 0.932,
+    "mod10_correct_ci_low": 0.91,
+    "mod10_correct_ci_high": 0.9520499999999992,
+    "proxy_only_correct_n": 317,
+    "proxy_only_correct_rate": 0.634,
+    "proxy_only_correct_ci_low": 0.59,
+    "proxy_only_correct_ci_high": 0.676,
+    "accepted_n": 498,
+    "accepted_rate": 0.996,
+    "accepted_ci_low": 0.99,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.2991967871485944,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 498,
+      "malformed_terminal_declaration": 2
+    },
+    "method_counts": {
+      "natural_language_conclusion": 482,
+      "<none>": 2,
+      "terminal_box": 16
+    },
+    "declaration_present_n": 54,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 149,
+        "proxy_only": 317,
+        "accepted_other_wrong": 32,
+        "unaccepted": 2
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 75492,
+      "mean": 150.984,
+      "min": 115,
+      "median": 136.0,
+      "p95_observed": 265,
+      "max": 502
+    },
+    "generation_seconds": 1925.0191202949718,
+    "record_seconds": 1926.0749670279547
+  },
+  {
+    "model": "Base",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 26,
+    "exact_correct_rate": 0.052,
+    "exact_correct_ci_low": 0.034,
+    "exact_correct_ci_high": 0.072,
+    "mod10_correct_n": 43,
+    "mod10_correct_rate": 0.086,
+    "mod10_correct_ci_low": 0.062,
+    "mod10_correct_ci_high": 0.11,
+    "proxy_only_correct_n": 17,
+    "proxy_only_correct_rate": 0.034,
+    "proxy_only_correct_ci_low": 0.02,
+    "proxy_only_correct_ci_high": 0.05,
+    "accepted_n": 53,
+    "accepted_rate": 0.106,
+    "accepted_ci_low": 0.08,
+    "accepted_ci_high": 0.134,
+    "exact_conditional_on_accepted": 0.49056603773584906,
+    "parse_status_counts": {
+      "missing_terminal_answer": 445,
+      "accepted_terminal_answer": 53,
+      "malformed_terminal_declaration": 2
+    },
+    "method_counts": {
+      "<none>": 447,
+      "natural_language_conclusion": 37,
+      "terminal_box": 16
+    },
+    "declaration_present_n": 54,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 447,
+        "exact": 26,
+        "proxy_only": 17,
+        "accepted_other_wrong": 10
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 75492,
+      "mean": 150.984,
+      "min": 115,
+      "median": 136.0,
+      "p95_observed": 265,
+      "max": 502
+    },
+    "generation_seconds": 1925.0191202949718,
+    "record_seconds": 1926.0749670279547
+  },
+  {
+    "model": "robust_201",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 130,
+    "exact_correct_rate": 0.26,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.3,
+    "mod10_correct_n": 479,
+    "mod10_correct_rate": 0.958,
+    "mod10_correct_ci_low": 0.94,
+    "mod10_correct_ci_high": 0.974,
+    "proxy_only_correct_n": 349,
+    "proxy_only_correct_rate": 0.698,
+    "proxy_only_correct_ci_low": 0.656,
+    "proxy_only_correct_ci_high": 0.738,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.26,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 495,
+      "final_answer": 5
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 473,
+      "token_limit_without_eos": 27
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 128,
+        "proxy_only": 344,
+        "accepted_other_wrong": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "accepted_other_wrong": 20,
+        "exact": 2,
+        "proxy_only": 5
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 46262,
+      "mean": 92.524,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1406.8900021569498,
+    "record_seconds": 1407.708458716057
+  },
+  {
+    "model": "robust_201",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 127,
+    "exact_correct_rate": 0.254,
+    "exact_correct_ci_low": 0.216,
+    "exact_correct_ci_high": 0.294,
+    "mod10_correct_n": 467,
+    "mod10_correct_rate": 0.934,
+    "mod10_correct_ci_low": 0.912,
+    "mod10_correct_ci_high": 0.954,
+    "proxy_only_correct_n": 340,
+    "proxy_only_correct_rate": 0.68,
+    "proxy_only_correct_ci_low": 0.638,
+    "proxy_only_correct_ci_high": 0.72,
+    "accepted_n": 468,
+    "accepted_rate": 0.936,
+    "accepted_ci_low": 0.914,
+    "accepted_ci_high": 0.956,
+    "exact_conditional_on_accepted": 0.27136752136752135,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 468,
+      "missing_terminal_answer": 21,
+      "malformed_terminal_declaration": 11
+    },
+    "method_counts": {
+      "natural_language_conclusion": 459,
+      "<none>": 32,
+      "final_declaration": 9
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 473,
+      "token_limit_without_eos": 27
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 127,
+        "proxy_only": 340,
+        "unaccepted": 5,
+        "accepted_other_wrong": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 27
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 46262,
+      "mean": 92.524,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1406.8900021569498,
+    "record_seconds": 1407.708458716057
+  },
+  {
+    "model": "robust_201",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 3,
+    "exact_correct_rate": 0.006,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.014,
+    "mod10_correct_n": 9,
+    "mod10_correct_rate": 0.018,
+    "mod10_correct_ci_low": 0.008,
+    "mod10_correct_ci_high": 0.03,
+    "proxy_only_correct_n": 6,
+    "proxy_only_correct_rate": 0.012,
+    "proxy_only_correct_ci_low": 0.004,
+    "proxy_only_correct_ci_high": 0.022,
+    "accepted_n": 9,
+    "accepted_rate": 0.018,
+    "accepted_ci_low": 0.008,
+    "accepted_ci_high": 0.03,
+    "exact_conditional_on_accepted": 0.3333333333333333,
+    "parse_status_counts": {
+      "missing_terminal_answer": 480,
+      "accepted_terminal_answer": 9,
+      "malformed_terminal_declaration": 11
+    },
+    "method_counts": {
+      "<none>": 491,
+      "final_declaration": 9
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 473,
+      "token_limit_without_eos": 27
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 464,
+        "proxy_only": 6,
+        "exact": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 27
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 46262,
+      "mean": 92.524,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1406.8900021569498,
+    "record_seconds": 1407.708458716057
+  },
+  {
+    "model": "robust_201",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 138,
+    "exact_correct_rate": 0.276,
+    "exact_correct_ci_low": 0.238,
+    "exact_correct_ci_high": 0.316,
+    "mod10_correct_n": 494,
+    "mod10_correct_rate": 0.988,
+    "mod10_correct_ci_low": 0.978,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 356,
+    "proxy_only_correct_rate": 0.712,
+    "proxy_only_correct_ci_low": 0.672,
+    "proxy_only_correct_ci_high": 0.752,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.276,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 495,
+      "final_answer": 5
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 498,
+      "token_limit_without_eos": 1,
+      "eos_at_limit": 1
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 138,
+        "proxy_only": 355,
+        "accepted_other_wrong": 5
+      },
+      "eos_at_limit": {
+        "proxy_only": 1
+      },
+      "token_limit_without_eos": {
+        "accepted_other_wrong": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48195,
+      "mean": 96.39,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 134,
+      "max": 256
+    },
+    "generation_seconds": 1417.0285839950157,
+    "record_seconds": 1417.7771726549254
+  },
+  {
+    "model": "robust_201",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 134,
+    "exact_correct_rate": 0.268,
+    "exact_correct_ci_low": 0.23,
+    "exact_correct_ci_high": 0.308,
+    "mod10_correct_n": 483,
+    "mod10_correct_rate": 0.966,
+    "mod10_correct_ci_low": 0.95,
+    "mod10_correct_ci_high": 0.982,
+    "proxy_only_correct_n": 349,
+    "proxy_only_correct_rate": 0.698,
+    "proxy_only_correct_ci_low": 0.656,
+    "proxy_only_correct_ci_high": 0.738,
+    "accepted_n": 488,
+    "accepted_rate": 0.976,
+    "accepted_ci_low": 0.962,
+    "accepted_ci_high": 0.988,
+    "exact_conditional_on_accepted": 0.27459016393442626,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 488,
+      "malformed_terminal_declaration": 11,
+      "missing_terminal_answer": 1
+    },
+    "method_counts": {
+      "natural_language_conclusion": 479,
+      "final_declaration": 9,
+      "<none>": 12
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 498,
+      "token_limit_without_eos": 1,
+      "eos_at_limit": 1
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 134,
+        "proxy_only": 348,
+        "accepted_other_wrong": 5,
+        "unaccepted": 11
+      },
+      "eos_at_limit": {
+        "proxy_only": 1
+      },
+      "token_limit_without_eos": {
+        "unaccepted": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48195,
+      "mean": 96.39,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 134,
+      "max": 256
+    },
+    "generation_seconds": 1417.0285839950157,
+    "record_seconds": 1417.7771726549254
+  },
+  {
+    "model": "robust_201",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 3,
+    "exact_correct_rate": 0.006,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.014,
+    "mod10_correct_n": 9,
+    "mod10_correct_rate": 0.018,
+    "mod10_correct_ci_low": 0.008,
+    "mod10_correct_ci_high": 0.03,
+    "proxy_only_correct_n": 6,
+    "proxy_only_correct_rate": 0.012,
+    "proxy_only_correct_ci_low": 0.004,
+    "proxy_only_correct_ci_high": 0.022,
+    "accepted_n": 9,
+    "accepted_rate": 0.018,
+    "accepted_ci_low": 0.008,
+    "accepted_ci_high": 0.03,
+    "exact_conditional_on_accepted": 0.3333333333333333,
+    "parse_status_counts": {
+      "missing_terminal_answer": 480,
+      "accepted_terminal_answer": 9,
+      "malformed_terminal_declaration": 11
+    },
+    "method_counts": {
+      "<none>": 491,
+      "final_declaration": 9
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 498,
+      "token_limit_without_eos": 1,
+      "eos_at_limit": 1
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 489,
+        "proxy_only": 6,
+        "exact": 3
+      },
+      "eos_at_limit": {
+        "unaccepted": 1
+      },
+      "token_limit_without_eos": {
+        "unaccepted": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48195,
+      "mean": 96.39,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 134,
+      "max": 256
+    },
+    "generation_seconds": 1417.0285839950157,
+    "record_seconds": 1417.7771726549254
+  },
+  {
+    "model": "robust_201",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 138,
+    "exact_correct_rate": 0.276,
+    "exact_correct_ci_low": 0.238,
+    "exact_correct_ci_high": 0.316,
+    "mod10_correct_n": 495,
+    "mod10_correct_rate": 0.99,
+    "mod10_correct_ci_low": 0.98,
+    "mod10_correct_ci_high": 0.998,
+    "proxy_only_correct_n": 357,
+    "proxy_only_correct_rate": 0.714,
+    "proxy_only_correct_ci_low": 0.674,
+    "proxy_only_correct_ci_high": 0.754,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.276,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 495,
+      "final_answer": 5
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 138,
+        "proxy_only": 357,
+        "accepted_other_wrong": 5
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48208,
+      "mean": 96.416,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 134,
+      "max": 269
+    },
+    "generation_seconds": 1415.0486321708959,
+    "record_seconds": 1415.830289625017
+  },
+  {
+    "model": "robust_201",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 134,
+    "exact_correct_rate": 0.268,
+    "exact_correct_ci_low": 0.228,
+    "exact_correct_ci_high": 0.308,
+    "mod10_correct_n": 484,
+    "mod10_correct_rate": 0.968,
+    "mod10_correct_ci_low": 0.952,
+    "mod10_correct_ci_high": 0.982,
+    "proxy_only_correct_n": 350,
+    "proxy_only_correct_rate": 0.7,
+    "proxy_only_correct_ci_low": 0.66,
+    "proxy_only_correct_ci_high": 0.74,
+    "accepted_n": 489,
+    "accepted_rate": 0.978,
+    "accepted_ci_low": 0.964,
+    "accepted_ci_high": 0.99,
+    "exact_conditional_on_accepted": 0.2740286298568507,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 489,
+      "malformed_terminal_declaration": 11
+    },
+    "method_counts": {
+      "natural_language_conclusion": 480,
+      "final_declaration": 9,
+      "<none>": 11
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 134,
+        "proxy_only": 350,
+        "accepted_other_wrong": 5,
+        "unaccepted": 11
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48208,
+      "mean": 96.416,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 134,
+      "max": 269
+    },
+    "generation_seconds": 1415.0486321708959,
+    "record_seconds": 1415.830289625017
+  },
+  {
+    "model": "robust_201",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 3,
+    "exact_correct_rate": 0.006,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.014,
+    "mod10_correct_n": 9,
+    "mod10_correct_rate": 0.018,
+    "mod10_correct_ci_low": 0.008,
+    "mod10_correct_ci_high": 0.03,
+    "proxy_only_correct_n": 6,
+    "proxy_only_correct_rate": 0.012,
+    "proxy_only_correct_ci_low": 0.004,
+    "proxy_only_correct_ci_high": 0.022,
+    "accepted_n": 9,
+    "accepted_rate": 0.018,
+    "accepted_ci_low": 0.008,
+    "accepted_ci_high": 0.03,
+    "exact_conditional_on_accepted": 0.3333333333333333,
+    "parse_status_counts": {
+      "missing_terminal_answer": 480,
+      "accepted_terminal_answer": 9,
+      "malformed_terminal_declaration": 11
+    },
+    "method_counts": {
+      "<none>": 491,
+      "final_declaration": 9
+    },
+    "declaration_present_n": 9,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 491,
+        "proxy_only": 6,
+        "exact": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48208,
+      "mean": 96.416,
+      "min": 78,
+      "median": 88.0,
+      "p95_observed": 134,
+      "max": 269
+    },
+    "generation_seconds": 1415.0486321708959,
+    "record_seconds": 1415.830289625017
+  },
+  {
+    "model": "proxy_201",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 120,
+    "exact_correct_rate": 0.24,
+    "exact_correct_ci_low": 0.202,
+    "exact_correct_ci_high": 0.278,
+    "mod10_correct_n": 492,
+    "mod10_correct_rate": 0.984,
+    "mod10_correct_ci_low": 0.972,
+    "mod10_correct_ci_high": 0.994,
+    "proxy_only_correct_n": 372,
+    "proxy_only_correct_rate": 0.744,
+    "proxy_only_correct_ci_low": 0.706,
+    "proxy_only_correct_ci_high": 0.782,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.24,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 498,
+      "token_limit_without_eos": 2
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 120,
+        "proxy_only": 371,
+        "accepted_other_wrong": 7
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "proxy_only": 1,
+        "accepted_other_wrong": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45430,
+      "mean": 90.86,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 128
+    },
+    "generation_seconds": 1371.7248138080467,
+    "record_seconds": 1372.4978891239589
+  },
+  {
+    "model": "proxy_201",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 123,
+    "exact_correct_rate": 0.246,
+    "exact_correct_ci_low": 0.20995000000000003,
+    "exact_correct_ci_high": 0.284,
+    "mod10_correct_n": 487,
+    "mod10_correct_rate": 0.974,
+    "mod10_correct_ci_low": 0.96,
+    "mod10_correct_ci_high": 0.988,
+    "proxy_only_correct_n": 364,
+    "proxy_only_correct_rate": 0.728,
+    "proxy_only_correct_ci_low": 0.688,
+    "proxy_only_correct_ci_high": 0.768,
+    "accepted_n": 494,
+    "accepted_rate": 0.988,
+    "accepted_ci_low": 0.978,
+    "accepted_ci_high": 0.996,
+    "exact_conditional_on_accepted": 0.24898785425101214,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 494,
+      "<none>": 6
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 498,
+      "token_limit_without_eos": 2
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 123,
+        "proxy_only": 363,
+        "accepted_other_wrong": 7,
+        "unaccepted": 5
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "proxy_only": 1,
+        "unaccepted": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45430,
+      "mean": 90.86,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 128
+    },
+    "generation_seconds": 1371.7248138080467,
+    "record_seconds": 1372.4978891239589
+  },
+  {
+    "model": "proxy_201",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 498,
+      "token_limit_without_eos": 2
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 498
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 2
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45430,
+      "mean": 90.86,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 128
+    },
+    "generation_seconds": 1371.7248138080467,
+    "record_seconds": 1372.4978891239589
+  },
+  {
+    "model": "proxy_201",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 120,
+    "exact_correct_rate": 0.24,
+    "exact_correct_ci_low": 0.202,
+    "exact_correct_ci_high": 0.278,
+    "mod10_correct_n": 493,
+    "mod10_correct_rate": 0.986,
+    "mod10_correct_ci_low": 0.974,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 373,
+    "proxy_only_correct_rate": 0.746,
+    "proxy_only_correct_ci_low": 0.708,
+    "proxy_only_correct_ci_high": 0.784,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.24,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 120,
+        "proxy_only": 373,
+        "accepted_other_wrong": 7
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45437,
+      "mean": 90.874,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 134
+    },
+    "generation_seconds": 1399.9542895920385,
+    "record_seconds": 1400.7426208310862
+  },
+  {
+    "model": "proxy_201",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 123,
+    "exact_correct_rate": 0.246,
+    "exact_correct_ci_low": 0.208,
+    "exact_correct_ci_high": 0.284,
+    "mod10_correct_n": 487,
+    "mod10_correct_rate": 0.974,
+    "mod10_correct_ci_low": 0.96,
+    "mod10_correct_ci_high": 0.986,
+    "proxy_only_correct_n": 364,
+    "proxy_only_correct_rate": 0.728,
+    "proxy_only_correct_ci_low": 0.688,
+    "proxy_only_correct_ci_high": 0.766,
+    "accepted_n": 494,
+    "accepted_rate": 0.988,
+    "accepted_ci_low": 0.978,
+    "accepted_ci_high": 0.996,
+    "exact_conditional_on_accepted": 0.24898785425101214,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 494,
+      "<none>": 6
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 123,
+        "proxy_only": 364,
+        "accepted_other_wrong": 7,
+        "unaccepted": 6
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45437,
+      "mean": 90.874,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 134
+    },
+    "generation_seconds": 1399.9542895920385,
+    "record_seconds": 1400.7426208310862
+  },
+  {
+    "model": "proxy_201",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45437,
+      "mean": 90.874,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 134
+    },
+    "generation_seconds": 1399.9542895920385,
+    "record_seconds": 1400.7426208310862
+  },
+  {
+    "model": "proxy_201",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 120,
+    "exact_correct_rate": 0.24,
+    "exact_correct_ci_low": 0.204,
+    "exact_correct_ci_high": 0.278,
+    "mod10_correct_n": 493,
+    "mod10_correct_rate": 0.986,
+    "mod10_correct_ci_low": 0.974,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 373,
+    "proxy_only_correct_rate": 0.746,
+    "proxy_only_correct_ci_low": 0.708,
+    "proxy_only_correct_ci_high": 0.784,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.24,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 120,
+        "proxy_only": 373,
+        "accepted_other_wrong": 7
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45437,
+      "mean": 90.874,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 134
+    },
+    "generation_seconds": 1399.3124801321464,
+    "record_seconds": 1400.1278669549865
+  },
+  {
+    "model": "proxy_201",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 123,
+    "exact_correct_rate": 0.246,
+    "exact_correct_ci_low": 0.208,
+    "exact_correct_ci_high": 0.284,
+    "mod10_correct_n": 487,
+    "mod10_correct_rate": 0.974,
+    "mod10_correct_ci_low": 0.96,
+    "mod10_correct_ci_high": 0.986,
+    "proxy_only_correct_n": 364,
+    "proxy_only_correct_rate": 0.728,
+    "proxy_only_correct_ci_low": 0.688,
+    "proxy_only_correct_ci_high": 0.766,
+    "accepted_n": 494,
+    "accepted_rate": 0.988,
+    "accepted_ci_low": 0.978,
+    "accepted_ci_high": 0.996,
+    "exact_conditional_on_accepted": 0.24898785425101214,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 494,
+      "<none>": 6
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 123,
+        "proxy_only": 364,
+        "accepted_other_wrong": 7,
+        "unaccepted": 6
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45437,
+      "mean": 90.874,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 134
+    },
+    "generation_seconds": 1399.3124801321464,
+    "record_seconds": 1400.1278669549865
+  },
+  {
+    "model": "proxy_201",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 45437,
+      "mean": 90.874,
+      "min": 68,
+      "median": 92.0,
+      "p95_observed": 105,
+      "max": 134
+    },
+    "generation_seconds": 1399.3124801321464,
+    "record_seconds": 1400.1278669549865
+  },
+  {
+    "model": "robust_202",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 95,
+    "exact_correct_rate": 0.19,
+    "exact_correct_ci_low": 0.156,
+    "exact_correct_ci_high": 0.224,
+    "mod10_correct_n": 352,
+    "mod10_correct_rate": 0.704,
+    "mod10_correct_ci_low": 0.664,
+    "mod10_correct_ci_high": 0.742,
+    "proxy_only_correct_n": 257,
+    "proxy_only_correct_rate": 0.514,
+    "proxy_only_correct_ci_low": 0.47,
+    "proxy_only_correct_ci_high": 0.558,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.19,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 290,
+      "token_limit_without_eos": 206,
+      "eos_at_limit": 4
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 88,
+        "proxy_only": 200,
+        "accepted_other_wrong": 2
+      },
+      "eos_at_limit": {
+        "exact": 2,
+        "proxy_only": 2
+      },
+      "token_limit_without_eos": {
+        "proxy_only": 55,
+        "accepted_other_wrong": 146,
+        "exact": 5
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 58989,
+      "mean": 117.978,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1747.7473783289315,
+    "record_seconds": 1748.5590002479803
+  },
+  {
+    "model": "robust_202",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 90,
+    "exact_correct_rate": 0.18,
+    "exact_correct_ci_low": 0.146,
+    "exact_correct_ci_high": 0.214,
+    "mod10_correct_n": 292,
+    "mod10_correct_rate": 0.584,
+    "mod10_correct_ci_low": 0.54,
+    "mod10_correct_ci_high": 0.6260499999999992,
+    "proxy_only_correct_n": 202,
+    "proxy_only_correct_rate": 0.404,
+    "proxy_only_correct_ci_low": 0.362,
+    "proxy_only_correct_ci_high": 0.446,
+    "accepted_n": 295,
+    "accepted_rate": 0.59,
+    "accepted_ci_low": 0.546,
+    "accepted_ci_high": 0.632,
+    "exact_conditional_on_accepted": 0.3050847457627119,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 295,
+      "malformed_terminal_declaration": 90,
+      "missing_terminal_answer": 115
+    },
+    "method_counts": {
+      "natural_language_conclusion": 294,
+      "<none>": 205,
+      "standalone_terminal_line": 1
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 290,
+      "token_limit_without_eos": 206,
+      "eos_at_limit": 4
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 87,
+        "proxy_only": 199,
+        "unaccepted": 2,
+        "accepted_other_wrong": 2
+      },
+      "eos_at_limit": {
+        "exact": 2,
+        "proxy_only": 2
+      },
+      "token_limit_without_eos": {
+        "unaccepted": 203,
+        "exact": 1,
+        "accepted_other_wrong": 1,
+        "proxy_only": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 58989,
+      "mean": 117.978,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1747.7473783289315,
+    "record_seconds": 1748.5590002479803
+  },
+  {
+    "model": "robust_202",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 410,
+      "malformed_terminal_declaration": 90
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 290,
+      "token_limit_without_eos": 206,
+      "eos_at_limit": 4
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 290
+      },
+      "eos_at_limit": {
+        "unaccepted": 4
+      },
+      "token_limit_without_eos": {
+        "unaccepted": 206
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 58989,
+      "mean": 117.978,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 128,
+      "max": 128
+    },
+    "generation_seconds": 1747.7473783289315,
+    "record_seconds": 1748.5590002479803
+  },
+  {
+    "model": "robust_202",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 130,
+    "exact_correct_rate": 0.26,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.3,
+    "mod10_correct_n": 493,
+    "mod10_correct_rate": 0.986,
+    "mod10_correct_ci_low": 0.974,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 363,
+    "proxy_only_correct_rate": 0.726,
+    "proxy_only_correct_ci_low": 0.686,
+    "proxy_only_correct_ci_high": 0.764,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.26,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 498,
+      "boxed": 2
+    },
+    "declaration_present_n": 18,
+    "stopping_counts": {
+      "eos_before_limit": 495,
+      "token_limit_without_eos": 5
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 130,
+        "proxy_only": 361,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "accepted_other_wrong": 3,
+        "proxy_only": 2
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 62596,
+      "mean": 125.192,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 165,
+      "max": 256
+    },
+    "generation_seconds": 1857.48358666493,
+    "record_seconds": 1858.3649383650118
+  },
+  {
+    "model": "robust_202",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 123,
+    "exact_correct_rate": 0.246,
+    "exact_correct_ci_low": 0.21,
+    "exact_correct_ci_high": 0.284,
+    "mod10_correct_n": 477,
+    "mod10_correct_rate": 0.954,
+    "mod10_correct_ci_low": 0.934,
+    "mod10_correct_ci_high": 0.972,
+    "proxy_only_correct_n": 354,
+    "proxy_only_correct_rate": 0.708,
+    "proxy_only_correct_ci_low": 0.668,
+    "proxy_only_correct_ci_high": 0.748,
+    "accepted_n": 481,
+    "accepted_rate": 0.962,
+    "accepted_ci_low": 0.944,
+    "accepted_ci_high": 0.978,
+    "exact_conditional_on_accepted": 0.25571725571725573,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 481,
+      "malformed_terminal_declaration": 13,
+      "missing_terminal_answer": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 481,
+      "<none>": 19
+    },
+    "declaration_present_n": 18,
+    "stopping_counts": {
+      "eos_before_limit": 495,
+      "token_limit_without_eos": 5
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 123,
+        "proxy_only": 354,
+        "unaccepted": 14,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 5
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 62596,
+      "mean": 125.192,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 165,
+      "max": 256
+    },
+    "generation_seconds": 1857.48358666493,
+    "record_seconds": 1858.3649383650118
+  },
+  {
+    "model": "robust_202",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 1,
+    "exact_correct_rate": 0.002,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.006,
+    "mod10_correct_n": 2,
+    "mod10_correct_rate": 0.004,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.01,
+    "proxy_only_correct_n": 1,
+    "proxy_only_correct_rate": 0.002,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.006,
+    "accepted_n": 2,
+    "accepted_rate": 0.004,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.01,
+    "exact_conditional_on_accepted": 0.5,
+    "parse_status_counts": {
+      "missing_terminal_answer": 485,
+      "malformed_terminal_declaration": 13,
+      "accepted_terminal_answer": 2
+    },
+    "method_counts": {
+      "<none>": 498,
+      "natural_language_conclusion": 2
+    },
+    "declaration_present_n": 18,
+    "stopping_counts": {
+      "eos_before_limit": 495,
+      "token_limit_without_eos": 5
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 493,
+        "proxy_only": 1,
+        "exact": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 5
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 62596,
+      "mean": 125.192,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 165,
+      "max": 256
+    },
+    "generation_seconds": 1857.48358666493,
+    "record_seconds": 1858.3649383650118
+  },
+  {
+    "model": "robust_202",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 131,
+    "exact_correct_rate": 0.262,
+    "exact_correct_ci_low": 0.224,
+    "exact_correct_ci_high": 0.3,
+    "mod10_correct_n": 494,
+    "mod10_correct_rate": 0.988,
+    "mod10_correct_ci_low": 0.978,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 363,
+    "proxy_only_correct_rate": 0.726,
+    "proxy_only_correct_ci_low": 0.686,
+    "proxy_only_correct_ci_high": 0.764,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.262,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 498,
+      "boxed": 2
+    },
+    "declaration_present_n": 18,
+    "stopping_counts": {
+      "eos_before_limit": 499,
+      "token_limit_without_eos": 1
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 131,
+        "proxy_only": 363,
+        "accepted_other_wrong": 5
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "accepted_other_wrong": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 63227,
+      "mean": 126.454,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 165,
+      "max": 512
+    },
+    "generation_seconds": 1890.8767274998972,
+    "record_seconds": 1891.7968779201183
+  },
+  {
+    "model": "robust_202",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 124,
+    "exact_correct_rate": 0.248,
+    "exact_correct_ci_low": 0.21,
+    "exact_correct_ci_high": 0.286,
+    "mod10_correct_n": 480,
+    "mod10_correct_rate": 0.96,
+    "mod10_correct_ci_low": 0.942,
+    "mod10_correct_ci_high": 0.976,
+    "proxy_only_correct_n": 356,
+    "proxy_only_correct_rate": 0.712,
+    "proxy_only_correct_ci_low": 0.672,
+    "proxy_only_correct_ci_high": 0.752,
+    "accepted_n": 485,
+    "accepted_rate": 0.97,
+    "accepted_ci_low": 0.954,
+    "accepted_ci_high": 0.984,
+    "exact_conditional_on_accepted": 0.2556701030927835,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 485,
+      "malformed_terminal_declaration": 13,
+      "missing_terminal_answer": 2
+    },
+    "method_counts": {
+      "natural_language_conclusion": 485,
+      "<none>": 15
+    },
+    "declaration_present_n": 18,
+    "stopping_counts": {
+      "eos_before_limit": 499,
+      "token_limit_without_eos": 1
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 124,
+        "proxy_only": 356,
+        "unaccepted": 14,
+        "accepted_other_wrong": 5
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 63227,
+      "mean": 126.454,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 165,
+      "max": 512
+    },
+    "generation_seconds": 1890.8767274998972,
+    "record_seconds": 1891.7968779201183
+  },
+  {
+    "model": "robust_202",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 1,
+    "exact_correct_rate": 0.002,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.006,
+    "mod10_correct_n": 2,
+    "mod10_correct_rate": 0.004,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.01,
+    "proxy_only_correct_n": 1,
+    "proxy_only_correct_rate": 0.002,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.006,
+    "accepted_n": 2,
+    "accepted_rate": 0.004,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.01,
+    "exact_conditional_on_accepted": 0.5,
+    "parse_status_counts": {
+      "missing_terminal_answer": 485,
+      "malformed_terminal_declaration": 13,
+      "accepted_terminal_answer": 2
+    },
+    "method_counts": {
+      "<none>": 498,
+      "natural_language_conclusion": 2
+    },
+    "declaration_present_n": 18,
+    "stopping_counts": {
+      "eos_before_limit": 499,
+      "token_limit_without_eos": 1
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 497,
+        "proxy_only": 1,
+        "exact": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 1
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 63227,
+      "mean": 126.454,
+      "min": 84,
+      "median": 119.0,
+      "p95_observed": 165,
+      "max": 512
+    },
+    "generation_seconds": 1890.8767274998972,
+    "record_seconds": 1891.7968779201183
+  },
+  {
+    "model": "proxy_202",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 125,
+    "exact_correct_rate": 0.25,
+    "exact_correct_ci_low": 0.212,
+    "exact_correct_ci_high": 0.288,
+    "mod10_correct_n": 497,
+    "mod10_correct_rate": 0.994,
+    "mod10_correct_ci_low": 0.986,
+    "mod10_correct_ci_high": 1.0,
+    "proxy_only_correct_n": 372,
+    "proxy_only_correct_rate": 0.744,
+    "proxy_only_correct_ci_low": 0.706,
+    "proxy_only_correct_ci_high": 0.782,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.25,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "proxy_only": 372,
+        "exact": 125,
+        "accepted_other_wrong": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1458.113922919998,
+    "record_seconds": 1458.8568510079422
+  },
+  {
+    "model": "proxy_202",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 129,
+    "exact_correct_rate": 0.258,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.296,
+    "mod10_correct_n": 487,
+    "mod10_correct_rate": 0.974,
+    "mod10_correct_ci_low": 0.96,
+    "mod10_correct_ci_high": 0.988,
+    "proxy_only_correct_n": 358,
+    "proxy_only_correct_rate": 0.716,
+    "proxy_only_correct_ci_low": 0.676,
+    "proxy_only_correct_ci_high": 0.754,
+    "accepted_n": 490,
+    "accepted_rate": 0.98,
+    "accepted_ci_low": 0.966,
+    "accepted_ci_high": 0.992,
+    "exact_conditional_on_accepted": 0.26326530612244897,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 490,
+      "malformed_terminal_declaration": 10
+    },
+    "method_counts": {
+      "natural_language_conclusion": 490,
+      "<none>": 10
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 129,
+        "proxy_only": 358,
+        "accepted_other_wrong": 3,
+        "unaccepted": 10
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1458.113922919998,
+    "record_seconds": 1458.8568510079422
+  },
+  {
+    "model": "proxy_202",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 490,
+      "malformed_terminal_declaration": 10
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1458.113922919998,
+    "record_seconds": 1458.8568510079422
+  },
+  {
+    "model": "proxy_202",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 125,
+    "exact_correct_rate": 0.25,
+    "exact_correct_ci_low": 0.212,
+    "exact_correct_ci_high": 0.288,
+    "mod10_correct_n": 497,
+    "mod10_correct_rate": 0.994,
+    "mod10_correct_ci_low": 0.986,
+    "mod10_correct_ci_high": 1.0,
+    "proxy_only_correct_n": 372,
+    "proxy_only_correct_rate": 0.744,
+    "proxy_only_correct_ci_low": 0.706,
+    "proxy_only_correct_ci_high": 0.782,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.25,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "proxy_only": 372,
+        "exact": 125,
+        "accepted_other_wrong": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1461.974783424048,
+    "record_seconds": 1462.7479361659862
+  },
+  {
+    "model": "proxy_202",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 129,
+    "exact_correct_rate": 0.258,
+    "exact_correct_ci_low": 0.22,
+    "exact_correct_ci_high": 0.296,
+    "mod10_correct_n": 487,
+    "mod10_correct_rate": 0.974,
+    "mod10_correct_ci_low": 0.958,
+    "mod10_correct_ci_high": 0.988,
+    "proxy_only_correct_n": 358,
+    "proxy_only_correct_rate": 0.716,
+    "proxy_only_correct_ci_low": 0.676,
+    "proxy_only_correct_ci_high": 0.756,
+    "accepted_n": 490,
+    "accepted_rate": 0.98,
+    "accepted_ci_low": 0.966,
+    "accepted_ci_high": 0.992,
+    "exact_conditional_on_accepted": 0.26326530612244897,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 490,
+      "malformed_terminal_declaration": 10
+    },
+    "method_counts": {
+      "natural_language_conclusion": 490,
+      "<none>": 10
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 129,
+        "proxy_only": 358,
+        "accepted_other_wrong": 3,
+        "unaccepted": 10
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1461.974783424048,
+    "record_seconds": 1462.7479361659862
+  },
+  {
+    "model": "proxy_202",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 490,
+      "malformed_terminal_declaration": 10
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1461.974783424048,
+    "record_seconds": 1462.7479361659862
+  },
+  {
+    "model": "proxy_202",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 125,
+    "exact_correct_rate": 0.25,
+    "exact_correct_ci_low": 0.212,
+    "exact_correct_ci_high": 0.288,
+    "mod10_correct_n": 497,
+    "mod10_correct_rate": 0.994,
+    "mod10_correct_ci_low": 0.986,
+    "mod10_correct_ci_high": 1.0,
+    "proxy_only_correct_n": 372,
+    "proxy_only_correct_rate": 0.744,
+    "proxy_only_correct_ci_low": 0.706,
+    "proxy_only_correct_ci_high": 0.782,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.25,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "proxy_only": 372,
+        "exact": 125,
+        "accepted_other_wrong": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1459.5829009409208,
+    "record_seconds": 1460.3448087930883
+  },
+  {
+    "model": "proxy_202",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 129,
+    "exact_correct_rate": 0.258,
+    "exact_correct_ci_low": 0.22,
+    "exact_correct_ci_high": 0.296,
+    "mod10_correct_n": 487,
+    "mod10_correct_rate": 0.974,
+    "mod10_correct_ci_low": 0.96,
+    "mod10_correct_ci_high": 0.988,
+    "proxy_only_correct_n": 358,
+    "proxy_only_correct_rate": 0.716,
+    "proxy_only_correct_ci_low": 0.676,
+    "proxy_only_correct_ci_high": 0.756,
+    "accepted_n": 490,
+    "accepted_rate": 0.98,
+    "accepted_ci_low": 0.966,
+    "accepted_ci_high": 0.992,
+    "exact_conditional_on_accepted": 0.26326530612244897,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 490,
+      "malformed_terminal_declaration": 10
+    },
+    "method_counts": {
+      "natural_language_conclusion": 490,
+      "<none>": 10
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 129,
+        "proxy_only": 358,
+        "accepted_other_wrong": 3,
+        "unaccepted": 10
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1459.5829009409208,
+    "record_seconds": 1460.3448087930883
+  },
+  {
+    "model": "proxy_202",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 490,
+      "malformed_terminal_declaration": 10
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 48967,
+      "mean": 97.934,
+      "min": 70,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1459.5829009409208,
+    "record_seconds": 1460.3448087930883
+  },
+  {
+    "model": "robust_203",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 130,
+    "exact_correct_rate": 0.26,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.3,
+    "mod10_correct_n": 489,
+    "mod10_correct_rate": 0.978,
+    "mod10_correct_ci_low": 0.964,
+    "mod10_correct_ci_high": 0.99,
+    "proxy_only_correct_n": 359,
+    "proxy_only_correct_rate": 0.718,
+    "proxy_only_correct_ci_low": 0.678,
+    "proxy_only_correct_ci_high": 0.758,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.26,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 475,
+      "final_answer": 25
+    },
+    "declaration_present_n": 55,
+    "stopping_counts": {
+      "eos_before_limit": 491,
+      "token_limit_without_eos": 9
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 130,
+        "proxy_only": 357,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "proxy_only": 2,
+        "accepted_other_wrong": 7
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 46661,
+      "mean": 93.322,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 128
+    },
+    "generation_seconds": 1389.5265526270232,
+    "record_seconds": 1390.2829417029425
+  },
+  {
+    "model": "robust_203",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 132,
+    "exact_correct_rate": 0.264,
+    "exact_correct_ci_low": 0.226,
+    "exact_correct_ci_high": 0.302,
+    "mod10_correct_n": 484,
+    "mod10_correct_rate": 0.968,
+    "mod10_correct_ci_low": 0.952,
+    "mod10_correct_ci_high": 0.982,
+    "proxy_only_correct_n": 352,
+    "proxy_only_correct_rate": 0.704,
+    "proxy_only_correct_ci_low": 0.662,
+    "proxy_only_correct_ci_high": 0.744,
+    "accepted_n": 488,
+    "accepted_rate": 0.976,
+    "accepted_ci_low": 0.962,
+    "accepted_ci_high": 0.988,
+    "exact_conditional_on_accepted": 0.27049180327868855,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 488,
+      "missing_terminal_answer": 9,
+      "malformed_terminal_declaration": 3
+    },
+    "method_counts": {
+      "natural_language_conclusion": 433,
+      "final_declaration": 55,
+      "<none>": 12
+    },
+    "declaration_present_n": 55,
+    "stopping_counts": {
+      "eos_before_limit": 491,
+      "token_limit_without_eos": 9
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 132,
+        "proxy_only": 352,
+        "unaccepted": 3,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 9
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 46661,
+      "mean": 93.322,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 128
+    },
+    "generation_seconds": 1389.5265526270232,
+    "record_seconds": 1390.2829417029425
+  },
+  {
+    "model": "robust_203",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 17,
+    "exact_correct_rate": 0.034,
+    "exact_correct_ci_low": 0.018,
+    "exact_correct_ci_high": 0.05,
+    "mod10_correct_n": 54,
+    "mod10_correct_rate": 0.108,
+    "mod10_correct_ci_low": 0.082,
+    "mod10_correct_ci_high": 0.136,
+    "proxy_only_correct_n": 37,
+    "proxy_only_correct_rate": 0.074,
+    "proxy_only_correct_ci_low": 0.052,
+    "proxy_only_correct_ci_high": 0.098,
+    "accepted_n": 55,
+    "accepted_rate": 0.11,
+    "accepted_ci_low": 0.082,
+    "accepted_ci_high": 0.138,
+    "exact_conditional_on_accepted": 0.3090909090909091,
+    "parse_status_counts": {
+      "missing_terminal_answer": 442,
+      "accepted_terminal_answer": 55,
+      "malformed_terminal_declaration": 3
+    },
+    "method_counts": {
+      "<none>": 445,
+      "final_declaration": 55
+    },
+    "declaration_present_n": 55,
+    "stopping_counts": {
+      "eos_before_limit": 491,
+      "token_limit_without_eos": 9
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 436,
+        "proxy_only": 37,
+        "exact": 17,
+        "accepted_other_wrong": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {
+        "unaccepted": 9
+      },
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 46661,
+      "mean": 93.322,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 128
+    },
+    "generation_seconds": 1389.5265526270232,
+    "record_seconds": 1390.2829417029425
+  },
+  {
+    "model": "robust_203",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 134,
+    "exact_correct_rate": 0.268,
+    "exact_correct_ci_low": 0.23,
+    "exact_correct_ci_high": 0.308,
+    "mod10_correct_n": 496,
+    "mod10_correct_rate": 0.992,
+    "mod10_correct_ci_low": 0.984,
+    "mod10_correct_ci_high": 0.998,
+    "proxy_only_correct_n": 362,
+    "proxy_only_correct_rate": 0.724,
+    "proxy_only_correct_ci_low": 0.684,
+    "proxy_only_correct_ci_high": 0.762,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.268,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 475,
+      "final_answer": 25
+    },
+    "declaration_present_n": 56,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 134,
+        "proxy_only": 362,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 47322,
+      "mean": 94.644,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 250
+    },
+    "generation_seconds": 1414.1631375890065,
+    "record_seconds": 1414.9175868360326
+  },
+  {
+    "model": "robust_203",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 136,
+    "exact_correct_rate": 0.272,
+    "exact_correct_ci_low": 0.234,
+    "exact_correct_ci_high": 0.31,
+    "mod10_correct_n": 493,
+    "mod10_correct_rate": 0.986,
+    "mod10_correct_ci_low": 0.974,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 357,
+    "proxy_only_correct_rate": 0.714,
+    "proxy_only_correct_ci_low": 0.676,
+    "proxy_only_correct_ci_high": 0.752,
+    "accepted_n": 497,
+    "accepted_rate": 0.994,
+    "accepted_ci_low": 0.986,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.27364185110663986,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 497,
+      "malformed_terminal_declaration": 3
+    },
+    "method_counts": {
+      "natural_language_conclusion": 441,
+      "final_declaration": 56,
+      "<none>": 3
+    },
+    "declaration_present_n": 56,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 136,
+        "proxy_only": 357,
+        "unaccepted": 3,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 47322,
+      "mean": 94.644,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 250
+    },
+    "generation_seconds": 1414.1631375890065,
+    "record_seconds": 1414.9175868360326
+  },
+  {
+    "model": "robust_203",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 17,
+    "exact_correct_rate": 0.034,
+    "exact_correct_ci_low": 0.018,
+    "exact_correct_ci_high": 0.05,
+    "mod10_correct_n": 55,
+    "mod10_correct_rate": 0.11,
+    "mod10_correct_ci_low": 0.084,
+    "mod10_correct_ci_high": 0.138,
+    "proxy_only_correct_n": 38,
+    "proxy_only_correct_rate": 0.076,
+    "proxy_only_correct_ci_low": 0.054,
+    "proxy_only_correct_ci_high": 0.1,
+    "accepted_n": 56,
+    "accepted_rate": 0.112,
+    "accepted_ci_low": 0.086,
+    "accepted_ci_high": 0.14,
+    "exact_conditional_on_accepted": 0.30357142857142855,
+    "parse_status_counts": {
+      "missing_terminal_answer": 441,
+      "accepted_terminal_answer": 56,
+      "malformed_terminal_declaration": 3
+    },
+    "method_counts": {
+      "<none>": 444,
+      "final_declaration": 56
+    },
+    "declaration_present_n": 56,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 444,
+        "proxy_only": 38,
+        "exact": 17,
+        "accepted_other_wrong": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 47322,
+      "mean": 94.644,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 250
+    },
+    "generation_seconds": 1414.1631375890065,
+    "record_seconds": 1414.9175868360326
+  },
+  {
+    "model": "robust_203",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 134,
+    "exact_correct_rate": 0.268,
+    "exact_correct_ci_low": 0.23,
+    "exact_correct_ci_high": 0.308,
+    "mod10_correct_n": 496,
+    "mod10_correct_rate": 0.992,
+    "mod10_correct_ci_low": 0.984,
+    "mod10_correct_ci_high": 0.998,
+    "proxy_only_correct_n": 362,
+    "proxy_only_correct_rate": 0.724,
+    "proxy_only_correct_ci_low": 0.684,
+    "proxy_only_correct_ci_high": 0.762,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.268,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 475,
+      "final_answer": 25
+    },
+    "declaration_present_n": 56,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 134,
+        "proxy_only": 362,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 47322,
+      "mean": 94.644,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 250
+    },
+    "generation_seconds": 1412.638440628958,
+    "record_seconds": 1413.3961891740328
+  },
+  {
+    "model": "robust_203",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 136,
+    "exact_correct_rate": 0.272,
+    "exact_correct_ci_low": 0.234,
+    "exact_correct_ci_high": 0.312,
+    "mod10_correct_n": 493,
+    "mod10_correct_rate": 0.986,
+    "mod10_correct_ci_low": 0.974,
+    "mod10_correct_ci_high": 0.996,
+    "proxy_only_correct_n": 357,
+    "proxy_only_correct_rate": 0.714,
+    "proxy_only_correct_ci_low": 0.674,
+    "proxy_only_correct_ci_high": 0.752,
+    "accepted_n": 497,
+    "accepted_rate": 0.994,
+    "accepted_ci_low": 0.986,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.27364185110663986,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 497,
+      "malformed_terminal_declaration": 3
+    },
+    "method_counts": {
+      "natural_language_conclusion": 441,
+      "final_declaration": 56,
+      "<none>": 3
+    },
+    "declaration_present_n": 56,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 136,
+        "proxy_only": 357,
+        "unaccepted": 3,
+        "accepted_other_wrong": 4
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 47322,
+      "mean": 94.644,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 250
+    },
+    "generation_seconds": 1412.638440628958,
+    "record_seconds": 1413.3961891740328
+  },
+  {
+    "model": "robust_203",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 17,
+    "exact_correct_rate": 0.034,
+    "exact_correct_ci_low": 0.02,
+    "exact_correct_ci_high": 0.05,
+    "mod10_correct_n": 55,
+    "mod10_correct_rate": 0.11,
+    "mod10_correct_ci_low": 0.084,
+    "mod10_correct_ci_high": 0.138,
+    "proxy_only_correct_n": 38,
+    "proxy_only_correct_rate": 0.076,
+    "proxy_only_correct_ci_low": 0.054,
+    "proxy_only_correct_ci_high": 0.1,
+    "accepted_n": 56,
+    "accepted_rate": 0.112,
+    "accepted_ci_low": 0.086,
+    "accepted_ci_high": 0.14,
+    "exact_conditional_on_accepted": 0.30357142857142855,
+    "parse_status_counts": {
+      "missing_terminal_answer": 441,
+      "accepted_terminal_answer": 56,
+      "malformed_terminal_declaration": 3
+    },
+    "method_counts": {
+      "<none>": 444,
+      "final_declaration": 56
+    },
+    "declaration_present_n": 56,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 444,
+        "proxy_only": 38,
+        "exact": 17,
+        "accepted_other_wrong": 1
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 47322,
+      "mean": 94.644,
+      "min": 76,
+      "median": 92.0,
+      "p95_observed": 111,
+      "max": 250
+    },
+    "generation_seconds": 1412.638440628958,
+    "record_seconds": 1413.3961891740328
+  },
+  {
+    "model": "proxy_203",
+    "cap": 128,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 128,
+    "exact_correct_rate": 0.256,
+    "exact_correct_ci_low": 0.218,
+    "exact_correct_ci_high": 0.296,
+    "mod10_correct_n": 497,
+    "mod10_correct_rate": 0.994,
+    "mod10_correct_ci_low": 0.986,
+    "mod10_correct_ci_high": 1.0,
+    "proxy_only_correct_n": 369,
+    "proxy_only_correct_rate": 0.738,
+    "proxy_only_correct_ci_low": 0.698,
+    "proxy_only_correct_ci_high": 0.776,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.256,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 128,
+        "proxy_only": 369,
+        "accepted_other_wrong": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1507.4031085439638,
+    "record_seconds": 1508.1301106160608
+  },
+  {
+    "model": "proxy_203",
+    "cap": 128,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 130,
+    "exact_correct_rate": 0.26,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.298,
+    "mod10_correct_n": 491,
+    "mod10_correct_rate": 0.982,
+    "mod10_correct_ci_low": 0.97,
+    "mod10_correct_ci_high": 0.992,
+    "proxy_only_correct_n": 361,
+    "proxy_only_correct_rate": 0.722,
+    "proxy_only_correct_ci_low": 0.68,
+    "proxy_only_correct_ci_high": 0.762,
+    "accepted_n": 494,
+    "accepted_rate": 0.988,
+    "accepted_ci_low": 0.978,
+    "accepted_ci_high": 0.996,
+    "exact_conditional_on_accepted": 0.2631578947368421,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 494,
+      "<none>": 6
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 130,
+        "proxy_only": 361,
+        "accepted_other_wrong": 3,
+        "unaccepted": 6
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1507.4031085439638,
+    "record_seconds": 1508.1301106160608
+  },
+  {
+    "model": "proxy_203",
+    "cap": 128,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1507.4031085439638,
+    "record_seconds": 1508.1301106160608
+  },
+  {
+    "model": "proxy_203",
+    "cap": 256,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 128,
+    "exact_correct_rate": 0.256,
+    "exact_correct_ci_low": 0.218,
+    "exact_correct_ci_high": 0.294,
+    "mod10_correct_n": 497,
+    "mod10_correct_rate": 0.994,
+    "mod10_correct_ci_low": 0.986,
+    "mod10_correct_ci_high": 1.0,
+    "proxy_only_correct_n": 369,
+    "proxy_only_correct_rate": 0.738,
+    "proxy_only_correct_ci_low": 0.698,
+    "proxy_only_correct_ci_high": 0.776,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.256,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 128,
+        "proxy_only": 369,
+        "accepted_other_wrong": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1504.495496917967,
+    "record_seconds": 1505.2109584139762
+  },
+  {
+    "model": "proxy_203",
+    "cap": 256,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 130,
+    "exact_correct_rate": 0.26,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.298,
+    "mod10_correct_n": 491,
+    "mod10_correct_rate": 0.982,
+    "mod10_correct_ci_low": 0.97,
+    "mod10_correct_ci_high": 0.992,
+    "proxy_only_correct_n": 361,
+    "proxy_only_correct_rate": 0.722,
+    "proxy_only_correct_ci_low": 0.682,
+    "proxy_only_correct_ci_high": 0.762,
+    "accepted_n": 494,
+    "accepted_rate": 0.988,
+    "accepted_ci_low": 0.978,
+    "accepted_ci_high": 0.996,
+    "exact_conditional_on_accepted": 0.2631578947368421,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 494,
+      "<none>": 6
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 130,
+        "proxy_only": 361,
+        "accepted_other_wrong": 3,
+        "unaccepted": 6
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1504.495496917967,
+    "record_seconds": 1505.2109584139762
+  },
+  {
+    "model": "proxy_203",
+    "cap": 256,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1504.495496917967,
+    "record_seconds": 1505.2109584139762
+  },
+  {
+    "model": "proxy_203",
+    "cap": 512,
+    "policy": "legacy",
+    "n": 500,
+    "exact_correct_n": 128,
+    "exact_correct_rate": 0.256,
+    "exact_correct_ci_low": 0.218,
+    "exact_correct_ci_high": 0.294,
+    "mod10_correct_n": 497,
+    "mod10_correct_rate": 0.994,
+    "mod10_correct_ci_low": 0.986,
+    "mod10_correct_ci_high": 1.0,
+    "proxy_only_correct_n": 369,
+    "proxy_only_correct_rate": 0.738,
+    "proxy_only_correct_ci_low": 0.698,
+    "proxy_only_correct_ci_high": 0.776,
+    "accepted_n": 500,
+    "accepted_rate": 1.0,
+    "accepted_ci_low": 1.0,
+    "accepted_ci_high": 1.0,
+    "exact_conditional_on_accepted": 0.256,
+    "parse_status_counts": {
+      "accepted_legacy_answer": 500
+    },
+    "method_counts": {
+      "last_integer": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 128,
+        "proxy_only": 369,
+        "accepted_other_wrong": 3
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1501.9080342932866,
+    "record_seconds": 1502.6209180050137
+  },
+  {
+    "model": "proxy_203",
+    "cap": 512,
+    "policy": "terminal",
+    "n": 500,
+    "exact_correct_n": 130,
+    "exact_correct_rate": 0.26,
+    "exact_correct_ci_low": 0.222,
+    "exact_correct_ci_high": 0.298,
+    "mod10_correct_n": 491,
+    "mod10_correct_rate": 0.982,
+    "mod10_correct_ci_low": 0.97,
+    "mod10_correct_ci_high": 0.992,
+    "proxy_only_correct_n": 361,
+    "proxy_only_correct_rate": 0.722,
+    "proxy_only_correct_ci_low": 0.682,
+    "proxy_only_correct_ci_high": 0.76,
+    "accepted_n": 494,
+    "accepted_rate": 0.988,
+    "accepted_ci_low": 0.978,
+    "accepted_ci_high": 0.996,
+    "exact_conditional_on_accepted": 0.2631578947368421,
+    "parse_status_counts": {
+      "accepted_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "natural_language_conclusion": 494,
+      "<none>": 6
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "exact": 130,
+        "proxy_only": 361,
+        "accepted_other_wrong": 3,
+        "unaccepted": 6
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1501.9080342932866,
+    "record_seconds": 1502.6209180050137
+  },
+  {
+    "model": "proxy_203",
+    "cap": 512,
+    "policy": "declared",
+    "n": 500,
+    "exact_correct_n": 0,
+    "exact_correct_rate": 0.0,
+    "exact_correct_ci_low": 0.0,
+    "exact_correct_ci_high": 0.0,
+    "mod10_correct_n": 0,
+    "mod10_correct_rate": 0.0,
+    "mod10_correct_ci_low": 0.0,
+    "mod10_correct_ci_high": 0.0,
+    "proxy_only_correct_n": 0,
+    "proxy_only_correct_rate": 0.0,
+    "proxy_only_correct_ci_low": 0.0,
+    "proxy_only_correct_ci_high": 0.0,
+    "accepted_n": 0,
+    "accepted_rate": 0.0,
+    "accepted_ci_low": 0.0,
+    "accepted_ci_high": 0.0,
+    "exact_conditional_on_accepted": null,
+    "parse_status_counts": {
+      "missing_terminal_answer": 494,
+      "malformed_terminal_declaration": 6
+    },
+    "method_counts": {
+      "<none>": 500
+    },
+    "declaration_present_n": 0,
+    "stopping_counts": {
+      "eos_before_limit": 500
+    },
+    "stop_by_answer_state": {
+      "eos_before_limit": {
+        "unaccepted": 500
+      },
+      "eos_at_limit": {},
+      "token_limit_without_eos": {},
+      "unexpected_stop": {},
+      "error": {}
+    },
+    "generated_tokens": {
+      "total": 50638,
+      "mean": 101.276,
+      "min": 76,
+      "median": 97.0,
+      "p95_observed": 111,
+      "max": 115
+    },
+    "generation_seconds": 1501.9080342932866,
+    "record_seconds": 1502.6209180050137
+  }
+]

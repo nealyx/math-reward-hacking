@@ -1,0 +1,192 @@
+{
+  "frozen/full/analyze_full.py": {
+    "source": "experiments/diagnostics/2026-10-16/full/analyze_full.py",
+    "source_sha256": "5b4fc4dbc90be3640935396c2ccf436db2318bc72ca9fcbf61e482cc27c77583",
+    "transform": "byte-identical copy"
+  },
+  "frozen/full/plot_full.py": {
+    "source": "experiments/diagnostics/2026-10-16/full/plot_full.py",
+    "source_sha256": "595726de6897626a797df6efd38afdf8e17de1e19a26bb1064f248b70ee24007",
+    "transform": "byte-identical copy"
+  },
+  "frozen/full/analysis_spec.md": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_spec.md",
+    "source_sha256": "37dcfe68acd63a5427d491ad0ac166ffd8c0d2d731457188d71fe2cfc2a8f99c",
+    "transform": "byte-identical copy"
+  },
+  "frozen/full/run_full.py": {
+    "source": "experiments/diagnostics/2026-10-16/full/run_full.py",
+    "source_sha256": "afcf5b8594490f1c5369fcd0f178158b909777188ac414e76105be6ca0d26420",
+    "transform": "byte-identical copy"
+  },
+  "frozen/full/run_storage.py": {
+    "source": "experiments/diagnostics/2026-10-16/full/run_storage.py",
+    "source_sha256": "fd0d81bbc8047b1526610db7c5db9e056a4a3deaad2d7a894a876553d2848569",
+    "transform": "byte-identical copy"
+  },
+  "frozen/full/verify_full.py": {
+    "source": "experiments/diagnostics/2026-10-16/full/verify_full.py",
+    "source_sha256": "61380ba009c4abbcb46d586cdd92555999567fb2a7accefbdecf932fd24f598e",
+    "transform": "byte-identical copy"
+  },
+  "frozen/pilot/terminal_extractor.py": {
+    "source": "experiments/diagnostics/2026-10-16/pilot/terminal_extractor.py",
+    "source_sha256": "b902feaac9a55f0e770c321590f12f670c1d38f16582e3a6df275518abd7485e",
+    "transform": "byte-identical copy"
+  },
+  "frozen/pilot/extractor_spec.md": {
+    "source": "experiments/diagnostics/2026-10-16/pilot/extractor_spec.md",
+    "source_sha256": "07d47308bb19cc341e0c518dd2981f4b4cc1e3831f804d2799f4f306e5265366",
+    "transform": "byte-identical copy"
+  },
+  "frozen/pilot/test_terminal_extractor.py": {
+    "source": "experiments/diagnostics/2026-10-16/pilot/test_terminal_extractor.py",
+    "source_sha256": "fdd783c87b4531faebdd300f5857251a519774068785d8c34fe158834c89b2e8",
+    "transform": "byte-identical copy"
+  },
+  "frozen/pilot/run_pilot.py": {
+    "source": "experiments/diagnostics/2026-10-16/pilot/run_pilot.py",
+    "source_sha256": "32b73207e87c529ebb36cc62ccd1741a30ab4a7cd5843b93ebe1dc814e9b7316",
+    "transform": "byte-identical copy"
+  },
+  "frozen/audit.py": {
+    "source": "experiments/diagnostics/2026-10-16/audit.py",
+    "source_sha256": "4400e79335fdb3985f5f5db75aa30296c09001c46b196d3c2b140c7386b29d60",
+    "transform": "byte-identical copy"
+  },
+  "frozen/diagnostic_plan.md": {
+    "source": "experiments/diagnostics/2026-10-16/diagnostic_plan.md",
+    "source_sha256": "eb39a3f2109ec46b838220fd090ff1f4421bc2d09552121f4d67ddbd27c9776d",
+    "transform": "byte-identical copy"
+  },
+  "data/development.jsonl": {
+    "source": "experiments/diagnostics/2026-10-16/pilot/preparation/development.jsonl",
+    "source_sha256": "c11092fc2e781be1e33bc2b63a7392f34a3e9dcb9569e3e18dede83930aac1a0",
+    "transform": "byte-identical copy"
+  },
+  "data/generation_configs.json": {
+    "source": "experiments/diagnostics/2026-10-16/pilot/attempts/001_fp16_mps/timing/generation_configs.json",
+    "source_sha256": "8f0e9748c65d424d2b138cfea87e10b63bfc3b6a96b240f57f796403ef6803be",
+    "transform": "byte-identical copy"
+  },
+  "results/cell_metrics.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/cell_metrics.json",
+    "source_sha256": "7c0ac711d789b4cdcf0610a943041f4ea2303beee58118ac0b65b5909287522a",
+    "transform": "byte-identical copy"
+  },
+  "results/cell_metrics.tsv": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/cell_metrics.tsv",
+    "source_sha256": "593e31b14b685ac6e0b901f9776249a2ab23b74fcba4f1be6f44564928e7da5a",
+    "transform": "byte-identical copy"
+  },
+  "results/condition_pairs.tsv": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/condition_pairs.tsv",
+    "source_sha256": "19955750276fee35dbae3aea6f7649b1346fd94e8bd33639e73bf504e6eb38bb",
+    "transform": "byte-identical copy"
+  },
+  "results/condition_contrasts.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/condition_contrasts.json",
+    "source_sha256": "d82f880a96a670975ed5c42198c49712f07888e21ae8c3ebb1a5f46133613328",
+    "transform": "byte-identical copy"
+  },
+  "results/cap_transitions.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/cap_transitions.json",
+    "source_sha256": "b49b2f704048f9b4ff68e9205802c1610255f89fd8891d66ba55d2f67a8fc4c4",
+    "transform": "byte-identical copy"
+  },
+  "results/model_diagnostics.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/model_diagnostics.json",
+    "source_sha256": "a26faede4f0fa244fbdc359b6443eeddd381fc0f77554011270b43bc3ee8e03d",
+    "transform": "byte-identical copy"
+  },
+  "results/policy_sensitivity.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/policy_sensitivity.json",
+    "source_sha256": "b70f855f9742329daceb9bab89a8f3a124284c7232d775d0ec21bb67ceae41cf",
+    "transform": "byte-identical copy"
+  },
+  "results/representative_examples.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/representative_examples.json",
+    "source_sha256": "33561c2f37750bf9cca44a807df686cde06f29bce371651ab791b86dfb0d8604",
+    "transform": "byte-identical copy"
+  },
+  "results/runtime_cells.tsv": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/runtime_cells.tsv",
+    "source_sha256": "59edd73a931c543bee10d5e297a9f2bdaa36aeb3cc33c0e862b117493e428104",
+    "transform": "byte-identical copy"
+  },
+  "figures/accuracy_and_completion.png": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/accuracy_and_completion.png",
+    "source_sha256": "3b01c7bb145f8be25db20ce7e9b893c22a2a032ea9adb4ad1e66f06834ba6abe",
+    "transform": "byte-identical copy"
+  },
+  "figures/accuracy_and_completion.svg": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/accuracy_and_completion.svg",
+    "source_sha256": "2a8a38013145a78c4d7bffe0b14b1e2f69f38f00c76a776bbe271ce482c8c8d6",
+    "transform": "byte-identical copy"
+  },
+  "figures/actual_stopping_reasons.png": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/actual_stopping_reasons.png",
+    "source_sha256": "077c381a0be8c79652559d7f1824b2ea9103f075cafdd7db4f051b6c988ae9fe",
+    "transform": "byte-identical copy"
+  },
+  "figures/actual_stopping_reasons.svg": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/actual_stopping_reasons.svg",
+    "source_sha256": "e54bb390c221cc3f389a93bd827f1074922290cbee8235fbd5a3b04f1ac11e07",
+    "transform": "byte-identical copy"
+  },
+  "figures/all_seed_pair_differences.png": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/all_seed_pair_differences.png",
+    "source_sha256": "6b575ec7c3b6a476f37805802abf9bfda6adcc443046b96674fe4a2d5d64133f",
+    "transform": "byte-identical copy"
+  },
+  "figures/all_seed_pair_differences.svg": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/all_seed_pair_differences.svg",
+    "source_sha256": "70cea6661ce17efcb1744faf82ab04bf3919b6ed5c8494e04822da59c31faf69",
+    "transform": "byte-identical copy"
+  },
+  "figures/exact_seed_202_diagnostic.png": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/exact_seed_202_diagnostic.png",
+    "source_sha256": "dcabb55ad5055f8ee6619b8b34fd0a7c1d420afd2c895d252e228a1d4ecb07a3",
+    "transform": "byte-identical copy"
+  },
+  "figures/exact_seed_202_diagnostic.svg": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/exact_seed_202_diagnostic.svg",
+    "source_sha256": "e31b14f1f45238ff398a4f7858b40b462701a8b676c5882cd4a606629f71f1ac",
+    "transform": "byte-identical copy"
+  },
+  "figures/extraction_policy_sensitivity.png": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/extraction_policy_sensitivity.png",
+    "source_sha256": "7866091536046f21315c7e7b552fda727d46766ab3537a266f4e343c664676c7",
+    "transform": "byte-identical copy"
+  },
+  "figures/extraction_policy_sensitivity.svg": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/extraction_policy_sensitivity.svg",
+    "source_sha256": "2afce05892fe747079e40f94acd240cfa6cb21d75eeb97f84064c7fff48a85ea",
+    "transform": "byte-identical copy"
+  },
+  "figures/leave_one_pair_out.png": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/leave_one_pair_out.png",
+    "source_sha256": "fb15b1ada95f3ab330b99b6292323d391255d174aaff72f7e419e76d12315a6a",
+    "transform": "byte-identical copy"
+  },
+  "figures/leave_one_pair_out.svg": {
+    "source": "experiments/diagnostics/2026-10-16/full/figures_001/leave_one_pair_out.svg",
+    "source_sha256": "046d422723d367b13186f4073293c677ffa4305d6cd156efeacc42a214c5a854",
+    "transform": "byte-identical copy"
+  },
+  "data/responses.jsonl.gz": {
+    "source": "experiments/diagnostics/2026-10-16/full/records/*.jsonl",
+    "transform": "Original canonical JSONL bytes concatenated in filename order; deterministic gzip header (mtime=0). No record fields removed or changed.",
+    "per_record_sha256": "provenance/record_sha256.json"
+  },
+  "examples.md": {
+    "source": "experiments/diagnostics/2026-10-16/full/failure_examples.md",
+    "source_sha256": "5300933667ef026e6a5a6c0542d4cb212990d570ef656405614d94afd00e9e90",
+    "transform": "Only the relative JSON link is redirected to the public copy; all selected examples unchanged."
+  },
+  "data/fallback_blind_packet.json": {
+    "source": "experiments/diagnostics/2026-10-16/full/analysis_001/fallback_blind_packet.json",
+    "source_sha256": "ed4166265d5a9dcd090cb838dafa94d18080ddd97d1c8ef3eb602c388978cae2",
+    "transform": "byte-identical copy"
+  }
+}

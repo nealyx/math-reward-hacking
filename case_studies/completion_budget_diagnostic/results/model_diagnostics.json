@@ -1,0 +1,7814 @@
+[
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.07,
+    "ci95": [
+      -0.1,
+      -0.042
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": -0.007067137809187279,
+      "ci95": [
+        -0.03180212014134275,
+        0.0176678445229682
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.254,
+    "ci95": [
+      -0.296,
+      -0.212
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": -0.007067137809187279,
+      "ci95": [
+        -0.0176678445229682,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.184,
+    "ci95": [
+      -0.228,
+      -0.14
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": 0.0,
+      "ci95": [
+        -0.024734982332155476,
+        0.024734982332155476
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.074,
+    "ci95": [
+      -0.104,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": -0.007142857142857143,
+      "ci95": [
+        -0.03214285714285714,
+        0.017857142857142856
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.35,
+    "ci95": [
+      -0.396,
+      -0.304
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": -0.007142857142857143,
+      "ci95": [
+        -0.017857142857142856,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.276,
+    "ci95": [
+      -0.32,
+      -0.234
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": 0.0,
+      "ci95": [
+        -0.025,
+        0.025
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.346,
+    "ci95": [
+      -0.392,
+      -0.3
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.006,
+    "ci95": [
+      -0.014,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.03,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.012,
+    "ci95": [
+      -0.022,
+      -0.004
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.03,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.016,
+    "ci95": [
+      -0.038,
+      0.004
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": -0.01417004048582996,
+      "ci95": [
+        -0.03643724696356275,
+        0.006072874493927126
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.002,
+    "ci95": [
+      -0.016,
+      0.012
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0020242914979757085,
+      "ci95": [
+        -0.010121457489878543,
+        0.01417004048582996
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.014,
+    "ci95": [
+      -0.01,
+      0.038
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.016194331983805668,
+      "ci95": [
+        -0.006072874493927126,
+        0.038461538461538464
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.046,
+      0.002
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": -0.017057569296375266,
+      "ci95": [
+        -0.03837953091684435,
+        0.0042643923240938165
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.012,
+    "ci95": [
+      -0.036,
+      0.012
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0021321961620469083,
+      "ci95": [
+        -0.010660980810234541,
+        0.014925373134328358
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.01,
+    "ci95": [
+      -0.018,
+      0.038
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.019189765458422176,
+      "ci95": [
+        -0.0042643923240938165,
+        0.042643923240938165
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.014,
+    "ci95": [
+      -0.036,
+      0.008
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.004,
+    "ci95": [
+      -0.012,
+      0.004
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.014,
+    "ci95": [
+      -0.028,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.01,
+    "ci95": [
+      -0.022,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.014,
+    "ci95": [
+      -0.028,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.014,
+    "ci95": [
+      -0.036,
+      0.006
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": -0.014028056112224449,
+      "ci95": [
+        -0.036072144288577156,
+        0.008016032064128256
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.002,
+    "ci95": [
+      -0.014,
+      0.01
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.0,
+      "ci95": [
+        -0.012024048096192385,
+        0.012024048096192385
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.012,
+    "ci95": [
+      -0.012,
+      0.034
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.014028056112224449,
+      "ci95": [
+        -0.008016032064128256,
+        0.03807615230460922
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.02,
+    "ci95": [
+      -0.044,
+      0.004
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": -0.016877637130801686,
+      "ci95": [
+        -0.0379746835443038,
+        0.004219409282700422
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.008,
+    "ci95": [
+      -0.032,
+      0.016
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": 0.0,
+      "ci95": [
+        -0.012658227848101266,
+        0.012658227848101266
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.012,
+    "ci95": [
+      -0.014049999999999955,
+      0.038
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": 0.016877637130801686,
+      "ci95": [
+        -0.006329113924050633,
+        0.04008438818565401
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.008,
+    "ci95": [
+      -0.028,
+      0.012
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.004,
+    "ci95": [
+      -0.012,
+      0.004
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.014,
+    "ci95": [
+      -0.028,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.01,
+    "ci95": [
+      -0.02,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_201",
+    "model": "robust_202",
+    "references": [
+      "robust_201"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.014,
+    "ci95": [
+      -0.028,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.07,
+    "ci95": [
+      -0.1,
+      -0.042
+    ],
+    "common_accepted_eos": {
+      "n": 292,
+      "estimate": 0.0136986301369863,
+      "ci95": [
+        -0.0136986301369863,
+        0.04452054794520548
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.274,
+    "ci95": [
+      -0.316,
+      -0.234
+    ],
+    "common_accepted_eos": {
+      "n": 292,
+      "estimate": 0.0,
+      "ci95": [
+        -0.010273972602739725,
+        0.010273972602739725
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.204,
+    "ci95": [
+      -0.248,
+      -0.16
+    ],
+    "common_accepted_eos": {
+      "n": 292,
+      "estimate": -0.0136986301369863,
+      "ci95": [
+        -0.04452054794520548,
+        0.017123287671232876
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 292,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.084,
+    "ci95": [
+      -0.114,
+      -0.054
+    ],
+    "common_accepted_eos": {
+      "n": 290,
+      "estimate": 0.006896551724137931,
+      "ci95": [
+        -0.020689655172413793,
+        0.034482758620689655
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.384,
+    "ci95": [
+      -0.428,
+      -0.34
+    ],
+    "common_accepted_eos": {
+      "n": 290,
+      "estimate": 0.0,
+      "ci95": [
+        -0.010344827586206896,
+        0.010344827586206896
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.3,
+    "ci95": [
+      -0.344,
+      -0.256
+    ],
+    "common_accepted_eos": {
+      "n": 290,
+      "estimate": -0.006896551724137931,
+      "ci95": [
+        -0.03793103448275862,
+        0.02413793103448276
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.386,
+    "ci95": [
+      -0.43,
+      -0.342
+    ],
+    "common_accepted_eos": {
+      "n": 290,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.034,
+    "ci95": [
+      -0.05,
+      -0.02
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.108,
+    "ci95": [
+      -0.136,
+      -0.082
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.074,
+    "ci95": [
+      -0.098,
+      -0.052
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.11,
+    "ci95": [
+      -0.138,
+      -0.084
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.008,
+    "ci95": [
+      -0.03,
+      0.014
+    ],
+    "common_accepted_eos": {
+      "n": 495,
+      "estimate": -0.006060606060606061,
+      "ci95": [
+        -0.028282828282828285,
+        0.01616161616161616
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.006,
+    "ci95": [
+      -0.018,
+      0.006
+    ],
+    "common_accepted_eos": {
+      "n": 495,
+      "estimate": 0.0,
+      "ci95": [
+        -0.010101010101010102,
+        0.010101010101010102
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.002,
+    "ci95": [
+      -0.022,
+      0.026
+    ],
+    "common_accepted_eos": {
+      "n": 495,
+      "estimate": 0.006060606060606061,
+      "ci95": [
+        -0.01616161616161616,
+        0.028282828282828285
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 495,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.026,
+    "ci95": [
+      -0.05,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 478,
+      "estimate": -0.008368200836820083,
+      "ci95": [
+        -0.03138075313807531,
+        0.012552301255230125
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.032,
+    "ci95": [
+      -0.054,
+      -0.012
+    ],
+    "common_accepted_eos": {
+      "n": 478,
+      "estimate": 0.0,
+      "ci95": [
+        -0.010460251046025104,
+        0.010460251046025104
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.006,
+    "ci95": [
+      -0.032,
+      0.02
+    ],
+    "common_accepted_eos": {
+      "n": 478,
+      "estimate": 0.008368200836820083,
+      "ci95": [
+        -0.014644351464435146,
+        0.03138075313807531
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.032,
+    "ci95": [
+      -0.05,
+      -0.014
+    ],
+    "common_accepted_eos": {
+      "n": 478,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.032,
+    "ci95": [
+      -0.05,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.106,
+    "ci95": [
+      -0.134,
+      -0.08
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.074,
+    "ci95": [
+      -0.098,
+      -0.05
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.108,
+    "ci95": [
+      -0.136,
+      -0.08
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.006,
+    "ci95": [
+      -0.028,
+      0.016
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": -0.006012024048096192,
+      "ci95": [
+        -0.028056112224448898,
+        0.01603206412825651
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.004,
+    "ci95": [
+      -0.016,
+      0.008
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": -0.002004008016032064,
+      "ci95": [
+        -0.012024048096192385,
+        0.008016032064128256
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.002,
+    "ci95": [
+      -0.022,
+      0.026
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.004008016032064128,
+      "ci95": [
+        -0.018036072144288578,
+        0.026052104208416832
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.024,
+    "ci95": [
+      -0.048,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 482,
+      "estimate": -0.008298755186721992,
+      "ci95": [
+        -0.03112033195020747,
+        0.014522821576763486
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.026,
+    "ci95": [
+      -0.046,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 482,
+      "estimate": -0.002074688796680498,
+      "ci95": [
+        -0.012448132780082987,
+        0.008298755186721992
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.002,
+    "ci95": [
+      -0.028,
+      0.024
+    ],
+    "common_accepted_eos": {
+      "n": 482,
+      "estimate": 0.006224066390041493,
+      "ci95": [
+        -0.016597510373443983,
+        0.029045643153526972
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.024,
+    "ci95": [
+      -0.042,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 482,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.032,
+    "ci95": [
+      -0.05,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.106,
+    "ci95": [
+      -0.134,
+      -0.078
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.074,
+    "ci95": [
+      -0.098,
+      -0.05
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_Exact_203",
+    "model": "robust_202",
+    "references": [
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.108,
+    "ci95": [
+      -0.138,
+      -0.08
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.07,
+    "ci95": [
+      -0.097,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": 0.0017667844522968198,
+      "ci95": [
+        -0.02120141342756184,
+        0.024734982332155476
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.264,
+    "ci95": [
+      -0.304,
+      -0.225
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": -0.0035335689045936395,
+      "ci95": [
+        -0.012367491166077738,
+        0.0035335689045936395
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.194,
+    "ci95": [
+      -0.236,
+      -0.152
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": -0.00530035335689046,
+      "ci95": [
+        -0.030035335689045935,
+        0.0176678445229682
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 283,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.079,
+    "ci95": [
+      -0.10702499999999998,
+      -0.051
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": -0.0017857142857142857,
+      "ci95": [
+        -0.023214285714285715,
+        0.02142857142857143
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.367,
+    "ci95": [
+      -0.41,
+      -0.324
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": -0.0035714285714285713,
+      "ci95": [
+        -0.014285714285714285,
+        0.0035714285714285713
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.288,
+    "ci95": [
+      -0.33,
+      -0.246
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": -0.0017857142857142857,
+      "ci95": [
+        -0.026785714285714284,
+        0.02142857142857143
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.366,
+    "ci95": [
+      -0.41,
+      -0.323
+    ],
+    "common_accepted_eos": {
+      "n": 280,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.02,
+    "ci95": [
+      -0.03,
+      -0.012
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.063,
+    "ci95": [
+      -0.079,
+      -0.048
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.043,
+    "ci95": [
+      -0.057,
+      -0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.064,
+    "ci95": [
+      -0.08,
+      -0.049
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.012,
+    "ci95": [
+      -0.031,
+      0.007
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": -0.010121457489878543,
+      "ci95": [
+        -0.02834008097165992,
+        0.008097165991902834
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.004,
+    "ci95": [
+      -0.016,
+      0.007
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0010121457489878543,
+      "ci95": [
+        -0.008097165991902834,
+        0.010121457489878543
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.008,
+    "ci95": [
+      -0.013,
+      0.029
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.011133603238866396,
+      "ci95": [
+        -0.008097165991902834,
+        0.030364372469635626
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.024,
+    "ci95": [
+      -0.046,
+      -0.003
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": -0.013859275053304905,
+      "ci95": [
+        -0.03304904051172708,
+        0.005330490405117271
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.043,
+      -0.001
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0010660980810234541,
+      "ci95": [
+        -0.008528784648187633,
+        0.010660980810234541
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.002,
+    "ci95": [
+      -0.022,
+      0.026
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.014925373134328358,
+      "ci95": [
+        -0.005330490405117271,
+        0.035181236673773986
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.023,
+    "ci95": [
+      -0.042,
+      -0.005
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.028,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.06,
+    "ci95": [
+      -0.077,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.042,
+    "ci95": [
+      -0.056,
+      -0.029
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.061,
+    "ci95": [
+      -0.078,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.01,
+    "ci95": [
+      -0.03,
+      0.009
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": -0.01002004008016032,
+      "ci95": [
+        -0.02905811623246493,
+        0.01002004008016032
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.003,
+    "ci95": [
+      -0.014,
+      0.007
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": -0.001002004008016032,
+      "ci95": [
+        -0.011047094188376731,
+        0.008016032064128256
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.007,
+    "ci95": [
+      -0.013,
+      0.028
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.009018036072144289,
+      "ci95": [
+        -0.011022044088176353,
+        0.02905811623246493
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.044,
+      -0.001
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": -0.013713080168776372,
+      "ci95": [
+        -0.03375527426160337,
+        0.005274261603375527
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.017,
+    "ci95": [
+      -0.037,
+      0.003
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": -0.0010548523206751054,
+      "ci95": [
+        -0.012658227848101266,
+        0.008438818565400843
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.005,
+    "ci95": [
+      -0.018,
+      0.028
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": 0.012658227848101266,
+      "ci95": [
+        -0.007383966244725738,
+        0.03270042194092827
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.016,
+    "ci95": [
+      -0.034,
+      0.001
+    ],
+    "common_accepted_eos": {
+      "n": 474,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.028,
+      -0.009
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.06,
+    "ci95": [
+      -0.077,
+      -0.043
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.042,
+    "ci95": [
+      -0.056,
+      -0.028
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "Exact_202_minus_mean_Exact_201_203",
+    "model": "robust_202",
+    "references": [
+      "robust_201",
+      "robust_203"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.061,
+    "ci95": [
+      -0.078,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.214,
+    "ci95": [
+      0.178,
+      0.252
+    ],
+    "common_accepted_eos": {
+      "n": 228,
+      "estimate": 0.02631578947368421,
+      "ci95": [
+        0.0043859649122807015,
+        0.05263157894736842
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.38,
+    "ci95": [
+      0.334,
+      0.424
+    ],
+    "common_accepted_eos": {
+      "n": 228,
+      "estimate": 0.008771929824561403,
+      "ci95": [
+        0.0,
+        0.021929824561403508
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.166,
+    "ci95": [
+      0.116,
+      0.216
+    ],
+    "common_accepted_eos": {
+      "n": 228,
+      "estimate": -0.017543859649122806,
+      "ci95": [
+        -0.043859649122807015,
+        0.008771929824561403
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 228,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.218,
+    "ci95": [
+      0.182,
+      0.254
+    ],
+    "common_accepted_eos": {
+      "n": 225,
+      "estimate": 0.02666666666666667,
+      "ci95": [
+        0.0044444444444444444,
+        0.05333333333333334
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.46,
+    "ci95": [
+      0.412,
+      0.508
+    ],
+    "common_accepted_eos": {
+      "n": 225,
+      "estimate": 0.0044444444444444444,
+      "ci95": [
+        0.0,
+        0.013333333333333334
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.242,
+    "ci95": [
+      0.198,
+      0.286
+    ],
+    "common_accepted_eos": {
+      "n": 225,
+      "estimate": -0.022222222222222223,
+      "ci95": [
+        -0.04888888888888889,
+        0.0044444444444444444
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.458,
+    "ci95": [
+      0.412,
+      0.506
+    ],
+    "common_accepted_eos": {
+      "n": 225,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.006,
+    "ci95": [
+      0.0,
+      0.014
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.018,
+    "ci95": [
+      0.008,
+      0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.012,
+    "ci95": [
+      0.004,
+      0.022
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.018,
+    "ci95": [
+      0.008,
+      0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.004,
+    "ci95": [
+      -0.036,
+      0.028
+    ],
+    "common_accepted_eos": {
+      "n": 468,
+      "estimate": -0.00641025641025641,
+      "ci95": [
+        -0.038461538461538464,
+        0.023504273504273504
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.078,
+    "ci95": [
+      0.052,
+      0.106
+    ],
+    "common_accepted_eos": {
+      "n": 468,
+      "estimate": 0.05128205128205128,
+      "ci95": [
+        0.027777777777777776,
+        0.07478632478632478
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.082,
+    "ci95": [
+      0.044,
+      0.12
+    ],
+    "common_accepted_eos": {
+      "n": 468,
+      "estimate": 0.057692307692307696,
+      "ci95": [
+        0.021367521367521368,
+        0.09401709401709402
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 468,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      -0.032,
+      0.032
+    ],
+    "common_accepted_eos": {
+      "n": 457,
+      "estimate": -0.006564551422319475,
+      "ci95": [
+        -0.037199124726477024,
+        0.024070021881838075
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.086,
+    "ci95": [
+      0.054,
+      0.12
+    ],
+    "common_accepted_eos": {
+      "n": 457,
+      "estimate": 0.05032822757111598,
+      "ci95": [
+        0.0262582056892779,
+        0.07658643326039387
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.086,
+    "ci95": [
+      0.046,
+      0.126
+    ],
+    "common_accepted_eos": {
+      "n": 457,
+      "estimate": 0.05689277899343545,
+      "ci95": [
+        0.019693654266958426,
+        0.09409190371991247
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.038,
+    "ci95": [
+      0.014,
+      0.064
+    ],
+    "common_accepted_eos": {
+      "n": 457,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.024,
+    "ci95": [
+      -0.042,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.052,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.006,
+    "ci95": [
+      -0.02,
+      0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.048,
+    "ci95": [
+      -0.074,
+      -0.024
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.054,
+      0.008
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": -0.022,
+      "ci95": [
+        -0.054,
+        0.008
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.056,
+    "ci95": [
+      0.032,
+      0.08
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.056,
+      "ci95": [
+        0.032,
+        0.082
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.078,
+    "ci95": [
+      0.042,
+      0.116
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.078,
+      "ci95": [
+        0.042,
+        0.114
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.064,
+      0.002
+    ],
+    "common_accepted_eos": {
+      "n": 489,
+      "estimate": -0.022494887525562373,
+      "ci95": [
+        -0.05521472392638037,
+        0.010224948875255624
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.036,
+    "ci95": [
+      0.01,
+      0.062
+    ],
+    "common_accepted_eos": {
+      "n": 489,
+      "estimate": 0.05521472392638037,
+      "ci95": [
+        0.032719836400818,
+        0.07975460122699386
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.066,
+    "ci95": [
+      0.028,
+      0.104
+    ],
+    "common_accepted_eos": {
+      "n": 489,
+      "estimate": 0.07770961145194274,
+      "ci95": [
+        0.0408997955010225,
+        0.1165644171779141
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.03,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 489,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.046,
+    "ci95": [
+      -0.068,
+      -0.026
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.068,
+    "ci95": [
+      -0.096,
+      -0.042
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.04,
+      -0.004
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_201_minus_Base",
+    "model": "robust_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.088,
+    "ci95": [
+      -0.118,
+      -0.06
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.194,
+    "ci95": [
+      0.158,
+      0.23004999999999928
+    ],
+    "common_accepted_eos": {
+      "n": 237,
+      "estimate": 0.004219409282700422,
+      "ci95": [
+        -0.02109704641350211,
+        0.03375527426160337
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.406,
+    "ci95": [
+      0.36,
+      0.452
+    ],
+    "common_accepted_eos": {
+      "n": 237,
+      "estimate": -0.008438818565400843,
+      "ci95": [
+        -0.02531645569620253,
+        0.008438818565400843
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.212,
+    "ci95": [
+      0.162,
+      0.2600499999999993
+    ],
+    "common_accepted_eos": {
+      "n": 237,
+      "estimate": -0.012658227848101266,
+      "ci95": [
+        -0.046413502109704644,
+        0.02109704641350211
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 237,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.21,
+    "ci95": [
+      0.174,
+      0.248
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": 0.00425531914893617,
+      "ci95": [
+        -0.02127659574468085,
+        0.029787234042553193
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.5,
+    "ci95": [
+      0.456,
+      0.546
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": -0.01276595744680851,
+      "ci95": [
+        -0.029787234042553193,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.29,
+    "ci95": [
+      0.246,
+      0.334
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": -0.01702127659574468,
+      "ci95": [
+        -0.04680851063829787,
+        0.01276595744680851
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.51,
+    "ci95": [
+      0.466,
+      0.554
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.04,
+    "ci95": [
+      -0.074,
+      -0.006
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": -0.03837953091684435,
+      "ci95": [
+        -0.07249466950959488,
+        -0.0042643923240938165
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.076,
+    "ci95": [
+      0.05,
+      0.102
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.04904051172707889,
+      "ci95": [
+        0.02771855010660981,
+        0.07249466950959488
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.116,
+    "ci95": [
+      0.076,
+      0.156
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.08742004264392324,
+      "ci95": [
+        0.04904051172707889,
+        0.1257995735607676
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.054,
+      0.01
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": -0.03017241379310345,
+      "ci95": [
+        -0.06465517241379311,
+        0.0021551724137931034
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.094,
+    "ci95": [
+      0.064,
+      0.124
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.04741379310344827,
+      "ci95": [
+        0.02586206896551724,
+        0.07112068965517242
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.116,
+    "ci95": [
+      0.076,
+      0.156
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.07758620689655173,
+      "ci95": [
+        0.03879310344827586,
+        0.11637931034482758
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.05,
+    "ci95": [
+      0.03,
+      0.072
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.046,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.048,
+    "ci95": [
+      -0.068,
+      -0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.03,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.066,
+    "ci95": [
+      -0.088,
+      -0.046
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.058,
+    "ci95": [
+      -0.092,
+      -0.024
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": -0.058,
+      "ci95": [
+        -0.092,
+        -0.024
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.052,
+    "ci95": [
+      0.03,
+      0.076
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.052,
+      "ci95": [
+        0.03,
+        0.074
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.11,
+    "ci95": [
+      0.07,
+      0.15
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.11,
+      "ci95": [
+        0.072,
+        0.148
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.052,
+    "ci95": [
+      -0.086,
+      -0.018
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": -0.048582995951417005,
+      "ci95": [
+        -0.08299595141700405,
+        -0.01417004048582996
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.042,
+    "ci95": [
+      0.018,
+      0.066
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.05060728744939271,
+      "ci95": [
+        0.02834008097165992,
+        0.0728744939271255
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.094,
+    "ci95": [
+      0.058,
+      0.132
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.09919028340080972,
+      "ci95": [
+        0.06072874493927125,
+        0.13765182186234817
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.008,
+    "ci95": [
+      -0.016,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.052,
+    "ci95": [
+      -0.072,
+      -0.034
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.086,
+    "ci95": [
+      -0.112,
+      -0.062
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.034,
+    "ci95": [
+      -0.05,
+      -0.02
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_201_minus_Base",
+    "model": "proxy_201",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.106,
+    "ci95": [
+      -0.134,
+      -0.08
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.144,
+    "ci95": [
+      0.11,
+      0.18
+    ],
+    "common_accepted_eos": {
+      "n": 130,
+      "estimate": 0.03076923076923077,
+      "ci95": [
+        0.007692307692307693,
+        0.06153846153846154
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.126,
+    "ci95": [
+      0.066,
+      0.186
+    ],
+    "common_accepted_eos": {
+      "n": 130,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.078,
+      0.042
+    ],
+    "common_accepted_eos": {
+      "n": 130,
+      "estimate": -0.03076923076923077,
+      "ci95": [
+        -0.06153846153846154,
+        -0.007692307692307693
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 130,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.144,
+    "ci95": [
+      0.108,
+      0.18
+    ],
+    "common_accepted_eos": {
+      "n": 129,
+      "estimate": 0.031007751937984496,
+      "ci95": [
+        0.007751937984496124,
+        0.06201550387596899
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.11,
+    "ci95": [
+      0.046,
+      0.174
+    ],
+    "common_accepted_eos": {
+      "n": 129,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.034,
+    "ci95": [
+      -0.086,
+      0.018
+    ],
+    "common_accepted_eos": {
+      "n": 129,
+      "estimate": -0.031007751937984496,
+      "ci95": [
+        -0.06201550387596899,
+        -0.007751937984496124
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.112,
+    "ci95": [
+      0.05,
+      0.176
+    ],
+    "common_accepted_eos": {
+      "n": 129,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.02,
+    "ci95": [
+      -0.052,
+      0.012
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": -0.021551724137931036,
+      "ci95": [
+        -0.05172413793103448,
+        0.008620689655172414
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.076,
+    "ci95": [
+      0.05,
+      0.102
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.05387931034482758,
+      "ci95": [
+        0.032327586206896554,
+        0.07758620689655173
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.096,
+    "ci95": [
+      0.06,
+      0.134
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.07543103448275862,
+      "ci95": [
+        0.040948275862068964,
+        0.10991379310344827
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.022,
+    "ci95": [
+      -0.054,
+      0.01
+    ],
+    "common_accepted_eos": {
+      "n": 448,
+      "estimate": -0.020089285714285716,
+      "ci95": [
+        -0.05357142857142857,
+        0.013392857142857142
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.074,
+    "ci95": [
+      0.04,
+      0.108
+    ],
+    "common_accepted_eos": {
+      "n": 448,
+      "estimate": 0.049107142857142856,
+      "ci95": [
+        0.029017857142857144,
+        0.07142857142857142
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.096,
+    "ci95": [
+      0.058,
+      0.134
+    ],
+    "common_accepted_eos": {
+      "n": 448,
+      "estimate": 0.06919642857142858,
+      "ci95": [
+        0.03571428571428571,
+        0.10491071428571429
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.024,
+    "ci95": [
+      -0.002,
+      0.052
+    ],
+    "common_accepted_eos": {
+      "n": 448,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.028,
+    "ci95": [
+      -0.044,
+      -0.014
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.044,
+    "ci95": [
+      -0.064,
+      -0.026
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.016,
+    "ci95": [
+      -0.028,
+      -0.004
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.062,
+    "ci95": [
+      -0.086,
+      -0.04
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.036,
+    "ci95": [
+      -0.068,
+      -0.004
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": -0.036072144288577156,
+      "ci95": [
+        -0.06813627254509018,
+        -0.002004008016032064
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.054,
+    "ci95": [
+      0.032,
+      0.076
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.056112224448897796,
+      "ci95": [
+        0.03406813627254509,
+        0.0781563126252505
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.09,
+    "ci95": [
+      0.054,
+      0.126
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.09218436873747494,
+      "ci95": [
+        0.056112224448897796,
+        0.1282565130260521
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 499,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.05,
+    "ci95": [
+      -0.084,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 483,
+      "estimate": -0.035196687370600416,
+      "ci95": [
+        -0.06832298136645963,
+        -0.002070393374741201
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.028,
+    "ci95": [
+      0.002,
+      0.056
+    ],
+    "common_accepted_eos": {
+      "n": 483,
+      "estimate": 0.051759834368530024,
+      "ci95": [
+        0.031055900621118012,
+        0.07453416149068323
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.078,
+    "ci95": [
+      0.042,
+      0.114
+    ],
+    "common_accepted_eos": {
+      "n": 483,
+      "estimate": 0.08695652173913043,
+      "ci95": [
+        0.051759834368530024,
+        0.12215320910973085
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.026,
+    "ci95": [
+      -0.042,
+      -0.01
+    ],
+    "common_accepted_eos": {
+      "n": 483,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.05,
+    "ci95": [
+      -0.07,
+      -0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.082,
+    "ci95": [
+      -0.108,
+      -0.058
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.032,
+    "ci95": [
+      -0.05,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_202_minus_Base",
+    "model": "robust_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.102,
+    "ci95": [
+      -0.13,
+      -0.076
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.204,
+    "ci95": [
+      0.168,
+      0.242
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": 0.01680672268907563,
+      "ci95": [
+        -0.008403361344537815,
+        0.04201680672268908
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.416,
+    "ci95": [
+      0.372,
+      0.46
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": 0.0,
+      "ci95": [
+        -0.01680672268907563,
+        0.01680672268907563
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.212,
+    "ci95": [
+      0.162,
+      0.26
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": -0.01680672268907563,
+      "ci95": [
+        -0.05042016806722689,
+        0.012605042016806723
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.222,
+    "ci95": [
+      0.184,
+      0.26
+    ],
+    "common_accepted_eos": {
+      "n": 233,
+      "estimate": 0.017167381974248927,
+      "ci95": [
+        -0.008583690987124463,
+        0.04291845493562232
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.5,
+    "ci95": [
+      0.454,
+      0.544
+    ],
+    "common_accepted_eos": {
+      "n": 233,
+      "estimate": -0.004291845493562232,
+      "ci95": [
+        -0.02145922746781116,
+        0.008583690987124463
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.278,
+    "ci95": [
+      0.236,
+      0.322
+    ],
+    "common_accepted_eos": {
+      "n": 233,
+      "estimate": -0.02145922746781116,
+      "ci95": [
+        -0.05150214592274678,
+        0.008583690987124463
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.502,
+    "ci95": [
+      0.456,
+      0.546
+    ],
+    "common_accepted_eos": {
+      "n": 233,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.064,
+      0.004
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": -0.029850746268656716,
+      "ci95": [
+        -0.06396588486140725,
+        0.0042643923240938165
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.084,
+    "ci95": [
+      0.058,
+      0.11
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.05543710021321962,
+      "ci95": [
+        0.03411513859275053,
+        0.07889125799573561
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.114,
+    "ci95": [
+      0.074,
+      0.154
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.08528784648187633,
+      "ci95": [
+        0.046908315565031986,
+        0.12366737739872068
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.01,
+    "ci95": [
+      -0.042,
+      0.022
+    ],
+    "common_accepted_eos": {
+      "n": 459,
+      "estimate": -0.017429193899782137,
+      "ci95": [
+        -0.05228758169934641,
+        0.015250544662309368
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.094,
+    "ci95": [
+      0.064,
+      0.126
+    ],
+    "common_accepted_eos": {
+      "n": 459,
+      "estimate": 0.054466230936819175,
+      "ci95": [
+        0.032679738562091505,
+        0.0784313725490196
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.104,
+    "ci95": [
+      0.064,
+      0.146
+    ],
+    "common_accepted_eos": {
+      "n": 459,
+      "estimate": 0.0718954248366013,
+      "ci95": [
+        0.032679738562091505,
+        0.1111111111111111
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.042,
+    "ci95": [
+      0.02,
+      0.066
+    ],
+    "common_accepted_eos": {
+      "n": 459,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.046,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.048,
+    "ci95": [
+      -0.068,
+      -0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.03,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.066,
+    "ci95": [
+      -0.088,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.048,
+    "ci95": [
+      -0.082,
+      -0.014
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": -0.048,
+      "ci95": [
+        -0.082,
+        -0.014
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.06,
+    "ci95": [
+      0.038,
+      0.084
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.06,
+      "ci95": [
+        0.038,
+        0.084
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.108,
+    "ci95": [
+      0.07,
+      0.148
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.108,
+      "ci95": [
+        0.07,
+        0.148
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.04,
+    "ci95": [
+      -0.074,
+      -0.006
+    ],
+    "common_accepted_eos": {
+      "n": 490,
+      "estimate": -0.036734693877551024,
+      "ci95": [
+        -0.06938775510204082,
+        -0.004081632653061225
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.042,
+    "ci95": [
+      0.018,
+      0.068
+    ],
+    "common_accepted_eos": {
+      "n": 490,
+      "estimate": 0.05918367346938776,
+      "ci95": [
+        0.036734693877551024,
+        0.0836734693877551
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.082,
+    "ci95": [
+      0.042,
+      0.122
+    ],
+    "common_accepted_eos": {
+      "n": 490,
+      "estimate": 0.09591836734693877,
+      "ci95": [
+        0.05714285714285714,
+        0.1346938775510204
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.016,
+    "ci95": [
+      -0.028,
+      -0.006
+    ],
+    "common_accepted_eos": {
+      "n": 490,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.052,
+    "ci95": [
+      -0.072,
+      -0.034
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.086,
+    "ci95": [
+      -0.11004999999999995,
+      -0.062
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.034,
+    "ci95": [
+      -0.052,
+      -0.02
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_202_minus_Base",
+    "model": "proxy_202",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.106,
+    "ci95": [
+      -0.134,
+      -0.08
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.214,
+    "ci95": [
+      0.176,
+      0.252
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": 0.01276595744680851,
+      "ci95": [
+        -0.01276595744680851,
+        0.0425531914893617
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.4,
+    "ci95": [
+      0.356,
+      0.444
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": 0.0,
+      "ci95": [
+        -0.01276595744680851,
+        0.01276595744680851
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.186,
+    "ci95": [
+      0.138,
+      0.234
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": -0.01276595744680851,
+      "ci95": [
+        -0.0425531914893617,
+        0.01702127659574468
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 235,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.228,
+    "ci95": [
+      0.19,
+      0.268
+    ],
+    "common_accepted_eos": {
+      "n": 232,
+      "estimate": 0.01293103448275862,
+      "ci95": [
+        -0.017241379310344827,
+        0.04310344827586207
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.494,
+    "ci95": [
+      0.45,
+      0.54
+    ],
+    "common_accepted_eos": {
+      "n": 232,
+      "estimate": -0.004310344827586207,
+      "ci95": [
+        -0.01293103448275862,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.266,
+    "ci95": [
+      0.224,
+      0.31
+    ],
+    "common_accepted_eos": {
+      "n": 232,
+      "estimate": -0.017241379310344827,
+      "ci95": [
+        -0.04741379310344827,
+        0.01293103448275862
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.498,
+    "ci95": [
+      0.452,
+      0.5420499999999993
+    ],
+    "common_accepted_eos": {
+      "n": 232,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.034,
+    "ci95": [
+      0.02,
+      0.05
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.108,
+    "ci95": [
+      0.082,
+      0.136
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.074,
+    "ci95": [
+      0.052,
+      0.098
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.11,
+    "ci95": [
+      0.084,
+      0.138
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.012,
+    "ci95": [
+      -0.046,
+      0.022
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": -0.01279317697228145,
+      "ci95": [
+        -0.04477611940298507,
+        0.021321961620469083
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.082,
+    "ci95": [
+      0.058,
+      0.108
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.053304904051172705,
+      "ci95": [
+        0.031982942430703626,
+        0.0767590618336887
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.094,
+    "ci95": [
+      0.054,
+      0.132
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.06609808102345416,
+      "ci95": [
+        0.029850746268656716,
+        0.1023454157782516
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.004,
+    "ci95": [
+      -0.028,
+      0.036
+    ],
+    "common_accepted_eos": {
+      "n": 466,
+      "estimate": -0.01072961373390558,
+      "ci95": [
+        -0.04291845493562232,
+        0.023605150214592276
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.106,
+    "ci95": [
+      0.078,
+      0.136
+    ],
+    "common_accepted_eos": {
+      "n": 466,
+      "estimate": 0.05150214592274678,
+      "ci95": [
+        0.030042918454935622,
+        0.07510729613733906
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.102,
+    "ci95": [
+      0.062,
+      0.14
+    ],
+    "common_accepted_eos": {
+      "n": 466,
+      "estimate": 0.06223175965665236,
+      "ci95": [
+        0.02575107296137339,
+        0.10085836909871244
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.056,
+    "ci95": [
+      0.036,
+      0.078
+    ],
+    "common_accepted_eos": {
+      "n": 466,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.004,
+    "ci95": [
+      -0.018,
+      0.026
+    ],
+    "common_accepted_eos": {
+      "n": 4,
+      "estimate": 0.5,
+      "ci95": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.062,
+    "ci95": [
+      0.03,
+      0.096
+    ],
+    "common_accepted_eos": {
+      "n": 4,
+      "estimate": 0.5,
+      "ci95": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.058,
+    "ci95": [
+      0.032,
+      0.084
+    ],
+    "common_accepted_eos": {
+      "n": 4,
+      "estimate": 0.0,
+      "ci95": [
+        -0.75,
+        0.75
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.046,
+    "ci95": [
+      0.01,
+      0.08
+    ],
+    "common_accepted_eos": {
+      "n": 4,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.064,
+      0.002
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": -0.03,
+      "ci95": [
+        -0.064,
+        0.004
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.058,
+    "ci95": [
+      0.036,
+      0.082
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.058,
+      "ci95": [
+        0.036,
+        0.082
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.088,
+    "ci95": [
+      0.05,
+      0.126
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.088,
+      "ci95": [
+        0.05,
+        0.126
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.026,
+    "ci95": [
+      -0.058,
+      0.006
+    ],
+    "common_accepted_eos": {
+      "n": 497,
+      "estimate": -0.026156941649899398,
+      "ci95": [
+        -0.05835010060362173,
+        0.006036217303822937
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.054,
+    "ci95": [
+      0.032,
+      0.078
+    ],
+    "common_accepted_eos": {
+      "n": 497,
+      "estimate": 0.056338028169014086,
+      "ci95": [
+        0.03420523138832998,
+        0.07847082494969819
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.08,
+    "ci95": [
+      0.044,
+      0.118
+    ],
+    "common_accepted_eos": {
+      "n": 497,
+      "estimate": 0.08249496981891348,
+      "ci95": [
+        0.04426559356136821,
+        0.12072434607645875
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.002,
+    "ci95": [
+      -0.006,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 497,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.044,
+      0.008
+    ],
+    "common_accepted_eos": {
+      "n": 5,
+      "estimate": 0.2,
+      "ci95": [
+        -0.4,
+        0.8
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.024,
+    "ci95": [
+      -0.014,
+      0.062
+    ],
+    "common_accepted_eos": {
+      "n": 5,
+      "estimate": 0.4,
+      "ci95": [
+        0.0,
+        0.8
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.042,
+    "ci95": [
+      0.014,
+      0.07
+    ],
+    "common_accepted_eos": {
+      "n": 5,
+      "estimate": 0.2,
+      "ci95": [
+        -0.4,
+        0.8
+      ]
+    }
+  },
+  {
+    "contrast": "robust_203_minus_Base",
+    "model": "robust_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.006,
+    "ci95": [
+      -0.034,
+      0.046
+    ],
+    "common_accepted_eos": {
+      "n": 5,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.21,
+    "ci95": [
+      0.172,
+      0.25
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": -0.008403361344537815,
+      "ci95": [
+        -0.037815126050420166,
+        0.02100840336134454
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.416,
+    "ci95": [
+      0.372,
+      0.458
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": 0.0,
+      "ci95": [
+        -0.012605042016806723,
+        0.012605042016806723
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.206,
+    "ci95": [
+      0.16,
+      0.254
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": 0.008403361344537815,
+      "ci95": [
+        -0.02100840336134454,
+        0.037815126050420166
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 238,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.224,
+    "ci95": [
+      0.186,
+      0.262
+    ],
+    "common_accepted_eos": {
+      "n": 234,
+      "estimate": -0.008547008547008548,
+      "ci95": [
+        -0.038461538461538464,
+        0.021367521367521368
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.508,
+    "ci95": [
+      0.4639500000000001,
+      0.552
+    ],
+    "common_accepted_eos": {
+      "n": 234,
+      "estimate": -0.004273504273504274,
+      "ci95": [
+        -0.01282051282051282,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.284,
+    "ci95": [
+      0.24,
+      0.326
+    ],
+    "common_accepted_eos": {
+      "n": 234,
+      "estimate": 0.004273504273504274,
+      "ci95": [
+        -0.02564102564102564,
+        0.03418803418803419
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.51,
+    "ci95": [
+      0.466,
+      0.554
+    ],
+    "common_accepted_eos": {
+      "n": 234,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 128,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.024,
+    "ci95": [
+      -0.058,
+      0.01
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": -0.023454157782515993,
+      "ci95": [
+        -0.057569296375266525,
+        0.010660980810234541
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.084,
+    "ci95": [
+      0.06,
+      0.11
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.05543710021321962,
+      "ci95": [
+        0.03411513859275053,
+        0.07889125799573561
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.108,
+    "ci95": [
+      0.07,
+      0.146
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.07889125799573561,
+      "ci95": [
+        0.042643923240938165,
+        0.11727078891257996
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 469,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.008,
+    "ci95": [
+      -0.042,
+      0.026
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": -0.021551724137931036,
+      "ci95": [
+        -0.05603448275862069,
+        0.01293103448275862
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.102,
+    "ci95": [
+      0.072,
+      0.13
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.05387931034482758,
+      "ci95": [
+        0.034482758620689655,
+        0.07543103448275862
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.11,
+    "ci95": [
+      0.07,
+      0.15
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.07543103448275862,
+      "ci95": [
+        0.03879310344827586,
+        0.11422413793103449
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.05,
+    "ci95": [
+      0.03,
+      0.072
+    ],
+    "common_accepted_eos": {
+      "n": 464,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.03,
+    "ci95": [
+      -0.046,
+      -0.016
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.048,
+    "ci95": [
+      -0.068,
+      -0.03
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.018,
+    "ci95": [
+      -0.03,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 256,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.066,
+    "ci95": [
+      -0.09,
+      -0.044
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.042,
+    "ci95": [
+      -0.07404999999999995,
+      -0.008
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": -0.042,
+      "ci95": [
+        -0.076,
+        -0.008
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.06,
+    "ci95": [
+      0.04,
+      0.082
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.06,
+      "ci95": [
+        0.04,
+        0.082
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.102,
+    "ci95": [
+      0.064,
+      0.14
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.102,
+      "ci95": [
+        0.064,
+        0.14
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "legacy",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "common_accepted_eos": {
+      "n": 500,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.038,
+    "ci95": [
+      -0.07,
+      -0.004
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": -0.03643724696356275,
+      "ci95": [
+        -0.0708502024291498,
+        -0.0020242914979757085
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": 0.05,
+    "ci95": [
+      0.028,
+      0.072
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.058704453441295545,
+      "ci95": [
+        0.038461538461538464,
+        0.08097165991902834
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": 0.088,
+    "ci95": [
+      0.05,
+      0.126
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0951417004048583,
+      "ci95": [
+        0.05668016194331984,
+        0.13360323886639677
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "terminal",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.008,
+    "ci95": [
+      -0.016,
+      -0.002
+    ],
+    "common_accepted_eos": {
+      "n": 494,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "exact_correct",
+    "n": 500,
+    "estimate": -0.052,
+    "ci95": [
+      -0.072,
+      -0.034
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "mod10_correct",
+    "n": 500,
+    "estimate": -0.086,
+    "ci95": [
+      -0.11,
+      -0.062
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "proxy_only_correct",
+    "n": 500,
+    "estimate": -0.034,
+    "ci95": [
+      -0.05,
+      -0.018
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "contrast": "proxy_203_minus_Base",
+    "model": "proxy_203",
+    "references": [
+      "Base"
+    ],
+    "cap": 512,
+    "policy": "declared",
+    "metric": "accepted",
+    "n": 500,
+    "estimate": -0.106,
+    "ci95": [
+      -0.134,
+      -0.08
+    ],
+    "common_accepted_eos": {
+      "n": 0,
+      "estimate": null,
+      "ci95": [
+        null,
+        null
+      ]
+    }
+  }
+]
