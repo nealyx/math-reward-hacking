@@ -1,0 +1,43 @@
+name: Verify saved outputs
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  saved-output-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify saved records with the standard library
+        run: python -I -B case_studies/completion_budget_diagnostic/reproduce.py --verify-only
+      - name: Test package integrity checks
+        run: python -I -B -m unittest discover -s case_studies/completion_budget_diagnostic -p 'test_reproduce.py' -v
+      - name: Test the frozen extractor
+        run: python -I -B -m unittest discover -s case_studies/completion_budget_diagnostic/frozen/pilot -p 'test_terminal_extractor.py' -v
+      - name: Test saved-example inspection
+        run: python -I -B -m unittest discover -s tests -p 'test_inspect_diagnostic_example.py' -v
+      - name: Install analysis dependencies
+        if: matrix.python == '3.13'
+        run: python -m pip install -r case_studies/completion_budget_diagnostic/requirements-analysis.txt pytest==9.1.1
+      - name: Check arithmetic and historical result regressions
+        if: matrix.python == '3.13'
+        run: python -m pytest -q tests/test_rewards.py tests/test_metrics.py tests/test_linear_equations.py tests/test_confirmatory_results.py
+      - name: Reproduce all six numeric analyses and figures
+        if: matrix.python == '3.13'
+        env:
+          MPLBACKEND: Agg
+        run: python -I -B case_studies/completion_budget_diagnostic/reproduce.py --output case_studies/completion_budget_diagnostic/reanalysis_ci --figures

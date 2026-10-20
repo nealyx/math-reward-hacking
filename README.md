@@ -1,10 +1,39 @@
 # Math Reward Hacking
 
+[![Verify saved outputs](https://github.com/nealyx/math-reward-hacking/actions/workflows/verify-saved-outputs.yml/badge.svg)](https://github.com/nealyx/math-reward-hacking/actions/workflows/verify-saved-outputs.yml)
+
 A case study in arithmetic GRPO, reward misspecification, and the measurement checks needed to interpret an experiment.
 
 **Question:** Does optimizing an incomplete modulo-10 reward produce a reliable tradeoff against exact-answer correctness?
 
 **Finding:** The evidence does **not establish consistent reward hacking**. A later controlled diagnostic shows that completion budget and answer extraction materially change the apparent reward-condition difference. It does not recover the cause of the historical results.
+
+## Start here
+
+| If you want to… | Start with… |
+|---|---|
+| Understand the measurement issue | [A worked example: one response, three scores](docs/walkthrough.md) |
+| Check the public evidence locally | The verification command below; Python 3.10+, no model weights |
+| Review all methods, records and limitations | [The diagnostic package](case_studies/completion_budget_diagnostic/README.md) |
+| Read the original training study | [The historical report](experiments/milestone3/report_milestone3.md) |
+
+From a clone of this repository:
+
+```sh
+python3 -I -B case_studies/completion_budget_diagnostic/reproduce.py --verify-only
+```
+
+This checks 10,500 saved completions without training, inference or downloads.
+For a readable audit of one response, including how a comma changes extraction:
+
+```sh
+python3 -I -B scripts/inspect_diagnostic_example.py \
+  --model proxy_202 --problem-id 0 --cap 512 --response
+```
+
+The public package supports **saved-output reproduction**. Model weights are not
+distributed, so a plain clone cannot independently regenerate the exact models
+and completions. See [availability and reproduction](#data-weights-and-reproduction).
 
 ## Two stages, kept separate
 
@@ -83,6 +112,15 @@ python3 -I -B case_studies/completion_budget_diagnostic/reproduce.py \
 These commands only read saved outputs. They verify hashes, arithmetic targets, extraction decisions, coverage, actual token-stop metadata and cross-cap prefixes, then compare recomputed analyses with the packaged results. They cannot verify absent model bytes, tokenizer decoding or original journals. No historical training/evaluation runner is needed.
 
 The completed local continuation took **8 h 38 min**, plus **23 min** of reused timing work; peak sampled process RSS was **2.95 GiB**. [Runtime details](case_studies/completion_budget_diagnostic/results/runtime_overview.json) separate generation, loading and overlapping memory measures.
+
+The [October 20 documentation note](docs/documentation-update-2026-10-20.md)
+records the onboarding addition. The sealed diagnostic package and its scientific
+outputs remain unchanged.
+
+The [saved-output workflow](.github/workflows/verify-saved-outputs.yml) checks
+record integrity and reader tools on Python 3.10 and 3.13. Its Python 3.13 job
+also reruns CPU arithmetic/result checks and compares all six numeric analyses
+before rendering figures. It performs no training or model inference.
 
 ## License
 
