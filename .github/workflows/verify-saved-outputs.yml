@@ -37,19 +37,22 @@ jobs:
         run: python -I -B -m unittest discover -s case_studies/completion_budget_diagnostic/frozen/pilot -p 'test_terminal_extractor.py' -v
       - name: Test saved-example inspection
         run: python -I -B -m unittest discover -s tests -p 'test_inspect_diagnostic_example.py' -v
+      - name: Test strict numerical difference reporting
+        run: python -I -B -m unittest discover -s tests -p 'test_reanalysis_comparison.py' -v
       - name: Install analysis dependencies
         if: matrix.python == '3.13'
         run: python -m pip install -r case_studies/completion_budget_diagnostic/requirements-analysis.txt pytest==9.1.1
       - name: Check arithmetic and historical result regressions
         if: matrix.python == '3.13'
         run: python -m pytest -q tests/test_rewards.py tests/test_metrics.py tests/test_linear_equations.py tests/test_confirmatory_results.py
-      - name: Reproduce all six numeric analyses and figures
-        if: matrix.python == '3.13'
+      # Exact bootstrap replay is platform-dependent; see docs/reproduction-platforms.md.
+      - name: Reproduce all six numeric analyses and figures on macOS ARM
+        if: matrix.os == 'macos-26'
         env:
           MPLBACKEND: Agg
         run: python -I -B case_studies/completion_budget_diagnostic/reproduce.py --output case_studies/completion_budget_diagnostic/reanalysis_ci --figures
       - name: Report numerical reproduction diagnostics
-        if: always() && matrix.python == '3.13'
+        if: always() && matrix.os == 'macos-26'
         run: |
           if test -f case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json; then
             cat case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json

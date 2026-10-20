@@ -102,7 +102,7 @@ Verify saved records using only Python 3.10+; no weights or inference framework 
 python3 -I -B case_studies/completion_budget_diagnostic/reproduce.py --verify-only
 ```
 
-With the [analysis-only dependencies](case_studies/completion_budget_diagnostic/requirements-analysis.txt), reproduce the six numeric analyses and figures in a new output directory:
+With the [analysis-only dependencies](case_studies/completion_budget_diagnostic/requirements-analysis.txt), the six numeric analyses and figures reproduce exactly in the tested macOS ARM environment. Linux with the same NumPy version differs at one auxiliary bootstrap interval endpoint; see the [platform audit](docs/reproduction-platforms.md). The strict comparison is retained, with no broadened tolerance. Use a new output directory:
 
 ```sh
 python3 -I -B case_studies/completion_budget_diagnostic/reproduce.py \
@@ -118,9 +118,11 @@ records the onboarding addition. The sealed diagnostic package and its scientifi
 outputs remain unchanged.
 
 The [saved-output workflow](.github/workflows/verify-saved-outputs.yml) checks
-record integrity and reader tools on Python 3.10 and 3.13. Its Python 3.13 job
-also reruns CPU arithmetic/result checks and compares all six numeric analyses
-before rendering figures. It performs no training or model inference.
+record integrity and reader tools on Linux with Python 3.10/3.13 and macOS ARM
+with Python 3.13. It requires exact agreement for all six analyses on macOS ARM;
+the [reproduction audit](docs/reproduction-platforms.md) documents why Linux is
+not an exact numerical replay target. The workflow performs no training or
+model inference.
 
 ## License
 

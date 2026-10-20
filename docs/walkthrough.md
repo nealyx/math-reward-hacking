@@ -126,7 +126,10 @@ They do not verify absent weights, token-to-text decoding or historical training
 source identity.
 
 For all six numerical analyses and regenerated figures, follow the
-[analysis instructions](../case_studies/completion_budget_diagnostic/README.md#reproduce-without-generating-anything).
+[analysis instructions](../case_studies/completion_budget_diagnostic/README.md#reproduce-without-generating-anything)
+and the later [platform audit](reproduction-platforms.md). Exact bootstrap replay
+matches the saved outputs on the tested macOS ARM environment; Linux differs
+at one auxiliary interval endpoint despite the same NumPy version.
 Only analysis dependencies are needed; installing the root training environment
 is unnecessary for these reader workflows.
 

@@ -18,6 +18,31 @@ NAMES = (
 )
 
 
+def read_json(path):
+    def reject_constant(value):
+        raise ValueError(f"Nonfinite JSON number: {value}")
+
+    def finite_float(value):
+        parsed = float(value)
+        if not math.isfinite(parsed):
+            raise ValueError(f"JSON number exceeds finite float range: {value}")
+        return parsed
+
+    def unique_keys(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError(f"Duplicate JSON key: {key}")
+            result[key] = value
+        return result
+
+    with path.open(encoding="utf-8") as stream:
+        return json.load(
+            stream, parse_constant=reject_constant, parse_float=finite_float,
+            object_pairs_hook=unique_keys,
+        )
+
+
 def differences(expected, actual, path=()):
     if type(expected) is not type(actual):
         yield {"path": list(path), "kind": "type", "expected": expected, "actual": actual}
@@ -34,9 +59,11 @@ def differences(expected, actual, path=()):
     elif expected != actual:
         difference = {"path": list(path), "kind": "value", "expected": expected, "actual": actual}
         if type(expected) is float and math.isfinite(expected) and math.isfinite(actual):
-            difference["absolute_difference"] = abs(actual - expected)
+            magnitude = abs(actual - expected)
+            difference["absolute_difference"] = magnitude if math.isfinite(magnitude) else "exceeds finite float range"
             difference["expected_ulp"] = math.ulp(expected)
-            difference["difference_in_expected_ulps"] = abs(actual - expected) / math.ulp(expected)
+            ulps = magnitude / math.ulp(expected)
+            difference["difference_in_expected_ulps"] = ulps if math.isfinite(ulps) else "exceeds finite float range"
         yield difference
 
 
@@ -47,10 +74,8 @@ def main():
     args = parser.parse_args()
     report = {"python": sys.version, "platform": platform.platform(), "machine": platform.machine(), "exact_match": True, "files": {}}
     for name in NAMES:
-        with (args.expected / name).open() as stream:
-            expected = json.load(stream)
-        with (args.actual / name).open() as stream:
-            actual = json.load(stream)
+        expected = read_json(args.expected / name)
+        actual = read_json(args.actual / name)
         diffs = list(differences(expected, actual))
         report["files"][name] = {"exact_match": not diffs, "difference_count": len(diffs), "differences": diffs[:100]}
         report["exact_match"] = report["exact_match"] and not diffs
