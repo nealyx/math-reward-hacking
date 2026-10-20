@@ -41,3 +41,9 @@ jobs:
         env:
           MPLBACKEND: Agg
         run: python -I -B case_studies/completion_budget_diagnostic/reproduce.py --output case_studies/completion_budget_diagnostic/reanalysis_ci --figures
+      - name: Report numerical reproduction diagnostics
+        if: always() && matrix.python == '3.13'
+        run: |
+          if test -f case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json; then
+            cat case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json
+          fi
