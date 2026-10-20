@@ -46,4 +46,5 @@ jobs:
         run: |
           if test -f case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json; then
             cat case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json
+            python -I -B scripts/compare_reanalysis.py --actual case_studies/completion_budget_diagnostic/reanalysis_ci/analysis
           fi
