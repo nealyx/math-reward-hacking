@@ -102,7 +102,7 @@ Verify saved records using only Python 3.10+; no weights or inference framework 
 python3 -I -B case_studies/completion_budget_diagnostic/reproduce.py --verify-only
 ```
 
-With the [analysis-only dependencies](case_studies/completion_budget_diagnostic/requirements-analysis.txt), the six numeric analyses and figures reproduce exactly in the tested macOS ARM environment. Linux with the same NumPy version differs at one auxiliary bootstrap interval endpoint; see the [platform audit](docs/reproduction-platforms.md). The strict comparison is retained, with no broadened tolerance. Use a new output directory:
+With the [analysis-only dependencies](case_studies/completion_budget_diagnostic/requirements-analysis.txt), the six numeric analyses reproduce exactly in the tested macOS ARM environment, and figures can be regenerated. Linux with the same NumPy version differs at one auxiliary bootstrap interval endpoint; see the [platform audit](docs/reproduction-platforms.md). The strict comparison is retained, with no broadened tolerance. Use a new output directory:
 
 ```sh
 python3 -I -B case_studies/completion_budget_diagnostic/reproduce.py \
