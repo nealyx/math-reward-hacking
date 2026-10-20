@@ -10,11 +10,18 @@ permissions:
 
 jobs:
   saved-output-reproduction:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 10
     strategy:
+      fail-fast: false
       matrix:
-        python: ["3.10", "3.13"]
+        include:
+          - os: ubuntu-latest
+            python: "3.10"
+          - os: ubuntu-latest
+            python: "3.13"
+          - os: macos-26
+            python: "3.13"
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -48,3 +55,6 @@ jobs:
             cat case_studies/completion_budget_diagnostic/reanalysis_ci/reproduction.json
             python -I -B scripts/compare_reanalysis.py --actual case_studies/completion_budget_diagnostic/reanalysis_ci/analysis
           fi
+      - name: Probe the affected bootstrap calculation
+        if: always() && matrix.python == '3.13'
+        run: python -I -B scripts/probe_bootstrap.py

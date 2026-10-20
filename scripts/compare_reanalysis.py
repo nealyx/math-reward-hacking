@@ -24,7 +24,7 @@ def differences(expected, actual, path=()):
     elif isinstance(expected, dict):
         if expected.keys() != actual.keys():
             yield {"path": list(path), "kind": "keys", "expected": sorted(expected), "actual": sorted(actual)}
-        for key in expected.keys() & actual.keys():
+        for key in sorted(expected.keys() & actual.keys()):
             yield from differences(expected[key], actual[key], path + (key,))
     elif isinstance(expected, list):
         if len(expected) != len(actual):
