@@ -1,6 +1,8 @@
 """Report exact JSON differences between frozen and recomputed scientific outputs.
 
 This diagnostic applies no numerical tolerance and changes no input files.
+Exit codes: 0 for exact agreement, 1 for differences, 2 for unreadable or
+invalid inputs. Every named file is reported, including after an input error.
 """
 from __future__ import annotations
 
@@ -72,14 +74,38 @@ def main():
     parser.add_argument("--actual", required=True, type=Path, help="Recomputed analysis directory")
     parser.add_argument("--expected", type=Path, default=ROOT / "case_studies/completion_budget_diagnostic/results")
     args = parser.parse_args()
-    report = {"python": sys.version, "platform": platform.platform(), "machine": platform.machine(), "exact_match": True, "files": {}}
+    report = {
+        "python": sys.version, "platform": platform.platform(), "machine": platform.machine(),
+        "exact_match": True, "input_error_count": 0, "files": {},
+    }
     for name in NAMES:
-        expected = read_json(args.expected / name)
-        actual = read_json(args.actual / name)
-        diffs = list(differences(expected, actual))
-        report["files"][name] = {"exact_match": not diffs, "difference_count": len(diffs), "differences": diffs[:100]}
+        loaded = {}
+        errors = []
+        for side, directory in (("expected", args.expected), ("actual", args.actual)):
+            path = directory / name
+            try:
+                loaded[side] = read_json(path)
+            except (OSError, ValueError) as exc:
+                errors.append({
+                    "side": side, "path": str(path),
+                    "kind": type(exc).__name__, "message": str(exc),
+                })
+        if errors:
+            report["files"][name] = {
+                "exact_match": False, "status": "error", "errors": errors,
+            }
+            report["exact_match"] = False
+            report["input_error_count"] += len(errors)
+            continue
+        diffs = list(differences(loaded["expected"], loaded["actual"]))
+        report["files"][name] = {
+            "exact_match": not diffs, "status": "different" if diffs else "match",
+            "difference_count": len(diffs), "differences": diffs[:100],
+        }
         report["exact_match"] = report["exact_match"] and not diffs
     print(json.dumps(report, indent=2, allow_nan=False))
+    if report["input_error_count"]:
+        return 2
     return 0 if report["exact_match"] else 1
 
 

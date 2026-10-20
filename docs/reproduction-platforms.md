@@ -106,7 +106,15 @@ python3 -I -B scripts/probe_bootstrap.py
 ```
 
 The comparator exits unsuccessfully for any difference, including integer,
-schema, type or floating-point changes. The probe reports observations without
+schema, type or floating-point changes. It emits a JSON report for all six
+files even if an input is missing, invalid JSON, or invalid UTF-8. Each input
+error identifies the expected/actual side, path, and reason; the remaining
+files are still compared. Exit codes are **0** for an exact match, **1** for
+differences with valid inputs, and **2** if any input could not be compared.
+A missing file is never treated as an empty or matching result. Fix the input
+path or failed replay before interpreting numerical differences.
+
+The probe reports observations without
 accepting or overwriting an alternate result. The original reproduction report
 continues to record a strict failure when outputs differ.
 

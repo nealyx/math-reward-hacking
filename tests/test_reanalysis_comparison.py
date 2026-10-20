@@ -3,6 +3,8 @@ import importlib.util
 import json
 import math
 from pathlib import Path
+import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -59,6 +61,71 @@ class ComparisonTests(unittest.TestCase):
                 self.assertEqual(len(diffs), 1)
                 self.assertEqual(diffs[0]["difference_in_expected_ulps"], "exceeds finite float range")
                 json.dumps(diffs, allow_nan=False)
+
+
+class ComparisonCliTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.expected = Path(self.temporary.name) / "expected"
+        self.actual = Path(self.temporary.name) / "actual"
+        self.expected.mkdir()
+        self.actual.mkdir()
+        for directory in (self.expected, self.actual):
+            for name in COMPARE.NAMES:
+                (directory / name).write_text('{"n": 500, "value": 0.25}', encoding="utf-8")
+
+    def compare(self):
+        return subprocess.run(
+            [sys.executable, "-I", "-B", str(ROOT / "scripts/compare_reanalysis.py"),
+             "--expected", str(self.expected), "--actual", str(self.actual)],
+            capture_output=True, text=True, timeout=30,
+        )
+
+    def test_missing_file_keeps_other_differences_and_returns_input_error(self):
+        (self.actual / COMPARE.NAMES[0]).unlink()
+        (self.actual / COMPARE.NAMES[1]).write_text('{"n": 499, "value": 0.25}', encoding="utf-8")
+        result = self.compare()
+        self.assertEqual(result.returncode, 2, result.stderr)
+        self.assertNotIn("Traceback", result.stderr)
+        report = json.loads(result.stdout)
+        self.assertFalse(report["exact_match"])
+        self.assertEqual(set(report["files"]), set(COMPARE.NAMES))
+        missing = report["files"][COMPARE.NAMES[0]]
+        self.assertEqual(missing["status"], "error")
+        self.assertEqual(missing["errors"][0]["side"], "actual")
+        self.assertEqual(missing["errors"][0]["path"], str(self.actual / COMPARE.NAMES[0]))
+        self.assertEqual(report["files"][COMPARE.NAMES[1]]["difference_count"], 1)
+        self.assertTrue(report["files"][COMPARE.NAMES[-1]]["exact_match"])
+
+    def test_invalid_json_on_both_sides_is_reported_without_hiding_other_files(self):
+        (self.expected / COMPARE.NAMES[0]).write_text('{"n": 500, "n": 499}', encoding="utf-8")
+        (self.actual / COMPARE.NAMES[0]).write_bytes(b"\xff")
+        (self.actual / COMPARE.NAMES[1]).write_text('{"value": NaN}', encoding="utf-8")
+        result = self.compare()
+        self.assertEqual(result.returncode, 2, result.stderr)
+        report = json.loads(result.stdout)
+        self.assertFalse(report["exact_match"])
+        self.assertEqual(report["input_error_count"], 3)
+        self.assertEqual(
+            [e["side"] for e in report["files"][COMPARE.NAMES[0]]["errors"]],
+            ["expected", "actual"],
+        )
+        self.assertTrue(report["files"][COMPARE.NAMES[-1]]["exact_match"])
+
+    def test_complete_match_and_one_ulp_difference_keep_strict_exit_codes(self):
+        result = self.compare()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertTrue(json.loads(result.stdout)["exact_match"])
+        (self.actual / COMPARE.NAMES[-1]).write_text(
+            json.dumps({"n": 500, "value": math.nextafter(0.25, math.inf)}), encoding="utf-8",
+        )
+        result = self.compare()
+        self.assertEqual(result.returncode, 1, result.stderr)
+        report = json.loads(result.stdout)
+        self.assertFalse(report["exact_match"])
+        self.assertEqual(report["input_error_count"], 0)
+        self.assertEqual(report["files"][COMPARE.NAMES[-1]]["differences"][0]["difference_in_expected_ulps"], 1.0)
 
 
 if __name__ == "__main__":
